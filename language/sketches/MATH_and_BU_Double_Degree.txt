@@ -1,0 +1,67 @@
+{
+	"name": "BUSINESS_ADMINISTRATION_AND_MATHEMATICS_DOUBLE_DEGREE",
+	"quantity": "all",
+	"courses": [
+		{
+			"name": "REQUIRED_MATHS",
+			"quantity": "all",
+			"courses": [
+				"MATH135 or MATH145",
+				"MATH136 or MATH146",
+				"MATH137",
+				"MATH138",
+				"MATH235",
+				"MATH237",
+				"MATH239",
+				"STAT230",
+				"STAT231",
+				"STAT371",
+				"STAT372",
+				"CS115",
+				"CS116",
+				"CS330",
+				"CO250",
+				"CO370",
+				"ACTSC231"
+				]
+		}, 
+		{
+			"name": "ADDITIONAL_MATHS_COURSES",
+			"quantity": "7",
+			"courses": ["ALL_MATH_COURSES - REQUIRED_MATHS.courses"]
+		},
+		{
+			"name": "REQUIRED_BUSINESS_AND_ECONOMICS",
+			"quantity": "all",
+			"courses": [
+				"BU111",
+				"BU121",
+				"BU227",
+				"BU231",
+				"BU247",
+				"BU288",
+				"BU352",
+				"BU354",
+				"BU362",
+				"BU383",
+				"BU385",
+				"BU393",
+				"BU395",
+				"BU398",
+				"BU481",
+				"BU491",
+				"ECON120W",
+				"ECON140W",
+				"ECON250W or ECON260W"
+			]
+
+		},
+		{
+			"name": "ADDITIONAL_BUSINESS",
+			"quantity": "5",
+			"courses": ["ALL_BUSINESS_COURSES - REQUIRED_BUSINESS_AND_ECONOMICS.courses"]
+		},
+		"conditions": ["this.courses in passed_courses", "average(this.courses) >= 60%", "average(taken_courses) >= 60%"]
+		
+	]		
+}

@@ -1,0 +1,258 @@
+<instance bitwidth="4" maxseq="4" command="show metamodel" filename="a4output.xml" metamodel="yes">
+
+<sig label="seq/Int" ID="0" parentID="1" builtin="yes">
+</sig>
+
+<sig label="Int" ID="1" parentID="2" builtin="yes">
+</sig>
+
+<sig label="String" ID="3" parentID="2" builtin="yes">
+</sig>
+
+<sig label="this/CS246" ID="4" parentID="5" one="yes">
+</sig>
+
+<sig label="this/CO342" ID="6" parentID="5" one="yes">
+</sig>
+
+<sig label="this/PHIL145" ID="7" parentID="5" one="yes">
+</sig>
+
+<sig label="this/FR152" ID="8" parentID="5" one="yes">
+</sig>
+
+<sig label="this/CS251" ID="9" parentID="5" one="yes">
+</sig>
+
+<sig label="this/FR192B" ID="10" parentID="5" one="yes">
+</sig>
+
+<sig label="this/MUSIC140" ID="11" parentID="5" one="yes">
+</sig>
+
+<sig label="this/MATH145" ID="12" parentID="5" one="yes">
+</sig>
+
+<sig label="this/CS486" ID="13" parentID="5" one="yes">
+</sig>
+
+<sig label="this/CS370" ID="14" parentID="5" one="yes">
+</sig>
+
+<sig label="this/CS245" ID="15" parentID="5" one="yes">
+</sig>
+
+<sig label="this/GER101" ID="16" parentID="5" one="yes">
+</sig>
+
+<sig label="this/CS241" ID="17" parentID="5" one="yes">
+</sig>
+
+<sig label="this/PSYCH121R" ID="18" parentID="5" one="yes">
+</sig>
+
+<sig label="this/CS341" ID="19" parentID="5" one="yes">
+</sig>
+
+<sig label="this/PMATH340" ID="20" parentID="5" one="yes">
+</sig>
+
+<sig label="this/CS349" ID="21" parentID="5" one="yes">
+</sig>
+
+<sig label="this/CS466" ID="22" parentID="5" one="yes">
+</sig>
+
+<sig label="this/MATH147" ID="23" parentID="5" one="yes">
+</sig>
+
+<sig label="this/FINE112" ID="24" parentID="5" one="yes">
+</sig>
+
+<sig label="this/FR192A" ID="25" parentID="5" one="yes">
+</sig>
+
+<sig label="this/PHYS121" ID="26" parentID="5" one="yes">
+</sig>
+
+<sig label="this/CS240" ID="27" parentID="5" one="yes">
+</sig>
+
+<sig label="this/CO250" ID="28" parentID="5" one="yes">
+</sig>
+
+<sig label="this/CS348" ID="29" parentID="5" one="yes">
+</sig>
+
+<sig label="this/MATH146" ID="30" parentID="5" one="yes">
+</sig>
+
+<sig label="this/PSYCH207" ID="31" parentID="5" one="yes">
+</sig>
+
+<sig label="this/CS488" ID="32" parentID="5" one="yes">
+</sig>
+
+<sig label="this/CS145" ID="33" parentID="5" one="yes">
+</sig>
+
+<sig label="this/STAT231" ID="34" parentID="5" one="yes">
+</sig>
+
+<sig label="this/STAT230" ID="35" parentID="5" one="yes">
+</sig>
+
+<sig label="this/CS360" ID="36" parentID="5" one="yes">
+</sig>
+
+<sig label="this/MATH237" ID="37" parentID="5" one="yes">
+</sig>
+
+<sig label="this/SCI238" ID="38" parentID="5" one="yes">
+</sig>
+
+<sig label="this/FINE120" ID="39" parentID="5" one="yes">
+</sig>
+
+<sig label="this/MATH148" ID="40" parentID="5" one="yes">
+</sig>
+
+<sig label="this/CS350" ID="41" parentID="5" one="yes">
+</sig>
+
+<sig label="this/PD1" ID="42" parentID="5" one="yes">
+</sig>
+
+<sig label="this/PMATH332" ID="43" parentID="5" one="yes">
+</sig>
+
+<sig label="this/MATH235" ID="44" parentID="5" one="yes">
+</sig>
+
+<sig label="this/Course" ID="5" parentID="2" abstract="yes">
+</sig>
+
+<field label="unit" ID="45" parentID="5">
+   <types> <type ID="5"/> <type ID="1"/> </types>
+</field>
+
+<sig label="univ" ID="2" builtin="yes">
+</sig>
+
+<sig label="this/_CS_Table1_Coop_Other" ID="46">
+   <type ID="5"/>
+</sig>
+
+<sig label="this/_CS_Table1_Coop_NonMath" ID="47">
+   <type ID="5"/>
+</sig>
+
+<sig label="this/_CS_Table1_Coop" ID="48">
+   <type ID="5"/>
+</sig>
+
+<sig label="this/_CS_Specific_Core" ID="49">
+   <type ID="5"/>
+</sig>
+
+<sig label="this/_CS_Topic_Elective_Mathematical_Foundations" ID="50">
+   <type ID="5"/>
+</sig>
+
+<sig label="this/_CS_Topic_Elective_System_SE" ID="51">
+   <type ID="5"/>
+</sig>
+
+<sig label="this/_CS_Topic_Elective_Applications" ID="52">
+   <type ID="5"/>
+</sig>
+
+<sig label="this/_CS_Topic_Elective" ID="53">
+   <type ID="5"/>
+</sig>
+
+<sig label="this/_Algebra" ID="54">
+   <type ID="5"/>
+</sig>
+
+<sig label="this/_CS_Specific_Basic_Programming" ID="55">
+   <type ID="5"/>
+</sig>
+
+<sig label="this/_Linear_Algebra" ID="56">
+   <type ID="5"/>
+</sig>
+
+<sig label="this/_CS_Specific_Probability" ID="57">
+   <type ID="5"/>
+</sig>
+
+<sig label="this/_CS_Specific_Statistics" ID="58">
+   <type ID="5"/>
+</sig>
+
+<sig label="this/_CS_Specific_Calculus_I" ID="59">
+   <type ID="5"/>
+</sig>
+
+<sig label="this/_CS_Breath_Depth_SocialSciences" ID="60">
+   <type ID="5"/>
+</sig>
+
+<sig label="this/_CS_Breath_Depth_PureScience" ID="61">
+   <type ID="5"/>
+</sig>
+
+<sig label="this/_CS_Breath_Depth_Science" ID="62">
+   <type ID="5"/>
+</sig>
+
+<sig label="this/_CS_Breath_Depth_Humanities" ID="63">
+   <type ID="5"/>
+</sig>
+
+<sig label="this/_CS_Breath_Depth" ID="64">
+   <type ID="5"/>
+</sig>
+
+<sig label="this/_CS_Specific_Elementary_Algorithm" ID="65">
+   <type ID="5"/>
+</sig>
+
+<sig label="this/_CS_Specific_Elective_Other" ID="66">
+   <type ID="5"/>
+</sig>
+
+<sig label="this/_CS_Specific_Elective_Higher_Level" ID="67">
+   <type ID="5"/>
+</sig>
+
+<sig label="this/_CS_Specific_Elective_Lower_Level" ID="68">
+   <type ID="5"/>
+</sig>
+
+<sig label="this/_CS_Specific_Elective" ID="69">
+   <type ID="5"/>
+</sig>
+
+<sig label="this/_CS_Others" ID="70">
+   <type ID="5"/>
+</sig>
+
+<sig label="this/_CS_Specific_Calculus_II" ID="71">
+   <type ID="5"/>
+</sig>
+
+<sig label="this/_CS_Specific_Combinatorics" ID="72">
+   <type ID="5"/>
+</sig>
+
+<sig label="this/_CS_Specific" ID="73">
+   <type ID="5"/>
+</sig>
+
+<sig label="this/result" ID="74">
+   <type ID="5"/>
+</sig>
+
+</instance>

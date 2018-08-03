@@ -1,0 +1,9 @@
+_basic is {CS240, CS241}
+
+_test is all of {
+	_basic, CS137, CS136, ENGL119
+}
+
+CS137 is overridden by {CS135}
+ENGL119 is overridden by {CS350}
+_basic is overridden by {_basic, CS245, CS246}

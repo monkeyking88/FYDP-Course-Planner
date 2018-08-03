@@ -1,0 +1,311 @@
+degree
+|->list_defs
+|  |->list_def
+|  |  |->_REQUIRED_MATH
+|  |  |->is
+|  |  |->array
+|  |     |->{
+|  |     |->course_id_list
+|  |     |  |->course_id
+|  |     |  |  |->MATH135
+|  |     |  |->,
+|  |     |  |->course_id_list
+|  |     |     |->course_id
+|  |     |     |  |->MATH136
+|  |     |     |->,
+|  |     |     |->course_id_list
+|  |     |        |->course_id
+|  |     |        |  |->MATH137
+|  |     |        |->,
+|  |     |        |->course_id_list
+|  |     |           |->course_id
+|  |     |           |  |->MATH138
+|  |     |           |->,
+|  |     |           |->course_id_list
+|  |     |              |->course_id
+|  |     |              |  |->MATH235
+|  |     |              |->,
+|  |     |              |->course_id_list
+|  |     |                 |->course_id
+|  |     |                 |  |->MATH237
+|  |     |                 |->,
+|  |     |                 |->course_id_list
+|  |     |                    |->course_id
+|  |     |                    |  |->MATH239
+|  |     |                    |->,
+|  |     |                    |->course_id_list
+|  |     |                       |->course_id
+|  |     |                       |  |->STAT230
+|  |     |                       |->,
+|  |     |                       |->course_id_list
+|  |     |                          |->course_id
+|  |     |                          |  |->STAT231
+|  |     |                          |->,
+|  |     |                          |->course_id_list
+|  |     |                             |->course_id
+|  |     |                             |  |->STAT371
+|  |     |                             |->,
+|  |     |                             |->course_id_list
+|  |     |                                |->course_id
+|  |     |                                |  |->STAT372
+|  |     |                                |->,
+|  |     |                                |->course_id_list
+|  |     |                                   |->course_id
+|  |     |                                   |  |->CS115
+|  |     |                                   |->,
+|  |     |                                   |->course_id_list
+|  |     |                                      |->course_id
+|  |     |                                      |  |->CS116
+|  |     |                                      |->,
+|  |     |                                      |->course_id_list
+|  |     |                                         |->course_id
+|  |     |                                         |  |->CS330
+|  |     |                                         |->,
+|  |     |                                         |->course_id_list
+|  |     |                                            |->course_id
+|  |     |                                            |  |->C0250
+|  |     |                                            |->,
+|  |     |                                            |->course_id_list
+|  |     |                                               |->course_id
+|  |     |                                               |  |->C0370
+|  |     |                                               |->,
+|  |     |                                               |->course_id_list
+|  |     |                                                  |->course_id
+|  |     |                                                     |->ACTSC231
+|  |     |->}
+|  |->list_defs
+|     |->list_def
+|     |  |->_REQUIRED_BUSINESS
+|     |  |->is
+|     |  |->array
+|     |     |->{
+|     |     |->course_id_list
+|     |     |  |->course_id
+|     |     |  |  |->BU111
+|     |     |  |->,
+|     |     |  |->course_id_list
+|     |     |     |->course_id
+|     |     |     |  |->BU121
+|     |     |     |->,
+|     |     |     |->course_id_list
+|     |     |        |->course_id
+|     |     |        |  |->BU227
+|     |     |        |->,
+|     |     |        |->course_id_list
+|     |     |           |->course_id
+|     |     |           |  |->BU231
+|     |     |           |->,
+|     |     |           |->course_id_list
+|     |     |              |->course_id
+|     |     |              |  |->BU247
+|     |     |              |->,
+|     |     |              |->course_id_list
+|     |     |                 |->course_id
+|     |     |                 |  |->BU288
+|     |     |                 |->,
+|     |     |                 |->course_id_list
+|     |     |                    |->course_id
+|     |     |                    |  |->BU352
+|     |     |                    |->,
+|     |     |                    |->course_id_list
+|     |     |                       |->course_id
+|     |     |                       |  |->BU354
+|     |     |                       |->,
+|     |     |                       |->course_id_list
+|     |     |                          |->course_id
+|     |     |                          |  |->BU362
+|     |     |                          |->,
+|     |     |                          |->course_id_list
+|     |     |                             |->course_id
+|     |     |                             |  |->BU383
+|     |     |                             |->,
+|     |     |                             |->course_id_list
+|     |     |                                |->course_id
+|     |     |                                |  |->BU385
+|     |     |                                |->,
+|     |     |                                |->course_id_list
+|     |     |                                   |->course_id
+|     |     |                                   |  |->BU393
+|     |     |                                   |->,
+|     |     |                                   |->course_id_list
+|     |     |                                      |->course_id
+|     |     |                                      |  |->BU395
+|     |     |                                      |->,
+|     |     |                                      |->course_id_list
+|     |     |                                         |->course_id
+|     |     |                                         |  |->BU398
+|     |     |                                         |->,
+|     |     |                                         |->course_id_list
+|     |     |                                            |->course_id
+|     |     |                                            |  |->BU481
+|     |     |                                            |->,
+|     |     |                                            |->course_id_list
+|     |     |                                               |->course_id
+|     |     |                                               |  |->BU491
+|     |     |                                               |->,
+|     |     |                                               |->course_id_list
+|     |     |                                                  |->course_id
+|     |     |                                                  |  |->ECON120W
+|     |     |                                                  |->,
+|     |     |                                                  |->course_id_list
+|     |     |                                                     |->course_id
+|     |     |                                                        |->ECON140W
+|     |     |->}
+|     |->list_defs
+|->reqs
+   |->req
+   |  |->_BUSINESS_ADMINISTRATION_AND_MATHEMATICS_DOUBLE_DEGREE
+   |  |->is
+   |  |->expr
+   |     |->discriminator
+   |     |->quantifier
+   |     |  |->all
+   |     |->of
+   |     |->{
+   |     |->reqs
+   |     |  |->req
+   |     |  |  |->_REQUIRED_COURSES
+   |     |  |  |->is
+   |     |  |  |->expr
+   |     |  |     |->discriminator
+   |     |  |     |->quantifier
+   |     |  |     |  |->all
+   |     |  |     |->of
+   |     |  |     |->{
+   |     |  |     |->reqs
+   |     |  |     |  |->req
+   |     |  |     |  |  |->expr
+   |     |  |     |  |     |->discriminator
+   |     |  |     |  |     |->quantifier
+   |     |  |     |  |     |  |->all
+   |     |  |     |  |     |->of
+   |     |  |     |  |     |->array
+   |     |  |     |  |        |->{
+   |     |  |     |  |        |->course_id_list
+   |     |  |     |  |        |  |->course_id
+   |     |  |     |  |        |  |  |->_REQUIRED_MATH
+   |     |  |     |  |        |  |->,
+   |     |  |     |  |        |  |->course_id_list
+   |     |  |     |  |        |     |->course_id
+   |     |  |     |  |        |        |->_REQUIRED_BUSINESS
+   |     |  |     |  |        |->}
+   |     |  |     |  |->reqs
+   |     |  |     |     |->req
+   |     |  |     |     |  |->expr
+   |     |  |     |     |     |->discriminator
+   |     |  |     |     |     |->quantifier
+   |     |  |     |     |     |  |->1
+   |     |  |     |     |     |->of
+   |     |  |     |     |     |->array
+   |     |  |     |     |        |->{
+   |     |  |     |     |        |->course_id_list
+   |     |  |     |     |        |  |->course_id
+   |     |  |     |     |        |  |  |->ECON250W
+   |     |  |     |     |        |  |->,
+   |     |  |     |     |        |  |->course_id_list
+   |     |  |     |     |        |     |->course_id
+   |     |  |     |     |        |        |->ECON260W
+   |     |  |     |     |        |->}
+   |     |  |     |     |->reqs
+   |     |  |     |->}
+   |     |  |->reqs
+   |     |     |->req
+   |     |     |  |->_ELECTIVES
+   |     |     |  |->is
+   |     |     |  |->expr
+   |     |     |     |->discriminator
+   |     |     |     |->quantifier
+   |     |     |     |  |->all
+   |     |     |     |->of
+   |     |     |     |->{
+   |     |     |     |->reqs
+   |     |     |     |  |->req
+   |     |     |     |  |  |->_MATH_ELECTIVES
+   |     |     |     |  |  |->is
+   |     |     |     |  |  |->expr
+   |     |     |     |  |     |->discriminator
+   |     |     |     |  |     |->quantifier
+   |     |     |     |  |     |  |->7
+   |     |     |     |  |     |->of
+   |     |     |     |  |     |->array
+   |     |     |     |  |        |->{
+   |     |     |     |  |        |->course_id_list
+   |     |     |     |  |        |  |->course_id
+   |     |     |     |  |        |  |  |->MATH*
+   |     |     |     |  |        |  |->,
+   |     |     |     |  |        |  |->course_id_list
+   |     |     |     |  |        |     |->course_id
+   |     |     |     |  |        |     |  |->STAT*
+   |     |     |     |  |        |     |->,
+   |     |     |     |  |        |     |->course_id_list
+   |     |     |     |  |        |        |->course_id
+   |     |     |     |  |        |        |  |->CS*
+   |     |     |     |  |        |        |->,
+   |     |     |     |  |        |        |->course_id_list
+   |     |     |     |  |        |           |->course_id
+   |     |     |     |  |        |           |  |->CO*
+   |     |     |     |  |        |           |->,
+   |     |     |     |  |        |           |->course_id_list
+   |     |     |     |  |        |              |->course_id
+   |     |     |     |  |        |              |  |->ACTSC*
+   |     |     |     |  |        |              |->,
+   |     |     |     |  |        |              |->course_id_list
+   |     |     |     |  |        |                 |->course_id
+   |     |     |     |  |        |                 |  |->PMATH*
+   |     |     |     |  |        |                 |->,
+   |     |     |     |  |        |                 |->course_id_list
+   |     |     |     |  |        |                    |->course_id
+   |     |     |     |  |        |                    |  |->AMATH*
+   |     |     |     |  |        |                    |->,
+   |     |     |     |  |        |                    |->course_id_list
+   |     |     |     |  |        |                       |->course_id
+   |     |     |     |  |        |                       |  |->COMM*
+   |     |     |     |  |        |                       |->,
+   |     |     |     |  |        |                       |->course_id_list
+   |     |     |     |  |        |                          |->course_id
+   |     |     |     |  |        |                          |  |->MATBUS*
+   |     |     |     |  |        |                          |->,
+   |     |     |     |  |        |                          |->course_id_list
+   |     |     |     |  |        |                             |->course_id
+   |     |     |     |  |        |                             |  |->MTHEL*
+   |     |     |     |  |        |                             |->,
+   |     |     |     |  |        |                             |->course_id_list
+   |     |     |     |  |        |                                |->course_id
+   |     |     |     |  |        |                                |  |->SE*
+   |     |     |     |  |        |                                |->,
+   |     |     |     |  |        |                                |->course_id_list
+   |     |     |     |  |        |                                   |->course_id
+   |     |     |     |  |        |                                      |->except
+   |     |     |     |  |        |                                      |->course_id
+   |     |     |     |  |        |                                         |->_REQUIRED_MATH
+   |     |     |     |  |        |->}
+   |     |     |     |  |->reqs
+   |     |     |     |     |->req
+   |     |     |     |     |  |->_BUSINESS_ELECTIVES
+   |     |     |     |     |  |->is
+   |     |     |     |     |  |->expr
+   |     |     |     |     |     |->discriminator
+   |     |     |     |     |     |->quantifier
+   |     |     |     |     |     |  |->5
+   |     |     |     |     |     |->of
+   |     |     |     |     |     |->array
+   |     |     |     |     |        |->{
+   |     |     |     |     |        |->course_id_list
+   |     |     |     |     |        |  |->course_id
+   |     |     |     |     |        |  |  |->BU*
+   |     |     |     |     |        |  |->,
+   |     |     |     |     |        |  |->course_id_list
+   |     |     |     |     |        |     |->course_id
+   |     |     |     |     |        |     |  |->ECON*
+   |     |     |     |     |        |     |->,
+   |     |     |     |     |        |     |->course_id_list
+   |     |     |     |     |        |        |->course_id
+   |     |     |     |     |        |           |->except
+   |     |     |     |     |        |           |->course_id
+   |     |     |     |     |        |              |->_REQUIRED_BUSINESS
+   |     |     |     |     |        |->}
+   |     |     |     |     |->reqs
+   |     |     |     |->}
+   |     |     |->reqs
+   |     |->}
+   |->reqs

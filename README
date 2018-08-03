@@ -1,0 +1,6 @@
+# Some Problems of Our CS Requirements
+- MTHEL 300: It's currently comment out (because this course is not in CourseDef), but the requirement says "in List I only not in ACTSC or STAT major", then what about CS double ACTSC or STAT? then violate CS requirement if requirement for ACTSC or STAT is detected?
+- Elective Depth:
+  - "1.5 units with the same subject, including at least 0.5 units at third-year level or higher": this is doable if we list all possible situation; but
+  - "1.5 units with the same subject forming a prerequisite chain of length three": this is currently unsolvable for our grammar
+- WKRPT: the description is vague on calendar - it says "4 course units", but all WKRPT1-4 added together is 0.9 credits - so I change it to "all of WKRPT1-4" in our requirements

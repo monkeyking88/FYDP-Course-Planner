@@ -1,0 +1,6340 @@
+ACC 604 :: None
+ACC 605 :: None
+ACC 606 :: None
+ACC 607 :: None
+ACC 608 :: None
+ACC 609 :: None
+ACC 610 :: None
+ACC 611 :: None
+ACC 620 :: None
+ACC 621 :: None
+ACC 622 :: None
+ACC 623 :: None
+ACC 624 :: None
+ACC 625 :: None
+ACC 626 :: None
+ACC 627 :: None
+ACC 644 :: None
+ACC 646 :: None
+ACC 650 :: None
+ACC 652 :: None
+ACC 662 :: None
+ACC 680 :: None
+ACC 681 :: None
+ACC 682 :: None
+ACC 683 :: None
+ACC 684 :: None
+ACC 685 :: None
+ACC 690 :: None
+ACC 701 :: None
+ACC 702 :: None
+ACC 750 :: None
+ACC 760 :: None
+ACC 770 :: None
+ACC 771 :: None
+ACC 772 :: None
+ACC 781 :: None
+ACC 782 :: None
+ACC 784 :: None
+ACTSC 221 :: ACTSC 231; (For Mathematics students only - CIVE 292/392)
+ACTSC 231 :: ACTSC 221
+ACTSC 232 :: None
+ACTSC 291 :: AFM 271/273, ACTSC 371, ECON 371
+ACTSC 331 :: None
+ACTSC 371 :: AFM 271/273, AFM 272/ACTSC 291, BUS 383W, ECON 371
+ACTSC 372 :: AFM 271/273, AFM 272/ACTSC 291, AFM 274/371, AFM 372/ACTSC 391, BUS 393W, ECON 371
+ACTSC 391 :: AFM 274/371, ACTSC 372, ECON 371
+ACTSC 431 :: None
+ACTSC 432 :: None
+ACTSC 433 :: None
+ACTSC 445 :: AFM 422, MATBUS 472, BUS 433W, BUS 439W
+ACTSC 446 :: AFM 322/474, BUS 423W, ECON 372, MATBUS 470
+ACTSC 453 :: None
+ACTSC 455 :: None
+ACTSC 462 :: ACTSC 363
+ACTSC 463 :: ACTSC 363
+ACTSC 468 :: None
+ACTSC 469 :: None
+ACTSC 471 :: AFM 373/471
+ACTSC 611 :: None
+ACTSC 612 :: None
+ACTSC 613 :: None
+ACTSC 614 :: None
+ACTSC 615 :: None
+ACTSC 621 :: None
+ACTSC 622 :: None
+ACTSC 623 :: None
+ACTSC 624 :: None
+ACTSC 625 :: None
+ACTSC 631 :: None
+ACTSC 632 :: None
+ACTSC 633 :: None
+ACTSC 634 :: None
+ACTSC 635 :: None
+ACTSC 690 :: None
+ACTSC 831 :: ACTSC 431
+ACTSC 832 :: ACTSC 432
+ACTSC 833 :: ACTSC 433
+ACTSC 845 :: ACSTC 445
+ACTSC 846 :: ACTSC 446
+ACTSC 853 :: Antirequisite: ACTSC 453
+ACTSC 855 :: None
+ACTSC 862 :: Antirequisite: ACTSC 462
+ACTSC 863 :: None
+ACTSC 936 :: None
+ACTSC 961 :: None
+ACTSC 963 :: None
+ACTSC 964 :: None
+ACTSC 965 :: None
+ACTSC 966 :: None
+ACTSC 970 :: None
+ACTSC 971 :: None
+ACTSC 972 :: None
+ACTSC 973 :: None
+ACTSC 974 :: None
+ACTSC 980 :: None
+ACTSC 991 :: None
+ACTSC 992 :: None
+ADMGT 601 :: None
+ADMGT 602 :: None
+ADMGT 603 :: None
+ADMGT 604 :: None
+ADMGT 605 :: None
+ADMGT 606 :: None
+AFM 101 :: AFM 123/ARBUS 102, BUS 127W/227W, MSCI 262
+AFM 102 :: AFM 123/ARBUS 102, AFM 228, BUS 247W, MSCI 262
+AFM 121 :: None
+AFM 123 :: AFM 101,102,121, BUS 127W/227W,247W, MSCI 262
+AFM 131 :: BUS 111W
+AFM 201 :: None
+AFM 202 :: AFM 201
+AFM 203 :: AFM 201, 204
+AFM 204 :: AFM 201, 203
+AFM 211 :: None
+AFM 231 :: MTHEL 100/COMM 231, BUS 231W, CIVE 491, GENE 411, ME 401; (Faculty of Mathematics) ENVS 201
+AFM 241 :: CS 330, 480/490
+AFM 271 :: ACTSC 291/AFM 272, ACTSC 371, ECON 371
+AFM 272 :: Antireq:AFM 271/273,ACTSC 371,ECON 371
+AFM 273 :: AFM 272/ACTSC 291, ACTSC 371, ECON 371
+AFM 274 :: ACTSC 372, ACTSC 391/AFM 372, ECON 371
+AFM 280 :: MSCI 211, PSYCH 238/338
+AFM 291 :: None
+AFM 311 :: AFM 431, PHIL 215/ARBUS202
+AFM 321 :: None
+AFM 322 :: ACTSC 446, ECON 372, MATBUS 470, STAT 446
+AFM 323 :: ECON 321, STAT 373
+AFM 328 :: None
+AFM 329 :: None
+AFM 331 :: None
+AFM 332 :: None
+AFM 333 :: None
+AFM 341 :: CS 432
+AFM 351 :: None
+AFM 352 :: None
+AFM 361 :: None
+AFM 362 :: AFM 361
+AFM 363 :: AFM 361
+AFM 371 :: ACTSC 372, ACTSC 391/AFM 372, ECON 371
+AFM 372 :: AFM 274/371, ACTSC 372, ECON 371
+AFM 373 :: AFM 476/ACTSC 471
+AFM 382 :: None
+AFM 391 :: None
+AFM 401 :: None
+AFM 411 :: None
+AFM 412 :: None
+AFM 415 :: None
+AFM 416 :: None
+AFM 417 :: None
+AFM 418 :: None
+AFM 422 :: ACTSC 445, MATBUS 472
+AFM 423 :: ECON 405 prior to Fall 2015
+AFM 424 :: BUS 473W
+AFM 425 :: MATBUS 471
+AFM 428 :: None
+AFM 429 :: None
+AFM 431 :: PHIL 215/ARBUS 202
+AFM 432 :: None
+AFM 433 :: None
+AFM 434 :: None
+AFM 442 :: None
+AFM 443 :: None
+AFM 451 :: None
+AFM 452 :: None
+AFM 461 :: None
+AFM 462 :: AFM 461
+AFM 471 :: None
+AFM 472 :: (Faculty of Mathematics) BUS 473W
+AFM 473 :: ACTSC 471/AFM 476
+AFM 474 :: ACTSC 446, ECON 372, MATBUS 470, STAT 446
+AFM 475 :: None
+AFM 476 :: AFM 373/471
+AFM 477 :: None
+AFM 478 :: None
+AFM 480 :: None
+AFM 481 :: None
+AFM 482 :: None
+AFM 483 :: None
+AFM 484 :: None
+AFM 491 :: None
+AFM 492 :: None
+AFM 501 :: None
+AFM 502 :: None
+AFM 503 :: None
+AFM 504 :: None
+AHS 150 :: None
+AHS 782 :: None
+AMATH 231 :: MATH 207, 212/ECE 206, MATH 217, 227
+AMATH 242 :: CS 335, 370.
+AMATH 250 :: AMATH 251, 350, MATH 218, 228.
+AMATH 251 :: AMATH 250, 350, MATH 218, 228
+AMATH 261 :: None
+AMATH 271 :: PHYS 263
+AMATH 310 :: None
+AMATH 331 :: None
+AMATH 332 :: PHYS 365
+AMATH 333 :: None
+AMATH 342 :: None
+AMATH 343 :: None
+AMATH 350 :: AMATH 250,251,351,353,CIVE 222, ENVE 223,MATH 211/ECE 205,MATH 218,228,ME 203,PHYS 364,SYDE 211
+AMATH 351 :: AMATH 350
+AMATH 353 :: AMATH 350, PHYS 364
+AMATH 361 :: None
+AMATH 373 :: PHYS 334
+AMATH 382 :: None
+AMATH 391 :: None
+AMATH 431 :: None
+AMATH 432 :: None
+AMATH 433 :: None
+AMATH 442 :: None
+AMATH 444 :: None
+AMATH 447 :: None
+AMATH 451 :: None
+AMATH 453 :: None
+AMATH 455 :: None
+AMATH 456 :: None
+AMATH 463 :: None
+AMATH 473 :: None
+AMATH 475 :: None
+AMATH 477 :: None
+AMATH 495 :: None
+AMATH 655 :: AMATH 455
+AMATH 663 :: AMATH 463
+AMATH 673 :: AMATH 473
+AMATH 675 :: AMATH 475
+AMATH 690 :: None
+AMATH 731 :: None
+AMATH 732 :: None
+AMATH 740 :: None
+AMATH 741 :: None
+AMATH 751 :: None
+AMATH 753 :: None
+AMATH 777 :: None
+AMATH 851 :: None
+AMATH 855 :: None
+AMATH 863 :: None
+AMATH 867 :: None
+AMATH 871 :: None
+AMATH 872 :: None
+AMATH 873 :: None
+AMATH 874 :: None
+AMATH 875 :: None
+AMATH 876 :: None
+AMATH 881 :: None
+AMATH 882 :: None
+AMATH 900 :: None
+ANTH 101 :: None
+ANTH 102 :: None
+ANTH 103 :: None
+ANTH 201 :: CLAS 205 taken before Fall 2009
+ANTH 202 :: None
+ANTH 203 :: None
+ANTH 210 :: ANTH 310
+ANTH 229 :: None
+ANTH 230 :: None
+ANTH 233 :: None
+ANTH 260 :: None
+ANTH 261 :: None
+ANTH 290 :: None
+ANTH 300 :: None
+ANTH 302 :: None
+ANTH 303 :: ANTH 400 section 001 taken Winter 2010
+ANTH 305 :: None
+ANTH 311 :: ANTH 411
+ANTH 320 :: None
+ANTH 321 :: None
+ANTH 322 :: None
+ANTH 330 :: None
+ANTH 335 :: None
+ANTH 345 :: None
+ANTH 347 :: None
+ANTH 348 :: None
+ANTH 350 :: None
+ANTH 351 :: None
+ANTH 352 :: None
+ANTH 355 :: None
+ANTH 361 :: None
+ANTH 365 :: None
+ANTH 370 :: None
+ANTH 371 :: None
+ANTH 380 :: None
+ANTH 390A :: None
+ANTH 390B :: None
+ANTH 391 :: None
+ANTH 393 :: None
+ANTH 395 :: None
+ANTH 400 :: None
+ANTH 402 :: None
+ANTH 403 :: None
+ANTH 404 :: None
+ANTH 411 :: ANTH 311
+ANTH 420 :: None
+ANTH 440 :: None
+ANTH 455 :: None
+ANTH 460 :: None
+ANTH 461 :: None
+ANTH 470 :: None
+ANTH 492A :: None
+ANTH 492B :: None
+ANTH 495 :: None
+ANTH 497 :: None
+ANTH 499A :: None
+ANTH 499B :: None
+ANTH 600 :: None
+ANTH 604 :: None
+ANTH 605 :: None
+ANTH 608 :: None
+ANTH 614 :: None
+ANTH 655 :: None
+ANTH 659 :: None
+ANTH 660 :: None
+ANTH 661 :: None
+ANTH 662 :: None
+APPLS 205R :: ARTS/APPLS 305R
+APPLS 301 :: None
+APPLS 304R :: None
+APPLS 306R :: None
+ARBUS 100 :: None
+ARBUS 101 :: BUS 111W
+ARBUS 102 :: AFM 101, 102, BUS 127W/227W, 247W, MSCI 262
+ARBUS 200 :: ECON 220/ARBUS 201, ARBUS 200 taken prior to Fall 2013
+ARBUS 201 :: None
+ARBUS 202 :: None
+ARBUS 204 :: SPCOM 111
+ARBUS 300 :: None
+ARBUS 301 :: None
+ARBUS 302 :: GBDA 304, BUS 352W
+ARBUS 400 :: None
+ARCH 100 :: None
+ARCH 110 :: None
+ARCH 113 :: None
+ARCH 114 :: None
+ARCH 125 :: None
+ARCH 142 :: None
+ARCH 143 :: None
+ARCH 172 :: None
+ARCH 173 :: ARCH 173/ARCH 266
+ARCH 174 :: None
+ARCH 175 :: None
+ARCH 192 :: None
+ARCH 193 :: None
+ARCH 215 :: None
+ARCH 226 :: None
+ARCH 246 :: None
+ARCH 247 :: None
+ARCH 252 :: None
+ARCH 256 :: FINE 227/228E
+ARCH 260 :: ARCH 163
+ARCH 272 :: ARCH 373
+ARCH 273 :: None
+ARCH 274 :: None
+ARCH 275 :: None
+ARCH 276 :: None
+ARCH 277 :: ARCH 276
+ARCH 284 :: None
+ARCH 285 :: None
+ARCH 292 :: None
+ARCH 293 :: None
+ARCH 314 :: None
+ARCH 327 :: None
+ARCH 328 :: None
+ARCH 331 :: ARCH 385 (Topics Course - Working with Wood)
+ARCH 332 :: None
+ARCH 342 :: None
+ARCH 343 :: None
+ARCH 345 :: None
+ARCH 346 :: None
+ARCH 347 :: None
+ARCH 362 :: None
+ARCH 364 :: ARCH 264
+ARCH 365 :: None
+ARCH 374 :: None
+ARCH 375 :: None
+ARCH 384 :: None
+ARCH 385 :: None
+ARCH 392 :: None
+ARCH 393 :: None
+ARCH 425 :: None
+ARCH 442 :: None
+ARCH 443 :: None
+ARCH 446 :: None
+ARCH 448 :: None
+ARCH 449 :: None
+ARCH 473 :: None
+ARCH 474 :: None
+ARCH 475 :: None
+ARCH 484 :: None
+ARCH 485 :: None
+ARCH 492 :: None
+ARCH 493 :: None
+ARCH 611 :: None
+ARCH 612 :: None
+ARCH 613 :: None
+ARCH 622 :: None
+ARCH 623 :: None
+ARCH 624 :: None
+ARCH 641 :: None
+ARCH 642 :: None
+ARCH 643 :: None
+ARCH 644 :: None
+ARCH 645 :: None
+ARCH 646 :: None
+ARCH 652 :: None
+ARCH 654 :: None
+ARCH 655 :: None
+ARCH 672 :: None
+ARCH 673 :: None
+ARCH 675 :: None
+ARCH 676 :: None
+ARCH 677 :: None
+ARCH 678 :: None
+ARCH 684 :: None
+ARCH 685 :: None
+ARCH 686 :: None
+ARCH 692 :: None
+ARCHL 347W :: None
+ARTS 101 :: None
+ARTS 111 :: None
+ARTS 122 :: None
+ARTS 125 :: None
+ARTS 190 :: None
+ARTS 280 :: ECON 221, ENVS 278, GBDA 205, ISS 250A/B, 250R, KIN 222, PSCI 214/314, PSYCH 292, REC 371, SDS 250R, SMF 230, SOC/LS 280, STAT 202, 206, 211, 221, 231, 241, SWREN 250A/B, 250R
+ARTS 290 :: None
+ARTS 301 :: ARTS 100
+ARTS 303 :: None
+ARTS 304 :: None
+ARTS 365 :: None
+ARTS 366 :: None
+ARTS 367 :: None
+ARTS 390 :: None
+ARTS 490 :: None
+ARTS 600 :: None
+ARTS 601 :: None
+AVIA 101 :: None
+AVIA 102 :: None
+AVIA 203 :: None
+AVIA 204 :: None
+AVIA 205 :: None
+AVIA 306 :: None
+AVIA 307 :: None
+AVIA 310 :: None
+AVIA 408 :: None
+AVIA 474 :: None
+AVIA 475 :: None
+BE 600 :: None
+BE 601 :: None
+BE 602 :: None
+BE 603 :: None
+BE 604 :: None
+BE 605 :: None
+BE 606 :: None
+BE 610 :: None
+BET 300 :: None
+BET 400 :: None
+BET 600 :: None
+BET 601 :: None
+BET 602 :: None
+BET 603 :: None
+BET 604 :: None
+BET 605 :: None
+BET 606 :: None
+BET 607 :: None
+BET 608 :: None
+BET 620 :: None
+BET 700 :: None
+BIOL 110 :: None
+BIOL 112 :: None
+BIOL 120 :: None
+BIOL 130 :: PHYS 381
+BIOL 130L :: BIOL 230
+BIOL 139 :: None
+BIOL 140 :: None
+BIOL 140L :: BIOL 240
+BIOL 150 :: None
+BIOL 165 :: None
+BIOL 208 :: BIOL 330
+BIOL 211 :: None
+BIOL 225 :: None
+BIOL 239 :: None
+BIOL 240 :: None
+BIOL 240L :: None
+BIOL 241 :: None
+BIOL 250 :: ENVS 200
+BIOL 265 :: None
+BIOL 273 :: BIOL 301A, 301B, SCI 351, 352
+BIOL 273L :: BIOL 301A, 301B
+BIOL 280 :: None
+BIOL 301 :: None
+BIOL 302 :: None
+BIOL 303 :: None
+BIOL 308 :: BIOL 330
+BIOL 309 :: BIOL 330
+BIOL 310 :: None
+BIOL 321 :: None
+BIOL 323 :: None
+BIOL 325 :: None
+BIOL 331 :: None
+BIOL 335L :: None
+BIOL 342 :: None
+BIOL 345 :: None
+BIOL 346 :: None
+BIOL 348L :: None
+BIOL 349 :: None
+BIOL 350 :: None
+BIOL 351 :: SCI 453, 454, 455
+BIOL 354 :: None
+BIOL 355 :: None
+BIOL 358 :: None
+BIOL 359 :: None
+BIOL 361 :: None
+BIOL 364 :: None
+BIOL 365 :: BIOL 366
+BIOL 366 :: BIOL 365
+BIOL 370 :: None
+BIOL 371 :: None
+BIOL 373 :: BIOL 301A, 301B, SCI 351, 352
+BIOL 373L :: None
+BIOL 374L :: None
+BIOL 376 :: None
+BIOL 377 :: None
+BIOL 382 :: None
+BIOL 383 :: None
+BIOL 403 :: None
+BIOL 412 :: None
+BIOL 426 :: None
+BIOL 428 :: None
+BIOL 431 :: None
+BIOL 432 :: None
+BIOL 433 :: None
+BIOL 434 :: None
+BIOL 438 :: None
+BIOL 439 :: None
+BIOL 441 :: None
+BIOL 442 :: None
+BIOL 443 :: None
+BIOL 444 :: None
+BIOL 447 :: None
+BIOL 448 :: None
+BIOL 449 :: None
+BIOL 450 :: SCI 453
+BIOL 452 :: None
+BIOL 455 :: None
+BIOL 456 :: None
+BIOL 457 :: None
+BIOL 458 :: BIOL 358
+BIOL 461 :: (for Arts and Environmental Studies students) PSYCH 202, 391, STAT 322, 430
+BIOL 462 :: BIOL 453, GEOG 405
+BIOL 465 :: None
+BIOL 466 :: None
+BIOL 467 :: None
+BIOL 470 :: None
+BIOL 472 :: None
+BIOL 473 :: None
+BIOL 474 :: None
+BIOL 475 :: None
+BIOL 476 :: None
+BIOL 477L :: None
+BIOL 479 :: None
+BIOL 480 :: None
+BIOL 483 :: None
+BIOL 484 :: None
+BIOL 485 :: None
+BIOL 486 :: None
+BIOL 487 :: None
+BIOL 488 :: None
+BIOL 489 :: None
+BIOL 490A :: None
+BIOL 490B :: None
+BIOL 490C :: BIOL 491A
+BIOL 490D :: BIOL 490D/491B
+BIOL 491A :: None
+BIOL 491B :: None
+BIOL 492 :: None
+BIOL 496 :: None
+BIOL 498A :: None
+BIOL 498B :: None
+BIOL 499A :: None
+BIOL 499B :: None
+BIOL 602 :: None
+BIOL 604 :: None
+BIOL 605 :: None
+BIOL 606 :: None
+BIOL 608 :: None
+BIOL 610 :: None
+BIOL 611 :: None
+BIOL 612 :: None
+BIOL 614 :: None
+BIOL 617 :: None
+BIOL 618 :: None
+BIOL 621 :: None
+BIOL 622 :: None
+BIOL 623 :: None
+BIOL 624 :: None
+BIOL 625 :: None
+BIOL 627 :: None
+BIOL 628 :: None
+BIOL 629 :: None
+BIOL 631 :: GEOG 616/PLAN 616
+BIOL 636 :: None
+BIOL 642 :: None
+BIOL 645 :: None
+BIOL 646 :: None
+BIOL 650 :: None
+BIOL 651 :: None
+BIOL 652 :: None
+BIOL 667 :: None
+BIOL 669 :: None
+BIOL 670 :: None
+BIOL 675 :: None
+BIOL 678 :: None
+BIOL 680 :: None
+BIOL 681 :: None
+BIOL 690 :: None
+BME 101 :: SYDE 101
+BME 101L :: SYDE 101L
+BME 121 :: SYDE 121
+BME 122 :: SYDE 223
+BME 161 :: SYDE 161
+BME 162 :: SYDE 162
+BME 181 :: SYDE 181
+BME 182 :: ME 212, SYDE 182
+BUS 111W :: AFM 131/ARBUS 101, COMM 101
+BUS 121W :: COMM 102
+CHE 100 :: None
+CHE 101 :: None
+CHE 102 :: None
+CHE 121 :: CIVE 121, ECE 150, GENE 121, SYDE 121
+CHE 161 :: None
+CHE 200 :: None
+CHE 201 :: None
+CHE 202 :: None
+CHE 211 :: None
+CHE 220 :: None
+CHE 230 :: None
+CHE 231 :: None
+CHE 241 :: None
+CHE 290 :: None
+CHE 291 :: None
+CHE 298 :: None
+CHE 299 :: None
+CHE 301 :: None
+CHE 302 :: None
+CHE 311 :: None
+CHE 312 :: None
+CHE 313 :: None
+CHE 322 :: None
+CHE 325 :: None
+CHE 330 :: None
+CHE 331 :: None
+CHE 360 :: None
+CHE 390 :: None
+CHE 391 :: None
+CHE 398 :: None
+CHE 399 :: None
+CHE 401 :: None
+CHE 402 :: None
+CHE 420 :: None
+CHE 480 :: None
+CHE 482 :: None
+CHE 483 :: None
+CHE 490 :: None
+CHE 498 :: None
+CHE 499 :: None
+CHE 500 :: None
+CHE 514 :: None
+CHE 516 :: None
+CHE 522 :: None
+CHE 524 :: None
+CHE 541 :: None
+CHE 543 :: None
+CHE 562 :: None
+CHE 564 :: None
+CHE 571 :: None
+CHE 572 :: None
+CHE 574 :: None
+CHE 610 :: None
+CHE 612 :: None
+CHE 614 :: Antirequisite: CHE 514.
+CHE 620 :: None
+CHE 622 :: CHE 425
+CHE 624 :: CHE 522
+CHE 630 :: None
+CHE 632 :: None
+CHE 640 :: None
+CHE 641 :: None
+CHE 660 :: None
+CHE 661 :: None
+CHE 672 :: CHE 572
+CHE 674 :: CHE 574
+CHE 710 :: None
+CHE 715 :: None
+CHE 720 :: None
+CHE 725 :: None
+CHE 730 :: None
+CHE 735 :: None
+CHE 740 :: None
+CHE 745 :: None
+CHE 750 :: None
+CHE 755 :: None
+CHE 760 :: None
+CHE 765 :: None
+CHE 770 :: None
+CHE 775 :: None
+CHEM 1 :: None
+CHEM 100 :: None
+CHEM 120 :: None
+CHEM 120L :: None
+CHEM 123 :: None
+CHEM 123L :: None
+CHEM 140 :: CHEM 140L
+CHEM 140L :: None
+CHEM 209 :: CHEM 129
+CHEM 212 :: None
+CHEM 217 :: CHEM 212
+CHEM 220 :: CHEM 228
+CHEM 220L :: CHEM 228L
+CHEM 221 :: CHEM 223
+CHEM 224L :: None
+CHEM 228 :: CHEM 220
+CHEM 228L :: CHEM 220L, 223L
+CHEM 233 :: CHEM 237, NE 224
+CHEM 237 :: CHEM 233, NE 224
+CHEM 237L :: None
+CHEM 240 :: None
+CHEM 250L :: None
+CHEM 254 :: PHYS 258/358/ECE 403
+CHEM 262 :: CHEM 264, 266, NE 122
+CHEM 262L :: None
+CHEM 264 :: CHEM 262, 266, NE 122
+CHEM 265 :: CHEM 267
+CHEM 265L :: None
+CHEM 266 :: CHEM 262, 264, NE 122
+CHEM 266L :: None
+CHEM 267 :: CHEM 265.
+CHEM 267L :: None
+CHEM 305 :: None
+CHEM 305L :: None
+CHEM 310 :: None
+CHEM 310L :: None
+CHEM 313 :: CHEM 213
+CHEM 313L :: None
+CHEM 323 :: None
+CHEM 331 :: CHEM 333
+CHEM 333 :: CHEM 331
+CHEM 335L :: None
+CHEM 340 :: None
+CHEM 340L :: None
+CHEM 350 :: None
+CHEM 350L :: None
+CHEM 356 :: PHYS 234
+CHEM 357 :: None
+CHEM 360 :: None
+CHEM 360L :: None
+CHEM 370 :: CHE 542, NE 333
+CHEM 381 :: None
+CHEM 382L :: None
+CHEM 392A :: None
+CHEM 392B :: None
+CHEM 404 :: None
+CHEM 406 :: None
+CHEM 410 :: None
+CHEM 420 :: None
+CHEM 430 :: None
+CHEM 432 :: None
+CHEM 433 :: None
+CHEM 440 :: None
+CHEM 450 :: None
+CHEM 460 :: None
+CHEM 464 :: None
+CHEM 470 :: None
+CHEM 481 :: None
+CHEM 482 :: None
+CHEM 494A :: None
+CHEM 494B :: None
+CHEM 495 :: None
+CHEM 496 :: None
+CHEM 497 :: None
+CHEM 710 :: None
+CHEM 712 :: None
+CHEM 713 :: None
+CHEM 715 :: None
+CHEM 717 :: None
+CHEM 718 :: None
+CHEM 720 :: None
+CHEM 724 :: None
+CHEM 726 :: None
+CHEM 727 :: None
+CHEM 728 :: None
+CHEM 729 :: None
+CHEM 730 :: None
+CHEM 731 :: None
+CHEM 736 :: None
+CHEM 737 :: None
+CHEM 738 :: None
+CHEM 740 :: None
+CHEM 745 :: None
+CHEM 746 :: None
+CHEM 750 :: None
+CHEM 755 :: None
+CHEM 756 :: None
+CHEM 760 :: None
+CHEM 764 :: None
+CHEM 765 :: None
+CHEM 766 :: None
+CHEM 769 :: None
+CHEM 770 :: None
+CHEM 771 :: None
+CHEM 772 :: None
+CHEM 773 :: None
+CHEM 794 :: None
+CHINA 101R :: CHINA 120R
+CHINA 102R :: CHINA 120R
+CHINA 120R :: CHINA 101R, 102R
+CHINA 200R :: None
+CHINA 201R :: CHINA 211R, 212R
+CHINA 202R :: CHINA 211R, 212R
+CHINA 272R :: None
+CHINA 301R :: CHINA 211R, 212R
+CHINA 302R :: CHINA 211R, 212R
+CHINA 310R :: CHINA 211R, 212R
+CHINA 320R :: None
+CHINA 390R :: None
+CIVE 121 :: CHE 121, ECE 150, GENE 121, SYDE 121
+CIVE 125 :: None
+CIVE 127 :: ENVE 127.
+CIVE 153 :: None
+CIVE 199 :: None
+CIVE 204 :: None
+CIVE 205 :: None
+CIVE 221 :: MATH 217, ENVE 225
+CIVE 222 :: MATH 218, ENVE 223
+CIVE 224 :: ENVE 224
+CIVE 240 :: None
+CIVE 265 :: None
+CIVE 280 :: ENVE 214
+CIVE 291 :: None
+CIVE 292 :: MSCI 261; (for Mathematics students only - ACTSC 221, 231)
+CIVE 298 :: None
+CIVE 299 :: None
+CIVE 303 :: None
+CIVE 306 :: None
+CIVE 313 :: None
+CIVE 331 :: None
+CIVE 332 :: ENVE 320, MSCI 331, SYDE 311
+CIVE 342 :: None
+CIVE 343 :: None
+CIVE 353 :: None
+CIVE 354 :: None
+CIVE 375 :: ENVE 375
+CIVE 381 :: None
+CIVE 398 :: None
+CIVE 399 :: None
+CIVE 400 :: ENVE 400/430
+CIVE 401 :: ENVE 401/431
+CIVE 403 :: None
+CIVE 405 :: None
+CIVE 413 :: None
+CIVE 414 :: None
+CIVE 415 :: None
+CIVE 422 :: ME 559.
+CIVE 440 :: None
+CIVE 444 :: None
+CIVE 460 :: None
+CIVE 486 :: None
+CIVE 491 :: AFM 231/LS 283, BUS 231W, ENVS 201 GENE 411, ME 401, MTHEL 100/COMM 231
+CIVE 497 :: None
+CIVE 498 :: None
+CIVE 499 :: None
+CIVE 507 :: None
+CIVE 512 :: None
+CIVE 542 :: None
+CIVE 554 :: None
+CIVE 572 :: None
+CIVE 583 :: ENVE 401/431
+CIVE 596 :: None
+CIVE 601 :: None
+CIVE 602 :: None
+CIVE 603 :: None
+CIVE 604 :: None
+CIVE 605 :: None
+CIVE 610 :: None
+CIVE 611 :: None
+CIVE 613 :: None
+CIVE 614 :: None
+CIVE 615 :: None
+CIVE 620 :: None
+CIVE 640 :: None
+CIVE 641 :: None
+CIVE 642 :: None
+CIVE 643 :: None
+CIVE 650 :: None
+CIVE 651 :: None
+CIVE 652 :: None
+CIVE 653 :: None
+CIVE 670 :: None
+CIVE 671 :: None
+CIVE 673 :: None
+CIVE 676 :: None
+CIVE 680 :: None
+CIVE 681 :: None
+CIVE 682 :: None
+CIVE 700 :: None
+CIVE 701 :: None
+CIVE 702 :: None
+CIVE 703 :: None
+CIVE 704 :: None
+CIVE 705 :: None
+CIVE 706 :: None
+CIVE 707 :: None
+CIVE 708 :: None
+CIVE 709 :: None
+CIVE 710 :: None
+CIVE 711 :: None
+CIVE 712 :: None
+CIVE 720 :: None
+CIVE 740 :: None
+CIVE 741 :: None
+CIVE 742 :: None
+CIVE 743 :: None
+CIVE 744 :: None
+CIVE 745 :: None
+CIVE 746 :: None
+CIVE 750 :: None
+CIVE 751 :: None
+CIVE 752 :: None
+CIVE 753 :: None
+CIVE 754 :: None
+CIVE 755 :: None
+CIVE 770 :: None
+CIVE 771 :: None
+CIVE 772 :: None
+CIVE 773 :: None
+CIVE 774 :: None
+CIVE 775 :: None
+CIVE 776 :: None
+CIVE 777 :: None
+CIVE 778 :: None
+CIVE 779 :: None
+CIVE 780 :: None
+CLAS 100 :: None
+CLAS 103 :: None
+CLAS 104 :: CLAS 225, 226
+CLAS 105 :: None
+CLAS 201 :: None
+CLAS 202 :: None
+CLAS 205 :: CLAS 255
+CLAS 210 :: None
+CLAS 221 :: CLAS 205 taken before Fall 2009
+CLAS 230 :: None
+CLAS 231 :: None
+CLAS 232 :: None
+CLAS 237 :: None
+CLAS 241 :: CLAS 351/FINE 310 taken prior to Fall 2009
+CLAS 242 :: CLAS 352/FINE 311 taken prior to Fall 2009
+CLAS 251 :: None
+CLAS 252 :: None
+CLAS 261 :: PHIL 200A
+CLAS 311 :: None
+CLAS 321 :: None
+CLAS 325 :: RS 326
+CLAS 327 :: None
+CLAS 331 :: None
+CLAS 341 :: None
+CLAS 342 :: None
+CLAS 351 :: None
+CLAS 352 :: None
+CLAS 361 :: None
+CLAS 362 :: None
+CLAS 384 :: None
+CLAS 390 :: None
+CLAS 395 :: None
+CLAS 461 :: None
+CLAS 485 :: None
+CLAS 486 :: None
+CLAS 490A :: None
+CLAS 490B :: None
+CLAS 492 :: None
+CLAS 600 :: None
+CLAS 601 :: None
+CLAS 631 :: None
+CLAS 632 :: None
+CLAS 633 :: None
+CLAS 635 :: None
+CLAS 636 :: None
+CLAS 637 :: None
+CLAS 640 :: None
+CLAS 641 :: None
+CLAS 642 :: None
+CLAS 643 :: None
+CLAS 644 :: None
+CLAS 651 :: None
+CLAS 652 :: None
+CLAS 653 :: None
+CLAS 654 :: None
+CLAS 655 :: None
+CLAS 656 :: None
+CLAS 657 :: None
+CLAS 659 :: None
+CLAS 690 :: None
+CLAS 691 :: None
+CLAS 695 :: None
+CM 271 :: CS 335, 337, 370, ECE 204
+CM 339 :: SE 240, SYDE 423
+CM 340 :: CO 227,352,355
+CM 352 :: None
+CM 353 :: None
+CM 361 :: CS 437/STAT 340
+CM 370 :: None
+CM 375 :: CM/CS 372, 472
+CM 432 :: None
+CM 433 :: None
+CM 434 :: None
+CM 441 :: None
+CM 442 :: None
+CM 443 :: None
+CM 452 :: None
+CM 454 :: None
+CM 461 :: None
+CM 462 :: None
+CM 463 :: None
+CM 464 :: None
+CM 473 :: None
+CM 476 :: None
+CM 498 :: None
+CM 670 :: None
+CM 730 :: None
+CM 740 :: None
+CM 750 :: None
+CM 761 :: CM 461; STAT 440
+CM 762 :: CM 462; STAT 442
+CM 763 :: CM 463; STAT 441
+CM 764 :: CM 464; STAT 444
+CM 770 :: None
+CMW 201 :: None
+CMW 202 :: None
+CMW 363 :: RS 384 taken prior to Fall 2008
+CMW 364 :: RS 385 taken prior to Fall 2008
+CMW 390 :: None
+CO 227 :: CO 250/350, 352, 255/355, CM 340
+CO 250 :: CO 227,352, 255/355
+CO 255 :: CO 227, CO 250/CM 340, CO 350, 352, 355
+CO 327 :: CO 370
+CO 330 :: None
+CO 331 :: None
+CO 342 :: None
+CO 351 :: None
+CO 352 :: CO 250/350, CM 340 (taken fall 2010 or after)
+CO 353 :: None
+CO 355 :: None
+CO 367 :: None
+CO 370 :: CO 327
+CO 372 :: CO 370 taken prior to Winter 2004
+CO 380 :: None
+CO 430 :: None
+CO 434 :: None
+CO 439 :: None
+CO 440 :: None
+CO 442 :: None
+CO 444 :: None
+CO 446 :: None
+CO 450 :: None
+CO 452 :: None
+CO 453 :: None
+CO 454 :: None
+CO 456 :: None
+CO 459 :: None
+CO 463 :: None
+CO 466 :: None
+CO 471 :: None
+CO 480 :: None
+CO 481 :: None
+CO 485 :: None
+CO 487 :: None
+CO 499 :: None
+CO 601 :: None
+CO 602 :: None
+CO 630 :: None
+CO 631 :: None
+CO 634 :: None
+CO 639 :: None
+CO 640 :: None
+CO 642 :: None
+CO 644 :: None
+CO 646 :: None
+CO 650 :: None
+CO 652 :: None
+CO 663 :: None
+CO 664 :: None
+CO 666 :: None
+CO 671 :: None
+CO 681 :: None
+CO 685 :: None
+CO 687 :: None
+CO 690 :: None
+CO 730 :: None
+CO 734 :: None
+CO 738 :: None
+CO 739 :: None
+CO 743 :: None
+CO 745 :: None
+CO 749 :: None
+CO 750 :: None
+CO 751 :: None
+CO 754 :: None
+CO 759 :: None
+CO 765 :: None
+CO 769 :: None
+CO 771 :: None
+CO 778 :: None
+CO 779 :: None
+CO 781 :: None
+CO 785 :: None
+CO 789 :: None
+CO 839 :: None
+CO 849 :: None
+CO 859 :: None
+CO 869 :: None
+CO 879 :: None
+COGSCI 600 :: None
+COMM 101 :: AFM 131/ARBUS 101, BUS 111W
+COMM 102 :: BUS 121W
+COMM 103 :: ECON 101, 102
+COMM 231 :: AFM 231/LS 283, ECE 290; (For Mathematics students only) BUS 231W, CIVE 491, ENVS 201, GENE 411, ME 401, MTHEL 100
+COMM 321 :: AFM 291, BUS 387W
+COMM 400 :: BUS 440W, MTHEL 400
+COMM 421 :: AFM 492, BUS 417W
+COMM 431 :: None
+COMM 432 :: AFM 443
+COMST 202W :: None
+COOP 1 :: None
+COOP 1G :: None
+COOP 2 :: None
+COOP 2G :: None
+COOP 3 :: None
+COOP 3G :: None
+COOP 4 :: None
+COOP 5 :: None
+COOP 6 :: None
+COOP 7 :: None
+COOP 8 :: None
+COOP 9 :: None
+COOP 10 :: None
+COOP 11 :: None
+COOP 12 :: None
+COOP 101 :: None
+COOP 601 :: None
+CROAT 101 :: None
+CROAT 102 :: None
+CROAT 201 :: None
+CROAT 202 :: None
+CROAT 496 :: None
+CS 100 :: All second,third or fourth year CS courses or equivalents
+CS 115 :: CS 121, 122, 123, 125, 131, 132, 133, 135, 137, 138, 145, CHE 121, CIVE 121, ECE 150, GENE 121, PHYS 139, SYDE 121
+CS 116 :: CS 136, 137, 138, 145 taken fall 2010 or earlier, 146
+CS 135 :: CS 115, 121, 122, 123, 125, 131, 132, 133, 134, 137, 138, 145, CHE 121, CIVE 121, ECE 150, GENE 121, PHYS 139, SYDE 121
+CS 136 :: CS 137, 138, CS 145 taken fall 2010 or earlier
+CS 137 :: None
+CS 138 :: None
+CS 145 :: CS 115, 135, 137, 138
+CS 146 :: CS 116, 136, 137, 138, 145 taken fall 2010 or earlier
+CS 200 :: All second, third or fourth year computer science courses
+CS 230 :: CS 241, 251
+CS 234 :: CS 240
+CS 240 :: CS 234, ECE 250, SE 240
+CS 241 :: CS 230, GENE 344
+CS 245 :: PMATH 330, SE 212
+CS 246 :: SYDE 322
+CS 247 :: CS 246, SYDE 322
+CS 251 :: ECE 222, PHYS 392
+CS 330 :: AFM 241, CS 480/490, MSCI 441
+CS 335 :: AMATH 242/CM 271/CS 371, CS 370
+CS 338 :: CS 348, 448, ECE 456
+CS 341 :: SE 240, SYDE 423
+CS 343 :: CS 342
+CS 348 :: CS 338, ECE 456
+CS 349 :: CS 489/498, SE 382
+CS 350 :: ECE 354, MTE 241, SE 350
+CS 360 :: CS 365
+CS 365 :: CS 360
+CS 370 :: AMATH 242/CM 271/CS 371, CS 335
+CS 371 :: CS 335, 370.
+CS 398 :: None
+CS 399 :: None
+CS 430 :: CS 446/ECE 452, SE 464
+CS 432 :: AFM 341, CS 445/ECE 451, MSCI 444, SE 463
+CS 436 :: CS 454, 456, ECE 428, 454
+CS 442 :: None
+CS 444 :: None
+CS 445 :: SE 463
+CS 446 :: CS 430, SE 464
+CS 447 :: SE 465
+CS 448 :: ECE 456
+CS 449 :: SYDE 348
+CS 450 :: ECE 429
+CS 452 :: None
+CS 454 :: ECE 454
+CS 456 :: CS 436, ECE 358, 428
+CS 457 :: CS 437/STAT 340
+CS 458 :: ECE 458
+CS 462 :: None
+CS 466 :: None
+CS 467 :: None
+CS 473 :: None
+CS 475 :: CM/CS 372, 472
+CS 476 :: None
+CS 482 :: None
+CS 483 :: None
+CS 484 :: None
+CS 485 :: None
+CS 486 :: ECE 457
+CS 487 :: None
+CS 488 :: None
+CS 489 :: None
+CS 490 :: AFM 241, CS 330, MSCI 441
+CS 492 :: MSCI 442
+CS 497 :: None
+CS 499R :: None
+CS 499T :: None
+CS 640 :: None
+CS 642 :: None
+CS 644 :: None
+CS 645 :: None
+CS 646 :: None
+CS 647 :: None
+CS 648 :: None
+CS 649 :: SYDE 348
+CS 650 :: None
+CS 652 :: None
+CS 654 :: CS 755
+CS 655 :: None
+CS 656 :: CS 755
+CS 657 :: None
+CS 658 :: None
+CS 662 :: None
+CS 664 :: None
+CS 666 :: None
+CS 667 :: CS 467,CO 481, Phys 467
+CS 670 :: None
+CS 672 :: None
+CS 673 :: CS 473, CM 473
+CS 675 :: CM/CS 372,472
+CS 676 :: None
+CS 682 :: None
+CS 683 :: None
+CS 684 :: None
+CS 685 :: None
+CS 686 :: None
+CS 687 :: None
+CS 688 :: None
+CS 690A :: None
+CS 690B :: None
+CS 692 :: None
+CS 697 :: None
+CS 698 :: None
+CS 740 :: None
+CS 741 :: CS 748O, 748S
+CS 742 :: Antirequisite: CS 748T, 748Q
+CS 743 :: None
+CS 744 :: None
+CS 745 :: None
+CS 746 :: None
+CS 755 :: CS 456, 656, 454, 654
+CS 758 :: None
+CS 761 :: None
+CS 762 :: CS 760K
+CS 763 :: CS 760M
+CS 764 :: CS 664
+CS 765 :: None
+CS 766 :: None
+CS 767 :: None
+CS 768 :: CS 467,CO 481, Phys 467
+CS 770 :: None
+CS 774 :: None
+CS 775 :: CS 770G
+CS 778 :: None
+CS 779 :: CS 679
+CS 780 :: None
+CS 781 :: None
+CS 782 :: None
+CS 783 :: None
+CS 784 :: CS 684
+CS 785 :: CS 685
+CS 786 :: CS 786P
+CS 787 :: CS 698Q
+CS 788 :: None
+CS 789 :: Antirequisite: CS 689
+CS 791 :: None
+CS 792 :: None
+CS 793 :: None
+CS 798 :: None
+CS 840 :: None
+CS 842 :: None
+CS 846 :: None
+CS 848 :: None
+CS 850 :: None
+CS 854 :: None
+CS 856 :: None
+CS 858 :: None
+CS 860 :: None
+CS 867 :: None
+CS 869 :: None
+CS 870 :: None
+CS 882 :: None
+CS 886 :: None
+CS 887 :: None
+CS 888 :: None
+CS 889 :: None
+CS 898 :: None
+CT 601 :: None
+CT 602 :: None
+CT 603 :: None
+CT 604 :: None
+CT 605 :: None
+CT 606A :: None
+CT 606B :: None
+CT 610 :: None
+CT 611 :: None
+CT 612 :: None
+CT 613 :: None
+CT 614 :: None
+CT 615 :: None
+CT 616 :: None
+CT 617 :: None
+CT 618 :: None
+DAC 201 :: GBDA 101
+DAC 202 :: GBDA 201, 202.
+DAC 300 :: SPCOM 490, Section 002 taken Fall 2005
+DAC 301 :: None
+DAC 302 :: DAC 400/DAC 300/ENGL 403 taken in spring 2011
+DAC 303 :: None
+DAC 304 :: None
+DAC 305 :: None
+DAC 307 :: None
+DAC 308 :: None
+DAC 309 :: DAC300/ENGL 303 taken in Winter 2013 or Winter 2014, GBDA 103
+DAC 329 :: None
+DAC 400 :: None
+DAC 403 :: None
+DEI 612 :: None
+DEI 613 :: None
+DEI 614 :: None
+DEI 615 :: None
+DEI 622 :: None
+DEI 623 :: None
+DEI 624 :: None
+DEI 625 :: None
+DEI 626 :: None
+DEI 631 :: None
+DM 700 :: None
+DM 701 :: None
+DM 702 :: None
+DM 712 :: None
+DM 713 :: None
+DM 714 :: None
+DM 720 :: None
+DM 722 :: None
+DM 723 :: None
+DM 730 :: None
+DM 766 :: None
+DM 782 :: None
+DM 784 :: None
+DM 790 :: None
+DM 791 :: None
+DRAMA 101A :: None
+DRAMA 101B :: None
+DRAMA 102 :: None
+DRAMA 220 :: None
+DRAMA 221 :: None
+DRAMA 222 :: None
+DRAMA 243 :: None
+DRAMA 244 :: None
+DRAMA 250 :: None
+DRAMA 301 :: None
+DRAMA 306 :: DRAMA 316
+DRAMA 307 :: DRAMA 317
+DRAMA 311 :: None
+DRAMA 312 :: None
+DRAMA 313 :: None
+DRAMA 314 :: None
+DRAMA 315 :: None
+DRAMA 317 :: DRAMA 307
+DRAMA 318 :: None
+DRAMA 319A :: None
+DRAMA 319B :: None
+DRAMA 319C :: None
+DRAMA 319D :: None
+DRAMA 319E :: None
+DRAMA 321 :: None
+DRAMA 322 :: None
+DRAMA 326 :: None
+DRAMA 331 :: None
+DRAMA 332 :: None
+DRAMA 333 :: None
+DRAMA 334 :: None
+DRAMA 335 :: None
+DRAMA 341 :: None
+DRAMA 343 :: None
+DRAMA 348 :: None
+DRAMA 349 :: None
+DRAMA 350 :: None
+DRAMA 351 :: None
+DRAMA 352 :: None
+DRAMA 353 :: None
+DRAMA 354 :: None
+DRAMA 355 :: None
+DRAMA 356 :: None
+DRAMA 357 :: None
+DRAMA 358 :: None
+DRAMA 359 :: None
+DRAMA 360 :: None
+DRAMA 361 :: None
+DRAMA 362 :: None
+DRAMA 363 :: None
+DRAMA 371 :: None
+DRAMA 372 :: None
+DRAMA 380 :: None
+DRAMA 381 :: None
+DRAMA 382 :: None
+DRAMA 386 :: None
+DRAMA 387 :: None
+DRAMA 390 :: None
+DRAMA 391 :: None
+DRAMA 392 :: None
+DRAMA 393 :: None
+DRAMA 394 :: None
+DRAMA 395 :: None
+DRAMA 396 :: None
+DRAMA 397 :: None
+DRAMA 401 :: None
+DRAMA 402 :: None
+DRAMA 403 :: None
+DRAMA 404 :: None
+DRAMA 405 :: None
+DRAMA 406 :: DRAMA 400, 416
+DRAMA 407 :: DRAMA 410, 417
+DRAMA 409 :: None
+DRAMA 421 :: None
+DRAMA 422 :: None
+DRAMA 425 :: None
+DRAMA 426 :: None
+DRAMA 440 :: None
+DRAMA 443 :: None
+DRAMA 490 :: None
+DRAMA 491 :: None
+DRAMA 499A :: None
+DRAMA 499B :: None
+DUTCH 101 :: None
+DUTCH 102 :: None
+DUTCH 201 :: None
+DUTCH 202 :: None
+EARTH 121 :: CIVE 153, EARTH 153, ENVE 153, GEOE 153
+EARTH 121L :: None
+EARTH 122 :: ENVS 195
+EARTH 122L :: None
+EARTH 123 :: EARTH 223
+EARTH 123L :: None
+EARTH 153 :: EARTH 121
+EARTH 205 :: None
+EARTH 221 :: None
+EARTH 223 :: EARTH 123
+EARTH 231 :: None
+EARTH 232 :: None
+EARTH 235 :: None
+EARTH 236 :: None
+EARTH 238 :: None
+EARTH 260 :: None
+EARTH 270 :: None
+EARTH 281 :: None
+EARTH 305 :: None
+EARTH 305L :: None
+EARTH 310 :: None
+EARTH 331 :: None
+EARTH 332 :: None
+EARTH 333 :: None
+EARTH 342 :: None
+EARTH 358 :: SCI 201
+EARTH 359 :: None
+EARTH 361 :: None
+EARTH 390 :: None
+EARTH 421 :: None
+EARTH 435 :: None
+EARTH 436A :: EARTH 499
+EARTH 436B :: None
+EARTH 437 :: None
+EARTH 438 :: None
+EARTH 440 :: None
+EARTH 444 :: BIOL 453, GEOG 405
+EARTH 456 :: None
+EARTH 458 :: None
+EARTH 458L :: None
+EARTH 459 :: None
+EARTH 460 :: None
+EARTH 461 :: None
+EARTH 461L :: None
+EARTH 471 :: None
+EARTH 490 :: None
+EARTH 491 :: None
+EARTH 499 :: EARTH 436A
+EARTH 601 :: None
+EARTH 602 :: None
+EARTH 603 :: None
+EARTH 606 :: None
+EARTH 610 :: None
+EARTH 611 :: None
+EARTH 612 :: None
+EARTH 620 :: None
+EARTH 621 :: None
+EARTH 622 :: None
+EARTH 623 :: None
+EARTH 624 :: None
+EARTH 625 :: None
+EARTH 626 :: None
+EARTH 630 :: None
+EARTH 631 :: None
+EARTH 632 :: None
+EARTH 634 :: None
+EARTH 635 :: None
+EARTH 638 :: None
+EARTH 640 :: None
+EARTH 641 :: None
+EARTH 642 :: None
+EARTH 643 :: None
+EARTH 644 :: None
+EARTH 645 :: None
+EARTH 646 :: None
+EARTH 650 :: None
+EARTH 651 :: None
+EARTH 653 :: None
+EARTH 654 :: None
+EARTH 656 :: None
+EARTH 657 :: None
+EARTH 658 :: None
+EARTH 659 :: None
+EARTH 661 :: None
+EARTH 668 :: None
+EARTH 671 :: None
+EARTH 690 :: None
+EARTH 691 :: None
+EARTH 692 :: None
+EASIA 201R :: None
+EASIA 205R :: RS 210 taken prior to Fall 2008
+EASIA 206R :: None
+EASIA 207R :: None
+EASIA 210R :: None
+EASIA 220R :: None
+EASIA 250R :: None
+EASIA 275R :: FINE 253/RS 271 taken in Winter 2010, 2012
+EASIA 277R :: None
+EASIA 300R :: None
+EASIA 301R :: None
+EASIA 330R :: None
+EASIA 375R :: None
+ECE 100A :: None
+ECE 100B :: None
+ECE 103 :: CO 220, MATH 229, 239, 249
+ECE 105 :: None
+ECE 106 :: NE 241, PHYS 112 or 112L
+ECE 124 :: ECE 223, SE 141
+ECE 126 :: ECE 100, 106, NE 141/241
+ECE 140 :: GENE 123, MTE 120
+ECE 150 :: CHE 121, CIVE 121, GENE 121, NE 113, SYDE 121
+ECE 155 :: ECE 355
+ECE 200A :: None
+ECE 200B :: None
+ECE 202 :: None
+ECE 204 :: AMATH 242/341, CM 271, CS 370, 371, ECE 104, SYDE 312
+ECE 205 :: None
+ECE 206 :: None
+ECE 207 :: ECE 342
+ECE 209 :: None
+ECE 222 :: None
+ECE 224 :: MTE 325
+ECE 231 :: None
+ECE 240 :: ECE 241
+ECE 241 :: None
+ECE 242 :: ECE 332
+ECE 250 :: CS 234, 240, 341, SE 240
+ECE 251 :: None
+ECE 254 :: CS 343, 350, MTE 241, SE 350
+ECE 261 :: None
+ECE 290 :: AFM 231/LS 283, BUS 231W, CIVE 491, COMM 231, ENVS 201, GENE 411, ME 401, MTHEL 100, PD 22
+ECE 300A :: None
+ECE 300B :: None
+ECE 301 :: None
+ECE 302 :: None
+ECE 309 :: ME 250, SYDE 381
+ECE 316 :: None
+ECE 318 :: None
+ECE 324 :: ECE 325
+ECE 325 :: ECE 324
+ECE 327 :: None
+ECE 331 :: NE 242
+ECE 332 :: None
+ECE 342 :: None
+ECE 351 :: None
+ECE 354 :: CS 350, ECE 254
+ECE 355 :: None
+ECE 356 :: CS 348/448
+ECE 358 :: ECE 428
+ECE 361 :: ECE 261
+ECE 362 :: ME 269
+ECE 370 :: None
+ECE 375 :: ECE 370, 471
+ECE 380 :: ME 360, MTE 360, SE 380, SYDE 352
+ECE 390 :: None
+ECE 391 :: None
+ECE 400A :: None
+ECE 400B :: None
+ECE 401 :: None
+ECE 402 :: None
+ECE 403 :: CHEM 254, ECE 309, ME 250, 354, SYDE 381.
+ECE 404 :: PHYS 226, 246.
+ECE 405 :: AMATH 373, CHEM 356, NE 232, PHYS 234.
+ECE 406 :: CS 341, 466, SYDE 423
+ECE 409 :: CO 485, 487, CS 458
+ECE 411 :: None
+ECE 412 :: None
+ECE 413 :: None
+ECE 414 :: None
+ECE 415 :: None
+ECE 416 :: CS 456
+ECE 417 :: CS 473, SYDE 475/575
+ECE 418 :: None
+ECE 419 :: CO 485, 487, CS 458
+ECE 423 :: SYDE 524
+ECE 428 :: CS 456, ECE 358
+ECE 429 :: CS 450
+ECE 431 :: None
+ECE 432 :: None
+ECE 433 :: NE 343
+ECE 434 :: None
+ECE 437 :: None
+ECE 438 :: None
+ECE 439 :: None
+ECE 443 :: None
+ECE 444 :: None
+ECE 445 :: ECE 437, 438
+ECE 450 :: ECE 254, 354, MTE 241, SYDE 524
+ECE 451 :: SE 463
+ECE 452 :: CS 430, SE 464
+ECE 453 :: SE 465
+ECE 454 :: CS 454, 654
+ECE 455 :: None
+ECE 456 :: CS 348, 448, ECE 356
+ECE 457 :: Antireq:CS 486, ECE 457A/B, SYDE 422
+ECE 457A :: CS 486, SYDE 422/522
+ECE 457B :: SYDE 558
+ECE 458 :: CS 458
+ECE 459 :: CS 457
+ECE 462 :: None
+ECE 463 :: None
+ECE 464 :: None
+ECE 467 :: None
+ECE 471 :: None
+ECE 473 :: None
+ECE 474 :: None
+ECE 475 :: ECE 471
+ECE 476 :: None
+ECE 477 :: None
+ECE 481 :: ECE 484
+ECE 484 :: ECE 481
+ECE 486 :: Antireq:ME 547
+ECE 488 :: None
+ECE 492A :: None
+ECE 492B :: None
+ECE 493 :: None
+ECE 498A :: ECE 492A
+ECE 498B :: ECE 492B
+ECE 499 :: None
+ECE 602 :: MSCI 603
+ECE 603 :: None
+ECE 604 :: None
+ECE 605 :: None
+ECE 606 :: ECE 406, SYDE 423, ECE 750 - Topic 15
+ECE 607 :: None
+ECE 610 :: None
+ECE 611 :: None
+ECE 612 :: None
+ECE 613 :: None
+ECE 614 :: None
+ECE 616 :: None
+ECE 617 :: None
+ECE 621 :: None
+ECE 627 :: None
+ECE 628 :: None
+ECE 629 :: None
+ECE 630 :: None
+ECE 631 :: None
+ECE 632 :: None
+ECE 633 :: None
+ECE 634 :: None
+ECE 635 :: None
+ECE 636 :: None
+ECE 637 :: None
+ECE 638 :: None
+ECE 639 :: None
+ECE 644 :: None
+ECE 645 :: None
+ECE 647 :: None
+ECE 651 :: ECE 355, 451, 452
+ECE 652 :: None
+ECE 653 :: None
+ECE 654 :: None
+ECE 655 :: None
+ECE 656 :: None
+ECE 657 :: None
+ECE 658 :: None
+ECE 661 :: None
+ECE 662 :: None
+ECE 663 :: None
+ECE 664 :: None
+ECE 665 :: None
+ECE 666 :: ECE 760 Topic 4 and Topic 6
+ECE 667 :: None
+ECE 668 :: ECE 765
+ECE 669 :: None
+ECE 671 :: None
+ECE 672 :: None
+ECE 674 :: None
+ECE 675 :: None
+ECE 678 :: None
+ECE 682 :: None
+ECE 683 :: None
+ECE 685 :: None
+ECE 686 :: None
+ECE 687 :: None
+ECE 688 :: None
+ECE 700 :: None
+ECE 710 :: None
+ECE 711 :: None
+ECE 720 :: None
+ECE 725 :: None
+ECE 730 :: None
+ECE 731 :: None
+ECE 732 :: None
+ECE 733 :: None
+ECE 738 :: None
+ECE 740 :: None
+ECE 741 :: None
+ECE 750 :: None
+ECE 752 :: None
+ECE 753 :: None
+ECE 754 :: None
+ECE 755 :: None
+ECE 760 :: None
+ECE 761 :: None
+ECE 762 :: None
+ECE 765 :: None
+ECE 768 :: ECE 760 - Topic 3
+ECE 770 :: None
+ECE 780 :: None
+ECE 781 :: None
+ECE 784 :: None
+ECE 6601PD :: None
+ECE 6602PD :: None
+ECE 6603PD :: None
+ECE 6604PD :: None
+ECE 6605PD :: None
+ECE 6606PD :: None
+ECE 6607PD :: None
+ECE 6608PD :: None
+ECE 6609PD :: None
+ECE 6610PD :: None
+ECE 6611PD :: None
+ECE 6612PD :: None
+ECE 6613PD :: None
+ECE 6614PD :: None
+ECE 6615PD :: None
+ECE 6616PD :: None
+ECE 6617PD :: None
+ECE 6618PD :: None
+ECON 101 :: None
+ECON 102 :: None
+ECON 201 :: None
+ECON 202 :: None
+ECON 211 :: MATH 106/125, 109, 115, 116, 117, 118, 119, 128, 136, 138, 146, 148
+ECON 220 :: ARBUS 200/201 taken prior to Fall 2013, ARBUS 200 taken after Fall 2013
+ECON 221 :: ARTS 280, ENVS 278, ISS 250A/B, SDS/ISS 250R, KIN 222, PSCI 214/314, PSYCH 292, REC 371, SMF 230, SOC/LS 280, STAT 202,206,211,221,231,241, SWREN 250A/B, 250R
+ECON 231 :: None
+ECON 254 :: None
+ECON 265 :: None
+ECON 301 :: None
+ECON 302 :: None
+ECON 304 :: None
+ECON 310 :: None
+ECON 311 :: None
+ECON 321 :: STAT 321, 331, 361, 371
+ECON 332 :: (For Mathematics students only) BUS 443W
+ECON 333 :: None
+ECON 334 :: None
+ECON 335 :: None
+ECON 341 :: None
+ECON 342 :: None
+ECON 344 :: GBDA 304, BUS 352W
+ECON 351 :: None
+ECON 355 :: None
+ECON 357 :: None
+ECON 361 :: None
+ECON 363 :: None
+ECON 365 :: None
+ECON 371 :: AFM 271/273,AFM 274/371,ACTSC371 prior F'14, ACTSC372 after F'14
+ECON 372 :: ACTSC 446 (for Actuarial Science students only)
+ECON 381 :: None
+ECON 382 :: None
+ECON 383 :: None
+ECON 384 :: None
+ECON 385 :: None
+ECON 386 :: None
+ECON 387 :: None
+ECON 388 :: None
+ECON 389 :: None
+ECON 401 :: None
+ECON 402 :: None
+ECON 403 :: None
+ECON 404 :: None
+ECON 405 :: AFM 423 prior to Fall 2015
+ECON 410 :: None
+ECON 411 :: None
+ECON 421 :: None
+ECON 422 :: None
+ECON 436 :: ECON 331, 431
+ECON 442 :: None
+ECON 445 :: None
+ECON 451 :: ECON 381 taken S'09, S'10, S'11, S'12
+ECON 452 :: None
+ECON 456 :: None
+ECON 461 :: None
+ECON 465 :: None
+ECON 471 :: None
+ECON 472 :: None
+ECON 483 :: None
+ECON 484 :: None
+ECON 485 :: None
+ECON 486 :: None
+ECON 487 :: None
+ECON 488 :: None
+ECON 489 :: None
+ECON 601 :: None
+ECON 602 :: None
+ECON 604 :: None
+ECON 605 :: None
+ECON 606 :: None
+ECON 621 :: None
+ECON 622 :: None
+ECON 622A :: None
+ECON 622B :: None
+ECON 623 :: None
+ECON 624 :: None
+ECON 631 :: None
+ECON 635 :: None
+ECON 637 :: None
+ECON 641 :: None
+ECON 642 :: None
+ECON 643 :: None
+ECON 645 :: None
+ECON 648 :: None
+ECON 651 :: None
+ECON 655 :: None
+ECON 657 :: None
+ECON 659 :: None
+ECON 672 :: None
+ECON 673 :: None
+ECON 701 :: None
+ECON 702 :: None
+ECON 721 :: None
+ECON 722 :: None
+ECON 723 :: None
+ECON 727 :: None
+ECON 743 :: None
+ECON 773 :: None
+EFAS 32 :: None
+EFAS 34 :: None
+EFAS 36 :: None
+EFAS 42 :: None
+EFAS 44 :: None
+EFAS 46 :: None
+ENBUS 102 :: None
+ENBUS 202 :: None
+ENBUS 203 :: ECON 220/ARBUS 200/201
+ENBUS 204 :: None
+ENBUS 302 :: None
+ENBUS 306 :: None
+ENBUS 307 :: None
+ENBUS 308 :: None
+ENBUS 309 :: None
+ENBUS 310 :: None
+ENBUS 311 :: None
+ENBUS 312 :: None
+ENBUS 402A :: None
+ENBUS 402B :: None
+ENBUS 407 :: None
+ENBUS 408 :: None
+ENBUS 409 :: None
+ENBUS 410 :: None
+ENBUS 411 :: None
+ENBUS 601 :: None
+ENBUS 602 :: None
+ENBUS 620 :: None
+ENBUS 621 :: None
+ENBUS 622 :: None
+ENBUS 630 :: None
+ENBUS 631 :: None
+ENBUS 632 :: None
+ENBUS 640 :: None
+ENBUS 642 :: None
+ENBUS 650 :: None
+ENBUS 690 :: None
+ENBUS 690A :: None
+ENBUS 690B :: None
+ENGL 51 :: None
+ENGL 100A :: ENGL 102A, 102B
+ENGL 100B :: ENGL 102B
+ENGL 100C :: ENGL 102A
+ENGL 101A :: None
+ENGL 101B :: None
+ENGL 102A :: None
+ENGL 102B :: None
+ENGL 103A :: None
+ENGL 103B :: None
+ENGL 104 :: None
+ENGL 105A :: None
+ENGL 105B :: None
+ENGL 107 :: None
+ENGL 108A :: ARTS 199 sec 003 taken Fall 2007
+ENGL 108B :: None
+ENGL 108C :: None
+ENGL 108D :: None
+ENGL 108E :: None
+ENGL 108F :: None
+ENGL 108H :: None
+ENGL 108M :: None
+ENGL 109 :: None
+ENGL 119 :: None
+ENGL 129R :: None
+ENGL 140R :: None
+ENGL 141R :: None
+ENGL 190 :: None
+ENGL 200A :: None
+ENGL 200B :: None
+ENGL 201 :: None
+ENGL 202A :: None
+ENGL 202B :: None
+ENGL 203 :: GBDA 101
+ENGL 204 :: GBDA 201, 202
+ENGL 205R :: None
+ENGL 206 :: None
+ENGL 208A :: None
+ENGL 208B :: None
+ENGL 208C :: None
+ENGL 208E :: None
+ENGL 208H :: None
+ENGL 208K :: None
+ENGL 208L :: None
+ENGL 208M :: None
+ENGL 208N :: None
+ENGL 209 :: None
+ENGL 210E :: ENGL 210A and ENGL 210G
+ENGL 210F :: None
+ENGL 210H :: None
+ENGL 210I :: None
+ENGL 212 :: None
+ENGL 213 :: None
+ENGL 214 :: ENGL 215
+ENGL 215 :: ENGL 214
+ENGL 216 :: None
+ENGL 217 :: ENGL 317
+ENGL 218 :: None
+ENGL 219 :: None
+ENGL 220A :: None
+ENGL 220B :: None
+ENGL 220C :: None
+ENGL 233A :: None
+ENGL 233B :: None
+ENGL 233C :: None
+ENGL 233D :: None
+ENGL 235 :: None
+ENGL 240R :: None
+ENGL 241R :: None
+ENGL 247 :: None
+ENGL 251A :: None
+ENGL 251B :: None
+ENGL 260 :: None
+ENGL 290 :: None
+ENGL 292 :: None
+ENGL 293 :: None
+ENGL 301H :: None
+ENGL 303 :: SPCOM 490, Section 002 taken Fall 2005
+ENGL 304 :: DAC 301
+ENGL 305A :: None
+ENGL 305B :: None
+ENGL 306A :: None
+ENGL 306B :: None
+ENGL 306C :: None
+ENGL 306D :: None
+ENGL 306E :: None
+ENGL 306F :: None
+ENGL 306G :: ENGL 306G/309D
+ENGL 309A :: None
+ENGL 309B :: None
+ENGL 309C :: None
+ENGL 309E :: None
+ENGL 309G :: None
+ENGL 310A :: None
+ENGL 310B :: None
+ENGL 310C :: None
+ENGL 313 :: None
+ENGL 315 :: None
+ENGL 316 :: None
+ENGL 318 :: None
+ENGL 319 :: None
+ENGL 320 :: None
+ENGL 322 :: None
+ENGL 325 :: None
+ENGL 330A :: None
+ENGL 330B :: None
+ENGL 335 :: None
+ENGL 336 :: None
+ENGL 342 :: None
+ENGL 343 :: None
+ENGL 344 :: None
+ENGL 345 :: None
+ENGL 346 :: ENGL 346C
+ENGL 347 :: ENGL 347A
+ENGL 348 :: None
+ENGL 350A :: None
+ENGL 350B :: None
+ENGL 361 :: None
+ENGL 362 :: None
+ENGL 363 :: None
+ENGL 364 :: None
+ENGL 365 :: None
+ENGL 366 :: None
+ENGL 371 :: None
+ENGL 376R :: None
+ENGL 377R :: None
+ENGL 392A :: None
+ENGL 392B :: None
+ENGL 403 :: None
+ENGL 406 :: None
+ENGL 407 :: None
+ENGL 408A :: None
+ENGL 408B :: None
+ENGL 408C :: None
+ENGL 409A :: None
+ENGL 410A :: None
+ENGL 410B :: None
+ENGL 410C :: None
+ENGL 410D :: None
+ENGL 410E :: None
+ENGL 410F :: None
+ENGL 430A :: None
+ENGL 430B :: None
+ENGL 451A :: None
+ENGL 451B :: None
+ENGL 460A :: None
+ENGL 460B :: None
+ENGL 460C :: None
+ENGL 460D :: None
+ENGL 463 :: None
+ENGL 470A :: None
+ENGL 470B :: None
+ENGL 470C :: None
+ENGL 471 :: None
+ENGL 481 :: None
+ENGL 484 :: None
+ENGL 485 :: None
+ENGL 486 :: None
+ENGL 487 :: None
+ENGL 490 :: None
+ENGL 492 :: None
+ENGL 493 :: None
+ENGL 494 :: None
+ENGL 495A :: None
+ENGL 495B :: None
+ENGL 700 :: Antirequisite: ENGL 700A & 700B.
+ENGL 705 :: None
+ENGL 710 :: None
+ENGL 715 :: None
+ENGL 720 :: None
+ENGL 725 :: None
+ENGL 730 :: None
+ENGL 735 :: None
+ENGL 750 :: None
+ENGL 755 :: None
+ENGL 760 :: None
+ENGL 770 :: None
+ENGL 775 :: None
+ENGL 780 :: None
+ENGL 785 :: None
+ENGL 788 :: None
+ENGL 789 :: None
+ENGL 790 :: None
+ENGL 791 :: None
+ENGL 792 :: None
+ENGL 793 :: None
+ENGL 794 :: None
+ENGL 795 :: None
+ENGL 796 :: None
+ENGL 797 :: None
+ENGL 799 :: None
+ENVE 100 :: None
+ENVE 127 :: CIVE 127
+ENVE 153 :: None
+ENVE 214 :: None
+ENVE 221 :: CIVE 221, MATH 217
+ENVE 223 :: (for Environmental and Geological Engineering) CIVE 222, MATH 218
+ENVE 224 :: CHE 220, CIVE 224
+ENVE 275 :: None
+ENVE 276 :: None
+ENVE 292 :: MSCI 261, CIVE 292/392, SYDE 262.
+ENVE 298 :: None
+ENVE 299 :: None
+ENVE 320 :: CIVE 332, MSCI 331, SYDE 311
+ENVE 321 :: CHE 37
+ENVE 330 :: None
+ENVE 375 :: CIVE 375
+ENVE 391 :: None
+ENVE 398 :: None
+ENVE 399 :: None
+ENVE 430 :: None
+ENVE 431 :: None
+ENVE 472 :: CIVE 572
+ENVE 498 :: None
+ENVE 499 :: None
+ENVE 573 :: None
+ENVE 577 :: None
+ENVS 105 :: None
+ENVS 131 :: PLAN 102
+ENVS 178 :: None
+ENVS 195 :: EARTH 122
+ENVS 200 :: BIOL 150/250
+ENVS 201 :: (For Mathematics Students only) AFM 231/LS 283, BUS 231W, CIVE 491, GENE 411, ME 401, MTHEL 100/COMM 231
+ENVS 220 :: None
+ENVS 278 :: ARTS 280, ECON 221, SDS 250R, KIN 222, PSCI 314, PSYCH 292, REC 371, SOC 280, STAT 202, 206, 211, 221, 231, 241
+ENVS 295W :: None
+ENVS 334 :: None
+ENVS 395 :: None
+ENVS 401 :: None
+ENVS 433 :: None
+ENVS 444 :: ERS 380; ENVS 434/GEOG 367/PLAN 340/REC 434 taken prior to Winter 2007
+ENVS 469 :: None
+ENVS 474 :: None
+ERS 110 :: ERS 100
+ERS 111 :: ERS 101
+ERS 203 :: ERS 231, GEOG 202B
+ERS 210 :: ERS 250
+ERS 211 :: BIOL/ERS 381
+ERS 215 :: ERS 241
+ERS 234 :: None
+ERS 253 :: None
+ERS 265 :: ERS 266
+ERS 266 :: ERS 265
+ERS 270 :: None
+ERS 275 :: None
+ERS 280 :: None
+ERS 283 :: None
+ERS 294 :: RS 295A
+ERS 310 :: ERS 395
+ERS 311 :: None
+ERS 315 :: ERS 339.
+ERS 316 :: None
+ERS 317 :: None
+ERS 330 :: None
+ERS 340 :: None
+ERS 341 :: None
+ERS 360 :: None
+ERS 365 :: None
+ERS 370 :: None
+ERS 371 :: None
+ERS 372 :: None
+ERS 375 :: None
+ERS 382 :: None
+ERS 383 :: None
+ERS 404 :: None
+ERS 409 :: None
+ERS 410 :: ERS 496
+ERS 411A :: ERS 490A
+ERS 411B :: ERS 490B
+ERS 412A :: ERS 491A
+ERS 412B :: ERS 491B
+ERS 413 :: ERS 411A/B, ERS 412A/B
+ERS 413A :: None
+ERS 413B :: None
+ERS 415 :: ERS 445
+ERS 430 :: None
+ERS 461 :: ERS 489/PSCI 489/GEOG 429
+ERS 462 :: ERS 489/PSCI 489/GEOG 429
+ERS 464 :: None
+ERS 474 :: None
+ERS 475 :: None
+ERS 476 :: None
+ERS 484 :: None
+ERS 489 :: ERS 475, section 003 taken Fall 2006; PSCI 490, section 001 taken Fall 2006.
+ERS 604 :: None
+ERS 605 :: None
+ERS 606 :: None
+ERS 610 :: None
+ERS 615 :: None
+ERS 618 :: None
+ERS 619 :: None
+ERS 630 :: None
+ERS 650 :: None
+ERS 660 :: None
+ERS 669 :: None
+ERS 670 :: None
+ERS 674 :: None
+ERS 675 :: None
+ERS 680 :: None
+ERS 681 :: None
+ERS 701 :: None
+ERS 702 :: None
+ESL 100R :: None
+ESL 101R :: None
+ESL 102R :: None
+ESL 103R :: None
+ESL 110R :: None
+ESL 129R :: None
+ESL 601R :: None
+ESL 602R :: None
+ESL 612R :: None
+FINE 100 :: None
+FINE 101 :: FINE 110
+FINE 102 :: None
+FINE 110 :: None
+FINE 112 :: FINE 211
+FINE 120 :: None
+FINE 121 :: None
+FINE 130 :: FINE 204 section 081 (online) taken fall 2011 or winter 2012
+FINE 150 :: None
+FINE 200 :: None
+FINE 202 :: None
+FINE 204 :: None
+FINE 205 :: None
+FINE 206 :: None
+FINE 209 :: FINE 219
+FINE 210 :: None
+FINE 212 :: None
+FINE 213 :: None
+FINE 214 :: None
+FINE 215 :: None
+FINE 216 :: None
+FINE 220 :: None
+FINE 221 :: None
+FINE 222 :: None
+FINE 223 :: None
+FINE 223A :: None
+FINE 224 :: None
+FINE 225 :: None
+FINE 226 :: None
+FINE 226A :: None
+FINE 226B :: None
+FINE 226D :: None
+FINE 227 :: None
+FINE 228 :: DAC 203/301/ENGL 304
+FINE 228E :: None
+FINE 229 :: DAC 203/301/ENGL 304
+FINE 230 :: None
+FINE 231 :: None
+FINE 232 :: None
+FINE 241 :: CLAS 351/FINE 310 taken prior to Fall 2009
+FINE 242 :: CLAS 352/FINE 311 taken prior to Fall 2009
+FINE 243 :: None
+FINE 244 :: FINE 250
+FINE 245 :: FINE 250, 251
+FINE 248A :: None
+FINE 248B :: None
+FINE 249A :: None
+FINE 249B :: None
+FINE 250 :: None
+FINE 251 :: None
+FINE 252 :: RS 266R
+FINE 253 :: RS 267R
+FINE 255R :: None
+FINE 256 :: None
+FINE 257 :: None
+FINE 262 :: FINE 290 taken Fall 2008
+FINE 271 :: None
+FINE 272 :: None
+FINE 274 :: None
+FINE 281 :: None
+FINE 282 :: None
+FINE 290 :: None
+FINE 293 :: None
+FINE 294 :: None
+FINE 300 :: None
+FINE 301 :: None
+FINE 302 :: None
+FINE 303 :: None
+FINE 304 :: None
+FINE 305 :: None
+FINE 306 :: None
+FINE 313 :: None
+FINE 316 :: None
+FINE 319 :: None
+FINE 319A :: None
+FINE 320 :: None
+FINE 321 :: None
+FINE 322 :: None
+FINE 323 :: None
+FINE 324 :: None
+FINE 325 :: None
+FINE 326A :: None
+FINE 326B :: None
+FINE 328 :: None
+FINE 329 :: None
+FINE 330 :: None
+FINE 331 :: FINE 216
+FINE 332 :: None
+FINE 333 :: None
+FINE 334 :: None
+FINE 335 :: None
+FINE 336 :: None
+FINE 337 :: None
+FINE 338 :: None
+FINE 341 :: None
+FINE 342 :: None
+FINE 343 :: None
+FINE 344 :: None
+FINE 348A :: None
+FINE 348B :: None
+FINE 349A :: None
+FINE 349B :: None
+FINE 350 :: None
+FINE 351 :: None
+FINE 352 :: None
+FINE 353 :: None
+FINE 354 :: None
+FINE 355 :: None
+FINE 356R :: None
+FINE 357R :: None
+FINE 359 :: None
+FINE 360 :: None
+FINE 361 :: None
+FINE 362 :: None
+FINE 363 :: None
+FINE 364 :: None
+FINE 365 :: None
+FINE 366 :: None
+FINE 367 :: None
+FINE 368 :: None
+FINE 371 :: None
+FINE 375 :: None
+FINE 376 :: None
+FINE 377 :: None
+FINE 378 :: None
+FINE 380 :: None
+FINE 381 :: None
+FINE 390 :: None
+FINE 391 :: None
+FINE 392 :: None
+FINE 393 :: None
+FINE 394 :: None
+FINE 396 :: None
+FINE 402 :: None
+FINE 404 :: None
+FINE 405 :: None
+FINE 406 :: None
+FINE 460A :: None
+FINE 460B :: None
+FINE 461 :: None
+FINE 470 :: None
+FINE 471 :: None
+FINE 472 :: None
+FINE 473 :: None
+FINE 474 :: None
+FINE 475 :: None
+FINE 490 :: None
+FINE 491 :: None
+FINE 492 :: None
+FINE 493 :: FINE 490A
+FINE 496 :: FINE 490
+FINE 497 :: None
+FINE 499 :: None
+FINE 670A :: None
+FINE 670B :: None
+FINE 671 :: None
+FINE 672A :: None
+FINE 672B :: None
+FINE 673 :: None
+FINE 674 :: None
+FINE 680 :: None
+FINE 681 :: None
+FINE 682 :: None
+FINE 683 :: None
+FINE 690 :: None
+FINE 691 :: None
+FINE 692 :: None
+FINE 694 :: None
+FINE 695 :: None
+FR 101 :: ARTS 190 taken in Winter 2013, Fall 2013
+FR 151 :: Ontario Grade 11 French or 4U Core French or Immersion French or Extended French.
+FR 152 :: Ontario Grade 12 French or 4U Core French or Immersion French or Extended French.
+FR 192A :: High School Immersion French, Extended French, near-native or native ability in French;
+FR 192B :: Near-native or native ability in French.
+FR 197 :: FR 291
+FR 203 :: None
+FR 250A :: None
+FR 251 :: None
+FR 252 :: None
+FR 255 :: None
+FR 263 :: None
+FR 276 :: None
+FR 291 :: FR 197
+FR 292 :: FR 297
+FR 297 :: FR 292
+FR 300A :: None
+FR 303 :: None
+FR 332 :: None
+FR 332A :: None
+FR 332B :: None
+FR 343 :: None
+FR 343A :: None
+FR 343B :: None
+FR 351 :: None
+FR 352 :: None
+FR 353 :: None
+FR 354 :: None
+FR 354A :: None
+FR 354B :: None
+FR 355 :: None
+FR 363 :: None
+FR 363A :: None
+FR 363B :: None
+FR 365 :: None
+FR 367 :: None
+FR 373 :: None
+FR 375 :: None
+FR 392A :: None
+FR 392B :: None
+FR 393A :: None
+FR 393B :: None
+FR 395A :: None
+FR 395B :: None
+FR 399A :: None
+FR 400 :: None
+FR 403 :: None
+FR 409 :: None
+FR 410 :: None
+FR 410A :: None
+FR 410B :: None
+FR 424 :: None
+FR 424A :: None
+FR 424B :: None
+FR 452 :: None
+FR 471 :: None
+FR 471A :: None
+FR 471B :: None
+FR 473 :: None
+FR 482 :: None
+FR 483 :: None
+FR 484 :: None
+FR 485 :: None
+FR 486 :: None
+FR 487 :: None
+FR 488 :: None
+FR 490 :: None
+FR 491 :: None
+FR 492 :: None
+FR 493 :: None
+FR 494 :: None
+FR 495 :: None
+FR 496 :: None
+FR 497 :: None
+FR 498 :: None
+FR 600 :: None
+FR 601 :: None
+FR 603 :: None
+FR 611 :: None
+FR 621 :: None
+FR 631 :: None
+FR 641 :: None
+FR 651 :: None
+FR 661 :: None
+FR 671 :: None
+FR 681 :: None
+FR 685 :: None
+FR 687 :: None
+GBDA 101 :: DAC 201/ENGL 203
+GBDA 102 :: None
+GBDA 103 :: None
+GBDA 201 :: DAC 202/ENGL 204
+GBDA 202 :: DAC 202/ENGL 204
+GBDA 203 :: None
+GBDA 204 :: None
+GBDA 205 :: ARTS 280, ECON 221, ENVS 278, ISS 250A/B, KIN 222, PSCI 214/314, PSYCH 292, REC 371, SDS/ISS 250R, SMF 230, SOC/LS 280, STAT 202, 206, 211, 221, 231, 241, SWREN 250A/B, 250R
+GBDA 206 :: None
+GBDA 228 :: DAC 203/301/ENGL 304
+GBDA 229 :: DAC 203/301/ENGL 304
+GBDA 301 :: None
+GBDA 302 :: None
+GBDA 303 :: None
+GBDA 304 :: ECON 344/ARBUS302
+GBDA 305 :: None
+GBDA 306 :: None
+GBDA 307 :: None
+GBDA 308 :: None
+GBDA 365 :: None
+GBDA 401 :: None
+GBDA 402 :: None
+GBDA 403 :: None
+GBDA 404 :: None
+GBDA 465 :: None
+GEMCC 601 :: None
+GEMCC 602 :: None
+GEMCC 603 :: None
+GEMCC 610 :: None
+GEMCC 620 :: None
+GEMCC 621 :: None
+GEMCC 622 :: None
+GEMCC 630 :: None
+GEMCC 640 :: None
+GEMCC 642 :: None
+GENE 21A :: None
+GENE 21C :: None
+GENE 21D :: None
+GENE 21E :: None
+GENE 21I :: None
+GENE 21K :: None
+GENE 21L :: None
+GENE 21M :: None
+GENE 21Q :: None
+GENE 21S :: None
+GENE 21T :: None
+GENE 22A :: None
+GENE 22B :: None
+GENE 22C :: None
+GENE 22D :: None
+GENE 101 :: UNIV 101
+GENE 119 :: None
+GENE 121 :: CHE 121, CIVE 121, ECE 150, SYDE 121
+GENE 123 :: None
+GENE 199 :: None
+GENE 299 :: None
+GENE 301 :: None
+GENE 302 :: None
+GENE 303 :: None
+GENE 315 :: None
+GENE 395 :: None
+GENE 396 :: None
+GENE 397 :: None
+GENE 399 :: None
+GENE 401 :: None
+GENE 402 :: None
+GENE 403 :: None
+GENE 404 :: None
+GENE 411 :: AFM 231/LS 283, BUS 231W, CIVE 491, COMM 231/MTHEL 100, ECE 290, ENVS 201, ME 401
+GENE 412 :: None
+GENE 415 :: None
+GENE 499 :: None
+GENE 501 :: None
+GENE 502 :: None
+GENE 503 :: None
+GEOE 153 :: None
+GEOE 298 :: None
+GEOE 299 :: None
+GEOE 398 :: None
+GEOE 399 :: None
+GEOE 400 :: None
+GEOE 401 :: None
+GEOE 498 :: None
+GEOE 499 :: None
+GEOG 100 :: None
+GEOG 101 :: None
+GEOG 102 :: None
+GEOG 165 :: None
+GEOG 181 :: GEOG 165
+GEOG 187 :: None
+GEOG 201 :: None
+GEOG 202 :: None
+GEOG 203 :: ERS 231, GEOG 202B
+GEOG 206 :: None
+GEOG 208 :: None
+GEOG 209 :: None
+GEOG 210 :: None
+GEOG 212 :: None
+GEOG 215 :: None
+GEOG 221 :: None
+GEOG 222 :: None
+GEOG 233 :: None
+GEOG 250 :: None
+GEOG 271 :: None
+GEOG 281 :: None
+GEOG 293 :: GEOG 393
+GEOG 294 :: GEOG 394
+GEOG 300 :: None
+GEOG 303 :: None
+GEOG 306 :: GEOG 206
+GEOG 308 :: GEOG 208
+GEOG 309 :: None
+GEOG 310 :: None
+GEOG 311 :: None
+GEOG 316 :: None
+GEOG 318 :: None
+GEOG 319 :: None
+GEOG 323 :: None
+GEOG 333 :: None
+GEOG 340 :: None
+GEOG 349 :: None
+GEOG 351 :: None
+GEOG 353 :: None
+GEOG 356 :: None
+GEOG 360 :: None
+GEOG 365 :: None
+GEOG 366 :: None
+GEOG 368 :: None
+GEOG 371 :: None
+GEOG 372 :: None
+GEOG 373 :: None
+GEOG 381 :: None
+GEOG 387 :: None
+GEOG 391 :: None
+GEOG 393 :: None
+GEOG 394 :: None
+GEOG 404 :: None
+GEOG 405 :: BIOL 453
+GEOG 407 :: None
+GEOG 408 :: None
+GEOG 409 :: None
+GEOG 410 :: None
+GEOG 411 :: None
+GEOG 418 :: None
+GEOG 419 :: None
+GEOG 423 :: None
+GEOG 426 :: None
+GEOG 429 :: ERS 475, section 003 taken Fall 2006; PSCI 490, section 001 taken Fall 2006.
+GEOG 430A :: None
+GEOG 430B :: None
+GEOG 430C :: None
+GEOG 432 :: None
+GEOG 450 :: None
+GEOG 452 :: None
+GEOG 453 :: None
+GEOG 454 :: GEOG 353
+GEOG 459 :: None
+GEOG 461 :: ERS 489/PSCI 489/GEOG 429
+GEOG 462 :: ERS 489/PSCI 489/GEOG 429
+GEOG 471 :: None
+GEOG 474 :: None
+GEOG 475 :: None
+GEOG 481 :: None
+GEOG 483 :: None
+GEOG 487 :: GEOG/PLAN 555
+GEOG 490A :: None
+GEOG 490B :: None
+GEOG 600 :: None
+GEOG 601 :: None
+GEOG 602 :: None
+GEOG 603 :: None
+GEOG 604 :: None
+GEOG 605 :: None
+GEOG 606 :: None
+GEOG 607 :: None
+GEOG 608 :: None
+GEOG 609 :: None
+GEOG 611 :: None
+GEOG 613 :: None
+GEOG 615 :: None
+GEOG 616 :: None
+GEOG 619 :: None
+GEOG 620 :: None
+GEOG 621 :: None
+GEOG 624 :: None
+GEOG 625 :: None
+GEOG 634 :: None
+GEOG 635 :: None
+GEOG 637 :: None
+GEOG 638 :: None
+GEOG 639 :: None
+GEOG 640 :: None
+GEOG 641 :: None
+GEOG 642 :: None
+GEOG 643 :: None
+GEOG 644 :: None
+GEOG 645 :: None
+GEOG 646 :: None
+GEOG 647 :: None
+GEOG 648 :: None
+GEOG 649 :: None
+GEOG 651 :: None
+GEOG 652 :: None
+GEOG 653 :: None
+GEOG 660 :: None
+GEOG 661A :: None
+GEOG 661B :: None
+GEOG 664 :: None
+GEOG 665 :: None
+GEOG 666 :: None
+GEOG 668 :: None
+GEOG 669 :: None
+GEOG 671 :: None
+GEOG 672 :: None
+GEOG 673 :: None
+GEOG 674 :: None
+GEOG 675 :: None
+GEOG 676 :: None
+GEOG 677 :: None
+GEOG 678 :: None
+GEOG 679 :: None
+GEOG 685 :: None
+GEOG 690 :: None
+GEOG 691 :: None
+GEOG 692 :: None
+GER 100 :: None
+GER 101 :: 4U German
+GER 102 :: 4U German
+GER 180 :: None
+GER 201 :: None
+GER 202 :: None
+GER 203 :: None
+GER 204 :: None
+GER 211 :: None
+GER 212 :: GER 204
+GER 220 :: None
+GER 250 :: 4U German
+GER 261 :: None
+GER 262 :: None
+GER 271 :: None
+GER 272 :: None
+GER 280 :: None
+GER 291 :: None
+GER 292 :: None
+GER 298 :: None
+GER 299 :: None
+GER 303 :: None
+GER 304 :: None
+GER 305 :: None
+GER 306 :: None
+GER 307 :: GER 305, 306
+GER 308 :: None
+GER 309 :: None
+GER 331 :: None
+GER 332 :: None
+GER 333 :: None
+GER 334 :: None
+GER 350 :: None
+GER 353 :: None
+GER 354 :: None
+GER 359 :: None
+GER 362 :: None
+GER 363 :: None
+GER 364 :: None
+GER 383 :: None
+GER 385 :: None
+GER 395 :: None
+GER 396 :: None
+GER 397 :: None
+GER 398 :: None
+GER 399 :: None
+GER 407 :: None
+GER 420 :: None
+GER 431 :: None
+GER 490 :: None
+GER 495 :: None
+GER 600 :: None
+GER 601 :: None
+GER 602 :: None
+GER 603 :: None
+GER 604 :: None
+GER 610 :: None
+GER 611 :: None
+GER 612 :: None
+GER 613 :: None
+GER 614 :: None
+GER 615 :: None
+GER 620 :: None
+GER 621 :: None
+GER 622 :: None
+GER 623 :: None
+GER 695 :: None
+GER 700 :: None
+GER 701 :: None
+GER 702 :: None
+GER 703 :: None
+GER 704 :: None
+GER 710 :: None
+GER 711 :: None
+GER 712 :: None
+GER 713 :: None
+GER 714 :: None
+GER 715 :: None
+GER 720 :: None
+GER 721 :: None
+GER 722 :: None
+GER 723 :: None
+GER 751 :: None
+GER 752 :: None
+GER 753 :: None
+GER 754 :: None
+GER 761 :: None
+GER 762 :: None
+GER 763 :: None
+GER 764 :: None
+GER 765 :: None
+GER 771 :: None
+GER 772 :: None
+GER 773 :: None
+GER 774` :: None
+GER 775 :: None
+GER 780 :: None
+GER 791 :: None
+GERON 201 :: GERON 100, HLTH 100
+GERON 210 :: None
+GERON 218 :: None
+GERON 220 :: None
+GERON 245 :: None
+GERON 255 :: None
+GERON 352 :: None
+GERON 355 :: None
+GERON 400 :: None
+GERON 401A :: None
+GERON 401B :: None
+GGOV 600 :: None
+GGOV 610 :: None
+GGOV 611 :: None
+GGOV 612 :: None
+GGOV 613 :: None
+GGOV 614 :: None
+GGOV 615 :: None
+GGOV 618 :: None
+GGOV 619 :: None
+GGOV 620 :: None
+GGOV 621 :: None
+GGOV 628 :: None
+GGOV 629 :: None
+GGOV 630 :: None
+GGOV 631 :: None
+GGOV 632 :: None
+GGOV 633 :: None
+GGOV 634 :: None
+GGOV 638 :: None
+GGOV 639 :: None
+GGOV 640 :: None
+GGOV 641 :: None
+GGOV 642 :: None
+GGOV 643 :: None
+GGOV 648 :: None
+GGOV 649 :: None
+GGOV 650 :: None
+GGOV 651 :: None
+GGOV 652 :: None
+GGOV 653 :: None
+GGOV 658 :: None
+GGOV 659 :: None
+GGOV 660 :: None
+GGOV 661 :: None
+GGOV 662 :: None
+GGOV 663 :: None
+GGOV 668 :: None
+GGOV 669 :: None
+GGOV 700 :: None
+GGOV 701 :: None
+GLOBAL 327W :: None
+GRK 101 :: GRK/RS 133
+GRK 102 :: None
+GRK 105 :: None
+GRK 133 :: GRK 101
+GRK 134 :: RS 106B
+GRK 201 :: None
+GRK 202 :: None
+GRK 233 :: RS 305A/333(GRK/RS 233)
+GRK 234 :: GRK 205, RS 334
+GRK 331 :: None
+GRK 332 :: None
+GRK 341 :: None
+GRK 351 :: None
+GRK 421 :: None
+GRK 451 :: None
+GRK 490 :: None
+GRK 491 :: None
+GRK 600 :: None
+GRK 601 :: None
+GRK 621 :: Antirequisite: GRK 421.
+GRK 631 :: None
+GRK 632 :: None
+GRK 633 :: None
+GRK 651 :: None
+GRK 673 :: Antirequisite: GRK 473.
+GRK 691 :: None
+GS 901 :: None
+GS 902 :: None
+GS 903 :: None
+HIST 102 :: HIST 102C
+HIST 103 :: HIST 102E
+HIST 104 :: None
+HIST 105 :: None
+HIST 106 :: None
+HIST 108 :: None
+HIST 109 :: HIST 191 taken Fall 2011 or Fall 2012
+HIST 110 :: None
+HIST 111 :: None
+HIST 113 :: None
+HIST 114 :: None
+HIST 115 :: None
+HIST 120 :: None
+HIST 130 :: None
+HIST 191 :: None
+HIST 200 :: None
+HIST 201 :: None
+HIST 205 :: None
+HIST 206 :: None
+HIST 207 :: None
+HIST 208 :: None
+HIST 209 :: None
+HIST 210 :: None
+HIST 211 :: None
+HIST 213 :: None
+HIST 214 :: None
+HIST 215 :: None
+HIST 220 :: HIST 317
+HIST 221 :: HIST 107
+HIST 223 :: None
+HIST 224 :: None
+HIST 225 :: ISS/SDS 205R
+HIST 226 :: None
+HIST 227 :: None
+HIST 230 :: None
+HIST 231R :: None
+HIST 232 :: None
+HIST 234 :: RS 234
+HIST 235 :: RS 230
+HIST 236 :: None
+HIST 237 :: None
+HIST 239 :: None
+HIST 242 :: None
+HIST 243 :: None
+HIST 244 :: None
+HIST 245 :: None
+HIST 247 :: None
+HIST 249 :: None
+HIST 250 :: None
+HIST 252 :: None
+HIST 253 :: None
+HIST 254 :: None
+HIST 255 :: HIST 291 (section 001) taken Fall 2012; SDS 220R
+HIST 257 :: None
+HIST 258 :: None
+HIST 260 :: None
+HIST 262 :: None
+HIST 263 :: None
+HIST 264 :: None
+HIST 265 :: None
+HIST 266 :: None
+HIST 268 :: None
+HIST 269 :: None
+HIST 271 :: HIST 391, section 003 taken Winter 2013
+HIST 275 :: HIST 130
+HIST 277 :: None
+HIST 278 :: None
+HIST 282 :: HIST 291 taken Fall 2009, Winter 2011.
+HIST 291 :: None
+HIST 300 :: None
+HIST 302 :: HIST 291, section 002 taken Winter 2013
+HIST 303 :: HIST 291, section 001 taken Winter 2013
+HIST 304 :: RS 325 taken prior to Fall 2008
+HIST 305 :: HIST 391 (section 001) taken Winter 2012, HIST 391 (section 001) taken Winter 2013
+HIST 309 :: None
+HIST 310 :: None
+HIST 311 :: None
+HIST 312 :: None
+HIST 313 :: None
+HIST 314 :: None
+HIST 315 :: HIST 208/280
+HIST 316 :: None
+HIST 317 :: None
+HIST 318 :: None
+HIST 321 :: None
+HIST 329 :: None
+HIST 339 :: None
+HIST 340 :: None
+HIST 341 :: None
+HIST 347 :: HIST 391 section 002 Winter 2012, section 001, Fall 2012
+HIST 348 :: RS 322 taken prior to Fall 2008
+HIST 350 :: None
+HIST 351 :: HIST 251
+HIST 356 :: None
+HIST 358 :: None
+HIST 363W :: None
+HIST 369 :: None
+HIST 371 :: None
+HIST 372 :: None
+HIST 374 :: HIST 274
+HIST 379 :: None
+HIST 380 :: None
+HIST 385 :: None
+HIST 387 :: None
+HIST 388 :: None
+HIST 389 :: None
+HIST 390 :: None
+HIST 391 :: None
+HIST 397 :: None
+HIST 398 :: None
+HIST 400A :: None
+HIST 400B :: None
+HIST 401A :: None
+HIST 401B :: None
+HIST 402A :: None
+HIST 402B :: None
+HIST 403A :: None
+HIST 403B :: None
+HIST 407A :: None
+HIST 407B :: None
+HIST 409A :: None
+HIST 409B :: None
+HIST 411A :: None
+HIST 411B :: None
+HIST 491 :: None
+HIST 601 :: None
+HIST 602 :: None
+HIST 603 :: None
+HIST 604 :: None
+HIST 605 :: None
+HIST 606 :: None
+HIST 607 :: None
+HIST 608 :: None
+HIST 610 :: None
+HIST 611 :: None
+HIST 612 :: None
+HIST 614 :: None
+HIST 620 :: None
+HIST 621 :: None
+HIST 622 :: None
+HIST 626 :: None
+HIST 627 :: None
+HIST 632 :: None
+HIST 633 :: None
+HIST 635 :: None
+HIST 636 :: None
+HIST 651 :: None
+HIST 653 :: None
+HIST 691A :: None
+HIST 691B :: None
+HIST 691C :: None
+HIST 701 :: None
+HIST 704 :: None
+HIST 705 :: None
+HIST 706 :: None
+HIST 710 :: None
+HIST 712 :: None
+HIST 714 :: None
+HIST 715 :: None
+HIST 719 :: None
+HIST 725 :: None
+HIST 726 :: None
+HIST 727 :: None
+HIST 759 :: None
+HIST 760 :: None
+HIST 761 :: None
+HIST 762 :: None
+HIST 763 :: None
+HIST 764 :: None
+HIST 765 :: None
+HIST 766 :: None
+HIST 767 :: None
+HIST 768 :: None
+HIST 769 :: None
+HIST 770 :: None
+HIST 771 :: None
+HIST 775 :: None
+HIST 776 :: None
+HIST 777 :: None
+HLTH 101 :: None
+HLTH 102 :: None
+HLTH 103 :: BIOL 130
+HLTH 201 :: GERON 100, HLTH 100
+HLTH 202 :: None
+HLTH 203 :: None
+HLTH 210 :: None
+HLTH 218 :: None
+HLTH 220 :: None
+HLTH 245 :: None
+HLTH 253 :: None
+HLTH 260 :: None
+HLTH 302 :: None
+HLTH 303 :: None
+HLTH 305 :: None
+HLTH 330 :: HLTH 230
+HLTH 333 :: None
+HLTH 340 :: None
+HLTH 341 :: None
+HLTH 344 :: None
+HLTH 346 :: None
+HLTH 348 :: HLTH 360
+HLTH 349 :: HLTH 360
+HLTH 350 :: None
+HLTH 352 :: None
+HLTH 360 :: HLTH 348, 349, KIN 348, 349
+HLTH 400 :: None
+HLTH 402 :: None
+HLTH 405 :: HLTH 372
+HLTH 407 :: None
+HLTH 410 :: None
+HLTH 420 :: None
+HLTH 421 :: None
+HLTH 432A :: None
+HLTH 432B :: None
+HLTH 433 :: None
+HLTH 435 :: None
+HLTH 442 :: None
+HLTH 444 :: None
+HLTH 445 :: None
+HLTH 448 :: None
+HLTH 449 :: None
+HLTH 451 :: None
+HLTH 452 :: None
+HLTH 458 :: None
+HLTH 461 :: None
+HLTH 471 :: None
+HLTH 472 :: None
+HLTH 473 :: None
+HRM 200 :: BUS 354W/454W
+HRM 301 :: BUS 418W
+HRM 303 :: BUS 448W
+HRM 305 :: BUS 414W
+HRM 307 :: BUS 464W
+HRM 400 :: None
+HSG 601 :: None
+HSG 603 :: None
+HSG 604 :: None
+HSG 605A :: None
+HSG 605B :: None
+HSG 605C :: None
+HSG 605D :: None
+HSG 605E :: None
+HSG 605F :: None
+HSG 606 :: None
+HSG 607 :: None
+HSG 609 :: PHS 617
+HSG 610 :: None
+HSG 611 :: None
+HSG 612 :: None
+HSG 620 :: None
+HSG 620Q :: None
+HSG 641 :: None
+HSG 651 :: None
+HSG 652 :: None
+HSG 654 :: None
+HSG 655 :: None
+HSG 671 :: HLTH 471
+HSG 672 :: None
+HSG 677 :: None
+HSG 720 :: None
+HSG 730 :: None
+HSG 731 :: None
+HSG 732A :: None
+HSG 732B :: None
+HSG 741 :: None
+HSG 750 :: None
+HSG 751 :: None
+HUMSC 101 :: None
+HUMSC 102 :: None
+HUMSC 201 :: None
+HUMSC 301 :: None
+HUMSC 401 :: None
+HUMSC 490 :: None
+INDEV 10 :: None
+INDEV 100 :: PSCI 252
+INDEV 101 :: None
+INDEV 200 :: None
+INDEV 202 :: None
+INDEV 212 :: None
+INDEV 275 :: None
+INDEV 300 :: None
+INDEV 302 :: None
+INDEV 303 :: None
+INDEV 304 :: None
+INDEV 308 :: None
+INDEV 375 :: None
+INDEV 387 :: None
+INDEV 388 :: None
+INDEV 401 :: None
+INDEV 402 :: None
+INDEV 403 :: None
+INDEV 474 :: None
+INDEV 601 :: None
+INDEV 602 :: None
+INDEV 603 :: None
+INDEV 604 :: None
+INDEV 605 :: None
+INDEV 606 :: None
+INDEV 607 :: None
+INDEV 608 :: None
+INDEV 609 :: None
+INDEV 611 :: None
+INDEV 612 :: None
+INDEV 613 :: None
+INDEV 614 :: None
+INDEV 615 :: None
+INDEV 616 :: None
+INTEG 10 :: None
+INTEG 120 :: None
+INTEG 121 :: None
+INTEG 220 :: None
+INTEG 221 :: None
+INTEG 230 :: None
+INTEG 231 :: None
+INTEG 251 :: INTEG 275 Section 1 Taken Winter 2010, 2011, Spring 2011, 2012, Winter 2012
+INTEG 275 :: None
+INTEG 320 :: None
+INTEG 321 :: None
+INTEG 375 :: None
+INTEG 420 :: None
+INTEG 421 :: None
+INTEG 475 :: None
+INTST 101 :: None
+INTTS 301 :: None
+INTTS 400 :: None
+IS 100 :: None
+IS 101 :: None
+IS 102 :: None
+IS 103 :: None
+IS 104 :: None
+IS 105 :: None
+IS 106 :: None
+IS 107 :: None
+IS 108 :: None
+IS 109 :: None
+IS 110 :: None
+IS 200 :: None
+IS 201 :: None
+IS 202 :: None
+IS 203 :: None
+IS 204 :: None
+IS 205 :: None
+IS 206 :: None
+IS 207 :: None
+IS 208 :: None
+IS 209 :: None
+IS 210 :: None
+IS 211 :: None
+IS 212 :: None
+IS 220 :: None
+IS 301 :: None
+IS 302 :: None
+IS 304 :: None
+IS 305 :: None
+IS 306 :: None
+IS 307 :: None
+IS 308 :: None
+IS 309 :: None
+IS 310 :: None
+IS 311 :: None
+IS 312 :: None
+IS 320 :: None
+IS 321 :: None
+IS 322 :: None
+IS 330 :: None
+IS 401 :: None
+IS 402 :: None
+IS 403 :: None
+IS 404 :: None
+IS 405 :: None
+IS 410 :: None
+IS 411 :: None
+IS 412 :: None
+IS 420 :: None
+IS 421 :: None
+IS 422 :: None
+ISS 131R :: None
+ISS 150R :: None
+ISS 205R :: None
+ISS 215R :: None
+ISS 220R :: None
+ISS 231R :: None
+ISS 240R :: None
+ISS 250A :: Antireq:(ART & ENV )ARTS 280, BIOL 460,ECON 221,ENVS 271,277,278, ISS 250R,KIN 222,PSCI 214,PSYCH 292,REC 371,371A,SOC 280,STAT 202,204,206,211,221,231,241
+ISS 250B :: None
+ISS 250R :: ISS 250R; (Arts & Env) ECON 221, ENVS 271, 277, 278, ISS 250A/B, KIN 222, LS/SOC 280, PSCI 214/314, PSYCH 292, REC 371, 371A, STAT 202, 206, 211, 221, 231, 241
+ISS 251R :: ISS 251R; (for Arts and Environment students only) KIN 330, LS 321, PSYCH 291, REC 270, 270A, SOC 321
+ISS 311R :: None
+ISS 312R :: None
+ISS 331R :: None
+ISS 350D :: None
+ISS 350E :: None
+ISS 350G :: None
+ISS 350H :: None
+ISS 351R :: SOC/LS 322
+ISS 355R :: None
+ISS 370R :: None
+ISS 375R :: None
+ISS 398R :: None
+ISS 399R :: None
+ISS 400R :: None
+ISS 415R :: None
+ISS 420R :: None
+ISS 425R :: None
+ISS 440R :: None
+ISS 450R :: None
+ISS 490R :: None
+ISS 495R :: None
+ISS 496R :: None
+ISS 499A :: None
+ISS 499B :: None
+ITAL 101 :: ITAL 155
+ITAL 102 :: ITAL 155
+ITAL 155 :: ITAL 101, 102
+ITAL 201 :: None
+ITAL 202 :: None
+ITAL 251 :: None
+ITAL 255 :: None
+ITAL 311 :: None
+ITAL 312 :: None
+ITAL 370 :: None
+ITAL 391 :: None
+ITAL 392 :: None
+ITAL 394 :: None
+ITAL 396 :: None
+ITAL 397 :: None
+ITALST 111 :: None
+ITALST 260 :: None
+ITALST 270 :: None
+ITALST 271 :: None
+ITALST 291 :: None
+ITALST 292 :: None
+ITALST 311 :: None
+ITALST 312 :: None
+ITALST 360 :: None
+ITALST 370 :: None
+ITALST 391 :: None
+ITALST 392 :: None
+ITALST 394 :: None
+ITALST 396 :: None
+ITALST 397 :: None
+JAPAN 101R :: JAPAN 111R
+JAPAN 102R :: JAPAN 112R
+JAPAN 111R :: JAPAN 101R
+JAPAN 112R :: JAPAN 102R
+JAPAN 201R :: None
+JAPAN 202R :: None
+JAPAN 272R :: None
+JAPAN 301R :: None
+JAPAN 302R :: None
+JS 105A :: RS 105A
+JS 105B :: RS 105B
+JS 120 :: RS 120 taken prior to Fall 2008
+JS 125 :: RS 204 taken prior to Fall 2008
+JS 130 :: RS 130 taken prior to Fall 2008
+JS 150 :: RS 150 taken prior to Fall 2008
+JS 203 :: RS 203 taken prior to Fall 2008
+JS 205 :: RS 205 taken prior to Fall 2008
+JS 210 :: RS 232 taken prior to Fall 2008
+JS 211 :: RS 240 taken prior to Fall 2008
+JS 215 :: None
+JS 217 :: RS 217
+JS 233 :: RS 233
+JS 250 :: RS 250 taken prior to Fall 2008
+JS 301 :: None
+JS 306A :: RS 306A
+JS 306B :: RS 306B
+JS 310 :: None
+JS 313 :: None
+JS 339 :: JS/RS 250 taken Winter 2007, Winter 2008
+JS 341 :: None
+JS 350 :: None
+JS 450 :: None
+KIN 1 :: None
+KIN 10 :: None
+KIN 100 :: None
+KIN 100L :: None
+KIN 101 :: None
+KIN 104 :: None
+KIN 105 :: None
+KIN 121 :: None
+KIN 140L :: None
+KIN 155 :: None
+KIN 205 :: None
+KIN 210 :: None
+KIN 217 :: None
+KIN 221 :: None
+KIN 222 :: (for Arts and Env Studies students) ARTS 280, ECON 221, ENVS 278, ISS 250A/B, 250R, KIN 222, LS 280, PSCI 214, 314, PSYCH 292, REC 371, SMF 230, SOC 280, STAT 202, 206, 211, 221, 231, 241, SWREN 250A/B/R
+KIN 242 :: None
+KIN 250 :: None
+KIN 255 :: None
+KIN 301 :: None
+KIN 307 :: None
+KIN 320 :: None
+KIN 330 :: (for Arts and Environmental Studies students only) ISS 251R, KIN 330, LS 321, PSYCH 291, REC 270, SOC 321, SMF 220, SWREN 251R
+KIN 340 :: None
+KIN 341 :: None
+KIN 342 :: None
+KIN 343 :: None
+KIN 346 :: None
+KIN 348 :: HLTH 360
+KIN 349 :: HLTH 360
+KIN 352 :: None
+KIN 354 :: None
+KIN 356 :: None
+KIN 357 :: None
+KIN 372 :: None
+KIN 391 :: None
+KIN 402 :: None
+KIN 403 :: None
+KIN 404 :: None
+KIN 405 :: None
+KIN 406 :: None
+KIN 407 :: None
+KIN 408 :: None
+KIN 415 :: None
+KIN 416 :: None
+KIN 418 :: None
+KIN 420 :: None
+KIN 422 :: None
+KIN 425 :: None
+KIN 427 :: None
+KIN 428 :: None
+KIN 429 :: None
+KIN 431 :: None
+KIN 432 :: None
+KIN 433 :: None
+KIN 440 :: None
+KIN 446 :: None
+KIN 451 :: None
+KIN 453 :: None
+KIN 456 :: None
+KIN 457 :: None
+KIN 458 :: None
+KIN 470 :: None
+KIN 470E :: None
+KIN 471 :: None
+KIN 472 :: None
+KIN 491 :: None
+KIN 492A :: None
+KIN 492B :: None
+KIN 493 :: None
+KIN 494 :: None
+KIN 601 :: None
+KIN 602 :: None
+KIN 606 :: None
+KIN 607 :: None
+KIN 611 :: None
+KIN 612 :: None
+KIN 613 :: None
+KIN 616 :: None
+KIN 620 :: None
+KIN 625 :: None
+KIN 631A :: None
+KIN 631C :: None
+KIN 631D :: None
+KIN 631E :: None
+KIN 631F :: None
+KIN 631G :: None
+KIN 646 :: KIN 446
+KIN 651 :: None
+KIN 652 :: None
+KIN 653 :: None
+KIN 654 :: None
+KIN 656 :: None
+KIN 670A :: None
+KIN 670B :: None
+KIN 670C :: None
+KIN 670D :: None
+KIN 670E :: None
+KIN 670F :: None
+KIN 670H :: None
+KIN 670I :: None
+KIN 680 :: None
+KIN 682 :: None
+KIN 684 :: None
+KIN 686 :: None
+KIN 687 :: None
+KIN 700 :: None
+KIN 702 :: None
+KIN 704 :: None
+KIN 707 :: None
+KIN 713 :: None
+KIN 714 :: None
+KIN 715 :: None
+KIN 727 :: KIN 427
+KIN 730 :: None
+KIN 731 :: None
+KIN 732A :: None
+KIN 732B :: None
+KIN 750 :: None
+KIN 751 :: None
+KIN 760 :: None
+KIN 775 :: None
+KIN 780 :: None
+KIN 782 :: None
+KOREA 101R :: None
+KOREA 102R :: None
+KOREA 201R :: None
+KOREA 202R :: None
+KOREA 272R :: None
+LAT 101 :: None
+LAT 102 :: None
+LAT 201 :: None
+LAT 202 :: None
+LAT 202W :: None
+LAT 331 :: None
+LAT 332 :: None
+LAT 341 :: None
+LAT 351 :: None
+LAT 381 :: None
+LAT 421 :: None
+LAT 422 :: None
+LAT 451 :: None
+LAT 490 :: None
+LAT 491 :: None
+LAT 600 :: None
+LAT 601 :: None
+LAT 621 :: Antirequisite: LAT 421.
+LAT 622 :: None
+LAT 633 :: None
+LAT 635 :: None
+LAT 651 :: None
+LAT 691 :: None
+LED 611 :: None
+LED 612 :: None
+LED 613 :: None
+LED 615 :: None
+LED 619 :: None
+LED 621 :: None
+LED 671 :: None
+LED 685 :: None
+LED 686 :: None
+LED 687 :: None
+LED 688 :: None
+LS 101 :: None
+LS 102 :: None
+LS 201 :: None
+LS 250 :: ISS 251R, KIN 330, PSCI 315, PSYCH 291, REC 270, 270A, SOC 321, SWREN 251R
+LS 280 :: ARTS 280, ECON 221, ENVS 278, ISS/ 250A/B, ISS/SDS 250R, KIN 222, PSCI 214/314, PSYCH 292, REC 371, SMF 230, STAT 202, 206, 211, 221, 231, 241, SWREN 250A/B, 250R
+LS 321 :: ISS/SDS 251R, KIN 330, PSYCH 291, REC 270, SMF 220, SWREN 251R
+LS 322 :: None
+LS 401 :: None
+LS 402 :: None
+LS 403 :: None
+LS 496 :: None
+LS 498 :: None
+MATBUS 470 :: AFM 322/474, ACTSC/STAT 446, BUS 423W, ECON 372
+MATBUS 471 :: AFM 425/475, BUS 449W
+MATBUS 472 :: ACTSC 445, AFM 422, BUS 433W
+MATH 51 :: None
+MATH 52 :: None
+MATH 97 :: None
+MATH 103 :: 4U Advanced Functions, 4U Mathematics of Data Management, MATH 106, 114, 115, 136, 146, NE 112
+MATH 104 :: MATH 127, 137, 147
+MATH 106 :: MATH 114, 115, 136, 146, NE 112
+MATH 109 :: ECON 211, MATH 116, 117, 124, 127, 137, 147
+MATH 114 :: MATH 106, 115, 136, 146, NE 112
+MATH 115 :: MATH 106/125, 114, 136, 146, NE 112
+MATH 116 :: MATH 117, 124, 127, 137, 147
+MATH 117 :: MATH 116, 124, 127, 137, 147
+MATH 118 :: MATH 119, 128, 138, 148
+MATH 119 :: MATH 118, 128, 138, 148
+MATH 124 :: MATH 109, 116, 117, 127, 137, 147
+MATH 127 :: MATH 109, 116, 117, 124, 137, 147
+MATH 128 :: MATH 118, 119, 138, 148
+MATH 135 :: MATH 145
+MATH 136 :: MATH 106, 114, 115, 146, NE 112
+MATH 137 :: MATH 116, 117, 124, 127, 147
+MATH 138 :: MATH 118, 119, 128, 148
+MATH 145 :: MATH 135
+MATH 146 :: MATH 106, 114, 115, 136, NE 112
+MATH 147 :: MATH 116, 117, 124, 127, 137
+MATH 148 :: MATH 118, 119, 128, 138
+MATH 207 :: AMATH 231, MATH 212, 212N, 217, 227, 237, 247
+MATH 211 :: AMATH 350, MATH 218, 228
+MATH 211N :: AMATH 350, MATH 218, 228
+MATH 212 :: AMATH 231, MATH 207, 217, 227, 237, 247
+MATH 212N :: None
+MATH 213 :: AMATH 250, MATH 211/ECE 205, MATH 212N, 218, 228
+MATH 215 :: MATH 106, 114, 115, 136, 146, NE 112
+MATH 217 :: AMATH 231, CIVE 221, ENVE 221, MATH 207, 212/ECE 206, MATH 212N, 227, 237, 247, ME 201
+MATH 218 :: AMATH 250, 251, 350, 351, CIVE 222, ENVE 223, MATH 211/ECE 205, MATH 212N, 228, ME 203, SYDE 211
+MATH 225 :: MATH 235, 245
+MATH 227 :: AMATH 231, MATH 207, 212/ECE 206, MATH 212N, 217, 237, 247
+MATH 228 :: AMATH 250, 251, 350
+MATH 229 :: CO 220, MATH 239, 249
+MATH 235 :: MATH 225/126, 245
+MATH 237 :: MATH 207, 212/ECE 206, MATH 212N, 217, 227
+MATH 239 :: CO 220, MATH 229, 249
+MATH 245 :: MATH 225/126, 235
+MATH 247 :: None
+MATH 249 :: CO 220, MATH 229, 239
+MATH 600 :: None
+MATH 630 :: None
+MATH 631 :: None
+MATH 640 :: None
+MATH 641 :: None
+MATH 647 :: None
+MATH 648 :: None
+MATH 650 :: None
+MATH 660 :: None
+MATH 670 :: None
+MATH 671 :: None
+MATH 672 :: None
+MATH 673 :: None
+MATH 674 :: None
+MATH 680 :: None
+MATH 681 :: None
+MATH 690 :: None
+MATH 692 :: None
+MATH 698 :: None
+MATH 699 :: None
+MATH 700 :: None
+ME 100 :: None
+ME 100B :: None
+ME 101 :: None
+ME 115 :: ME 135/235, MTE 111
+ME 123 :: None
+ME 135 :: ME 215, 230, MTE 111
+ME 200A :: None
+ME 200B :: None
+ME 201 :: None
+ME 202 :: None
+ME 203 :: None
+ME 212 :: None
+ME 215 :: MTE 111
+ME 219 :: None
+ME 220 :: None
+ME 230 :: None
+ME 235 :: ME 115/215, 230, MTE 111
+ME 250 :: ECE 309, SYDE 381
+ME 262 :: MTE 262
+ME 269 :: None
+ME 300A :: None
+ME 300B :: None
+ME 303 :: None
+ME 321 :: None
+ME 322 :: None
+ME 340 :: None
+ME 351 :: None
+ME 353 :: None
+ME 354 :: None
+ME 360 :: None
+ME 362 :: None
+ME 380 :: MTE 380
+ME 400A :: None
+ME 400B :: None
+ME 401 :: (For Mathematics students only) AFM 231/LS 283, BUS 231W, CIVE 491, COMM 231, ECE 290, ENVS 201, GENE 411
+ME 423 :: None
+ME 435 :: None
+ME 436 :: None
+ME 452 :: None
+ME 456 :: None
+ME 459 :: None
+ME 481 :: MTE 481
+ME 482 :: MTE 482
+ME 524 :: None
+ME 526 :: None
+ME 531 :: None
+ME 533 :: None
+ME 535 :: None
+ME 538 :: None
+ME 547 :: ECE 486
+ME 548 :: None
+ME 555 :: None
+ME 557 :: None
+ME 559 :: CIVE 422.
+ME 561 :: None
+ME 563 :: None
+ME 564 :: None
+ME 566 :: None
+ME 567 :: None
+ME 571 :: None
+ME 595 :: None
+ME 596 :: None
+ME 597 :: None
+ME 598 :: None
+ME 599 :: None
+ME 610 :: None
+ME 620 :: None
+ME 621 :: None
+ME 627 :: None
+ME 628 :: None
+ME 631 :: None
+ME 632 :: None
+ME 645 :: None
+ME 648 :: None
+ME 649 :: None
+ME 651 :: None
+ME 652 :: None
+ME 653 :: None
+ME 662 :: None
+ME 663 :: None
+ME 664 :: None
+ME 670 :: None
+ME 705 :: None
+ME 706 :: None
+ME 707 :: None
+ME 709 :: None
+ME 710 :: None
+ME 711 :: None
+ME 720 :: None
+ME 722 :: None
+ME 725 :: None
+ME 729 :: None
+ME 731 :: None
+ME 732 :: None
+ME 734 :: None
+ME 735 :: None
+ME 736 :: None
+ME 737 :: None
+ME 738 :: None
+ME 739 :: None
+ME 741 :: None
+ME 742 :: None
+ME 743 :: None
+ME 745 :: None
+ME 747 :: None
+ME 748 :: None
+ME 749 :: None
+ME 750 :: None
+ME 751 :: None
+ME 753 :: None
+ME 755 :: None
+ME 756 :: None
+ME 758 :: None
+ME 759 :: None
+ME 760 :: ME 571
+ME 761 :: None
+ME 762 :: None
+ME 765 :: None
+ME 770 :: None
+ME 780 :: None
+MEDVL 105 :: None
+MEDVL 115 :: None
+MEDVL 205 :: CLAS 255
+MEDVL 260 :: None
+MEDVL 304 :: RS 325 taken prior to Fall 2008
+MI 202W :: None
+MNS 101 :: None
+MNS 102 :: None
+MNS 201L :: None
+MNS 211 :: None
+MNS 221 :: None
+MNS 321 :: None
+MNS 322 :: CHEM 370, NE 333
+MNS 331 :: None
+MSCI 100 :: None
+MSCI 100B :: None
+MSCI 121 :: CHE 121, CIVE 121, ECE 150, GENE 121, SYDE 121
+MSCI 131 :: None
+MSCI 200A :: None
+MSCI 200B :: None
+MSCI 211 :: AFM 280, BUS 288W, PSYCH 338
+MSCI 240 :: CS 240, ECE 250, MTE 140 and SYDE 223
+MSCI 252 :: CHE 220, CIVE 224, ECE 316, ECON 221, ENVE 224, ME 202, NE 115/215, STAT 231, SYDE 212
+MSCI 261 :: CIVE 292/392, ENVE 292, SYDE 262.
+MSCI 262 :: AFM 101, 102, 123/ARBUS 102, BUS 127W/227W
+MSCI 263 :: ECON 101, 201
+MSCI 271 :: None
+MSCI 300A :: None
+MSCI 300B :: None
+MSCI 311 :: None
+MSCI 331 :: CIVE 332, ENVE 320, SYDE 411
+MSCI 332 :: None
+MSCI 333 :: STAT 340
+MSCI 334 :: MSCI 432
+MSCI 342 :: None
+MSCI 343 :: CS 449, SYDE 348
+MSCI 346 :: CS 338, 348
+MSCI 400A :: None
+MSCI 400B :: None
+MSCI 401 :: None
+MSCI 402 :: None
+MSCI 411 :: None
+MSCI 421 :: None
+MSCI 422 :: None
+MSCI 423 :: None
+MSCI 424 :: None
+MSCI 431 :: None
+MSCI 432 :: MSCI 334
+MSCI 433 :: None
+MSCI 434 :: None
+MSCI 435 :: None
+MSCI 436 :: None
+MSCI 442 :: None
+MSCI 443 :: None
+MSCI 444 :: CS 432, 490
+MSCI 445 :: None
+MSCI 446 :: None
+MSCI 452 :: None
+MSCI 453 :: None
+MSCI 454 :: BET 300
+MSCI 531 :: None
+MSCI 541 :: None
+MSCI 551 :: None
+MSCI 555 :: CO 454
+MSCI 597 :: None
+MSCI 598 :: None
+MSCI 599 :: None
+MSCI 600 :: None
+MSCI 601 :: None
+MSCI 602 :: None
+MSCI 603 :: None
+MSCI 605 :: None
+MSCI 606 :: None
+MSCI 607 :: None
+MSCI 609 :: None
+MSCI 620 :: None
+MSCI 631 :: None
+MSCI 632 :: None
+MSCI 633 :: None
+MSCI 638 :: None
+MSCI 646 :: None
+MSCI 651 :: None
+MSCI 652 :: None
+MSCI 700 :: None
+MSCI 702 :: None
+MSCI 703 :: None
+MSCI 709 :: None
+MSCI 712 :: None
+MSCI 720 :: None
+MSCI 721 :: None
+MSCI 726 :: None
+MSCI 730 :: CS 689
+MSCI 732 :: None
+MSCI 740 :: None
+MSCI 741 :: None
+MSCI 750 :: None
+MSCI 751 :: None
+MSCI 753 :: None
+MSCI 760 :: None
+MSCI 765 :: None
+MSCI 767 :: None
+MSCI 770 :: None
+MTE 100 :: None
+MTE 100B :: None
+MTE 111 :: ME 115
+MTE 119 :: CIVE 127, SYDE 181
+MTE 120 :: ECE 140, GENE 123
+MTE 140 :: CS 240, ECE 250 and SYDE 223
+MTE 200A :: None
+MTE 200B :: None
+MTE 201 :: CIVE 224, ECON 221, KIN 222, MSCI 252, ME 202, PSCI 314, PSYCH 291, PSYCH 292, REC 371, SOC/LS 280, STAT 202, 206, 211, 220, 221, 231, 241, SYDE 212
+MTE 202 :: ME 203
+MTE 203 :: ME 201
+MTE 204 :: CHE 321, ECE 104, ECE 204, SYDE 312
+MTE 219 :: CIVE 204, ME 219, SYDE 281/286
+MTE 220 :: SYDE 292
+MTE 241 :: ECE 254
+MTE 262 :: ECE 222, ME 262
+MTE 300A :: None
+MTE 300B :: None
+MTE 320 :: ME 269
+MTE 322 :: None
+MTE 325 :: None
+MTE 360 :: ECE 380, ME 360, SYDE 352
+MTE 380 :: ME 380
+MTE 400A :: None
+MTE 400B :: None
+MTE 420 :: ECE 463
+MTE 460 :: None
+MTE 481 :: ME 481
+MTE 482 :: ME 482
+MTE 545 :: None
+MTHEL 100 :: AFM 231; (For Mathematics students only) BUS 231W, CIVE 491, ENVS 201, GENE 411, ME 401
+MTHEL 131 :: MTHEL 305A, 305B
+MTHEL 198 :: None
+MTHEL 206A :: None
+MTHEL 298 :: None
+MTHEL 398 :: None
+MTHEL 400 :: BUS 440W
+MTHEL 498 :: None
+MUSIC 100 :: None
+MUSIC 111 :: None
+MUSIC 116 :: None
+MUSIC 117 :: None
+MUSIC 140 :: None
+MUSIC 216 :: None
+MUSIC 217 :: None
+MUSIC 222 :: None
+MUSIC 226 :: None
+MUSIC 227 :: None
+MUSIC 231 :: None
+MUSIC 240 :: None
+MUSIC 245 :: None
+MUSIC 246 :: None
+MUSIC 253 :: None
+MUSIC 254 :: None
+MUSIC 255 :: None
+MUSIC 256 :: None
+MUSIC 260 :: None
+MUSIC 261 :: None
+MUSIC 270 :: None
+MUSIC 271 :: None
+MUSIC 275 :: None
+MUSIC 290 :: None
+MUSIC 316 :: None
+MUSIC 317 :: None
+MUSIC 322 :: None
+MUSIC 326 :: None
+MUSIC 327 :: None
+MUSIC 332 :: None
+MUSIC 334 :: None
+MUSIC 355 :: None
+MUSIC 361 :: None
+MUSIC 362 :: None
+MUSIC 363 :: RS 384 taken prior to Fall 2008
+MUSIC 364 :: RS 385 taken prior to Fall 2008
+MUSIC 370 :: None
+MUSIC 371 :: None
+MUSIC 376 :: None
+MUSIC 380 :: None
+MUSIC 381 :: None
+MUSIC 390 :: None
+MUSIC 391 :: None
+MUSIC 426 :: None
+MUSIC 427 :: MUSIC 428
+MUSIC 428 :: MUSIC 427
+MUSIC 491 :: None
+MUSIC 492 :: None
+NANO 701 :: None
+NANO 702 :: None
+NATST 370 :: None
+NE 100 :: CHE 100, CIVE 125, ECE 100, ME 100, SYDE 101
+NE 101 :: None
+NE 102 :: None
+NE 112 :: MATH 114, 115, 125/106, 136, 146, SYDE 114
+NE 113 :: CHE 121, CIVE 121, CS 115, 123, 134, 135, 145, ECE 150, GENE 121, PHYS 139, SYDE 121
+NE 115 :: CHE 220, CIVE 224, ME 202, STAT 202, 206, 220, 230, SYDE 213
+NE 121 :: CHE 102, CHEM 120, 123, SYDE 183
+NE 122 :: CHEM 262/262L, 264, 266/266L
+NE 125 :: CHE 241, CIVE 265, ME 135/235
+NE 131 :: PHYS 111, 115, 121, SYDE 182
+NE 201 :: None
+NE 202 :: None
+NE 216 :: AMATH 350, MATH 218, 228
+NE 217 :: None
+NE 220L :: None
+NE 224 :: CHEM 233, 237
+NE 225 :: None
+NE 226 :: None
+NE 226L :: None
+NE 232 :: CHEM 356, ECE 405, PHYS 233, 234
+NE 241 :: ECE 106, GENE 123, PHYS 241, SYDE 283
+NE 242 :: ECE 331
+NE 301 :: None
+NE 302 :: None
+NE 307 :: None
+NE 318 :: None
+NE 320L :: None
+NE 330L :: CHEM 471L
+NE 333 :: CHE 541, CHEM 370
+NE 334 :: CHEM 450 (topic: Statistical Mechanics), PHYS 359
+NE 335 :: CHE 541, CHEM 471
+NE 336 :: None
+NE 340L :: None
+NE 343 :: ECE 433
+NE 344 :: ECE 240, 241, 242, 332, SYDE 292
+NE 352 :: CHEM 450 (topic: Surface Science and Nanotechnology)
+NE 353 :: None
+NE 401 :: None
+NE 402 :: None
+NE 408 :: None
+NE 409 :: None
+NE 445 :: PHYS 356
+NE 450L :: None
+NE 451 :: None
+NE 452 :: None
+NE 454L :: None
+NE 455L :: None
+NE 459 :: None
+NE 461 :: None
+NE 469 :: None
+NE 471 :: None
+NE 479 :: None
+NE 481 :: None
+NE 489 :: None
+NE 491 :: None
+NE 499 :: None
+NES 611 :: None
+NES 615 :: None
+NES 621 :: None
+NES 625 :: None
+NES 625W :: None
+NES 631 :: None
+NES 632 :: None
+NES 690 :: None
+NES 691 :: None
+OPTOM 103 :: None
+OPTOM 104 :: None
+OPTOM 105 :: None
+OPTOM 106 :: None
+OPTOM 108 :: None
+OPTOM 109 :: None
+OPTOM 114 :: None
+OPTOM 124 :: None
+OPTOM 126 :: OPTOM 111
+OPTOM 134 :: BIOL 441
+OPTOM 143 :: OPTOM 254
+OPTOM 152 :: OPTOM 242
+OPTOM 152L :: None
+OPTOM 215 :: None
+OPTOM 216 :: None
+OPTOM 219 :: OPTOM 251
+OPTOM 231 :: OPTOM 264
+OPTOM 243 :: OPTOM 244
+OPTOM 245 :: OPTOM 245
+OPTOM 245L :: None
+OPTOM 246 :: None
+OPTOM 250 :: OPTOM 350; Optometry students only
+OPTOM 252 :: None
+OPTOM 252L :: None
+OPTOM 255 :: None
+OPTOM 255L :: None
+OPTOM 261 :: OPTOM 364
+OPTOM 262 :: None
+OPTOM 270 :: OPTOM 349
+OPTOM 272 :: OPTOM 352
+OPTOM 339 :: None
+OPTOM 342A :: OPTOM 342
+OPTOM 342B :: None
+OPTOM 346 :: None
+OPTOM 347 :: None
+OPTOM 347L :: None
+OPTOM 348A :: None
+OPTOM 348B :: None
+OPTOM 360 :: OPTOM 353
+OPTOM 365 :: None
+OPTOM 367 :: None
+OPTOM 375 :: OPTOM 374
+OPTOM 375L :: None
+OPTOM 377 :: OPTOM 372
+OPTOM 380 :: OPTOM 350
+OPTOM 385 :: None
+OPTOM 387 :: OPTOM 368
+OPTOM 412 :: None
+OPTOM 441 :: None
+OPTOM 451 :: None
+OPTOM 458 :: None
+OPTOM 460 :: None
+OPTOM 461S :: None
+OPTOM 468 :: None
+OPTOM 477 :: None
+OPTOM 478 :: None
+OPTOM 488 :: None
+OPTOM 600 :: None
+OPTOM 601 :: None
+OPTOM 602 :: None
+OPTOM 603 :: None
+OPTOM 604 :: None
+OPTOM 605 :: None
+OPTOM 606 :: None
+OPTOM 607 :: None
+OPTOM 608 :: None
+OPTOM 610 :: None
+OPTOM 611 :: None
+OPTOM 613 :: None
+OPTOM 614A :: None
+OPTOM 614B :: None
+OPTOM 615 :: None
+OPTOM 616 :: None
+OPTOM 620 :: None
+OPTOM 624A :: None
+OPTOM 624B :: None
+OPTOM 628 :: None
+OPTOM 630 :: None
+OPTOM 631 :: None
+OPTOM 690A :: None
+OPTOM 690B :: None
+PACS 101 :: None
+PACS 201 :: None
+PACS 202 :: None
+PACS 203 :: None
+PACS 301 :: None
+PACS 302 :: None
+PACS 311 :: PACS 301B
+PACS 312 :: PACS 302B
+PACS 313 :: PACS 302A
+PACS 314 :: PACS 302C
+PACS 316 :: PACS 301C
+PACS 318 :: PACS 302G
+PACS 320 :: RS 257 taken prior to Fall 2008
+PACS 321 :: None
+PACS 323 :: PSYCH 439
+PACS 324 :: None
+PACS 325 :: None
+PACS 326 :: PACS 301 taken Winter 2005, RS 340
+PACS 327 :: PACS 302 taken Winter 2007
+PACS 328 :: None
+PACS 329 :: None
+PACS 330 :: None
+PACS 331 :: None
+PACS 390 :: None
+PACS 391 :: None
+PACS 395 :: None
+PACS 398 :: None
+PACS 399 :: None
+PACS 401 :: None
+PACS 402 :: None
+PACS 601 :: None
+PACS 602 :: None
+PACS 603 :: None
+PACS 604 :: None
+PACS 605 :: None
+PACS 610 :: None
+PACS 611 :: None
+PACS 612 :: None
+PACS 620 :: None
+PACS 621 :: None
+PACS 625 :: None
+PACS 626 :: None
+PACS 630 :: None
+PACS 631 :: None
+PACS 632 :: None
+PACS 633 :: None
+PACS 634 :: None
+PACS 635 :: None
+PACS 650 :: None
+PACS 651 :: None
+PACS 652 :: None
+PACS 660 :: None
+PACS 661 :: None
+PACS 662 :: None
+PACS 670 :: None
+PACS 671 :: None
+PACS 672 :: None
+PD 1 :: None
+PD 2 :: None
+PD 3 :: None
+PD 4 :: None
+PD 5 :: None
+PD 6 :: None
+PD 7 :: None
+PD 8 :: None
+PD 9 :: None
+PD 20 :: None
+PD 21 :: None
+PD 22 :: ECE 290
+PDARCH 1 :: ARCH 114
+PDARCH 2 :: ARCH 114
+PDARCH 3 :: None
+PDARCH 4 :: None
+PDENG 15 :: None
+PDENG 25 :: None
+PDENG 35 :: None
+PDENG 45 :: None
+PDENG 55 :: None
+PDENG 57 :: PDENG 55
+PDPHRM 1 :: None
+PDPHRM 2 :: None
+PDPHRM 3 :: None
+PDPHRM 4 :: None
+PDPHRM 5 :: None
+PDPHRM 6 :: None
+PDPHRM 7 :: None
+PDPHRM 8 :: None
+PHARM 110 :: None
+PHARM 111 :: None
+PHARM 120A :: None
+PHARM 120B :: None
+PHARM 124 :: None
+PHARM 125 :: None
+PHARM 126 :: None
+PHARM 127 :: None
+PHARM 128 :: None
+PHARM 129 :: None
+PHARM 130 :: None
+PHARM 131 :: None
+PHARM 140 :: None
+PHARM 141 :: None
+PHARM 150 :: None
+PHARM 220 :: None
+PHARM 221 :: None
+PHARM 222 :: None
+PHARM 223 :: None
+PHARM 224 :: None
+PHARM 227 :: None
+PHARM 228 :: None
+PHARM 229 :: None
+PHARM 232L :: None
+PHARM 233L :: None
+PHARM 237 :: None
+PHARM 252 :: None
+PHARM 262 :: None
+PHARM 290 :: None
+PHARM 291 :: None
+PHARM 320 :: None
+PHARM 321 :: None
+PHARM 322 :: None
+PHARM 329 :: None
+PHARM 350 :: None
+PHARM 361 :: None
+PHARM 362 :: None
+PHARM 363 :: None
+PHARM 364 :: None
+PHARM 365 :: SCBUS 423
+PHARM 366 :: None
+PHARM 367 :: None
+PHARM 368 :: None
+PHARM 369 :: None
+PHARM 370 :: None
+PHARM 371 :: None
+PHARM 372 :: None
+PHARM 373 :: None
+PHARM 374 :: None
+PHARM 375 :: None
+PHARM 376 :: None
+PHARM 377 :: None
+PHARM 390 :: None
+PHARM 400 :: None
+PHARM 401 :: None
+PHARM 415 :: None
+PHARM 415A :: None
+PHARM 415B :: None
+PHARM 420 :: None
+PHARM 421 :: None
+PHARM 422 :: None
+PHARM 428 :: None
+PHARM 460 :: None
+PHARM 461 :: None
+PHARM 462 :: None
+PHARM 464 :: None
+PHARM 465 :: None
+PHARM 466 :: None
+PHARM 467 :: None
+PHARM 468 :: None
+PHARM 469 :: None
+PHARM 470 :: None
+PHARM 471 :: None
+PHARM 472 :: None
+PHARM 490 :: None
+PHARM 491 :: None
+PHARM 601 :: None
+PHARM 602 :: None
+PHARM 603 :: None
+PHARM 604 :: None
+PHARM 605 :: None
+PHARM 606 :: None
+PHARM 607 :: None
+PHARM 608A :: None
+PHARM 609 :: None
+PHARM 610 :: None
+PHARM 611 :: None
+PHIL 100 :: None
+PHIL 100J :: None
+PHIL 105 :: None
+PHIL 110A :: None
+PHIL 110B :: None
+PHIL 118J :: None
+PHIL 120J :: None
+PHIL 145 :: None
+PHIL 200A :: None
+PHIL 200B :: None
+PHIL 200J :: None
+PHIL 201 :: None
+PHIL 202 :: None
+PHIL 204J :: None
+PHIL 208 :: None
+PHIL 209 :: None
+PHIL 210J :: None
+PHIL 215 :: None
+PHIL 216 :: None
+PHIL 218J :: None
+PHIL 219J :: None
+PHIL 220 :: None
+PHIL 221 :: None
+PHIL 224 :: None
+PHIL 226 :: None
+PHIL 227 :: None
+PHIL 230J :: None
+PHIL 236 :: None
+PHIL 237 :: RS 202 taken prior to Fall 2008
+PHIL 238 :: None
+PHIL 240 :: PHIL 140
+PHIL 243 :: ACC 143 and 443
+PHIL 245 :: None
+PHIL 250A :: PHIL 200A
+PHIL 250B :: None
+PHIL 255 :: None
+PHIL 256 :: None
+PHIL 258 :: None
+PHIL 259 :: None
+PHIL 265 :: None
+PHIL 271 :: None
+PHIL 305J :: None
+PHIL 306J :: None
+PHIL 311 :: None
+PHIL 312 :: None
+PHIL 315 :: None
+PHIL 318J :: None
+PHIL 319J :: None
+PHIL 322 :: None
+PHIL 324 :: None
+PHIL 327 :: None
+PHIL 328 :: None
+PHIL 329 :: None
+PHIL 331 :: None
+PHIL 341 :: PHIL 241
+PHIL 342 :: PHIL 242
+PHIL 350 :: None
+PHIL 355 :: None
+PHIL 359 :: None
+PHIL 362 :: None
+PHIL 363 :: PHIL 463
+PHIL 371 :: None
+PHIL 378 :: None
+PHIL 380 :: None
+PHIL 381 :: None
+PHIL 382 :: None
+PHIL 383 :: None
+PHIL 384 :: None
+PHIL 385 :: None
+PHIL 386 :: None
+PHIL 387 :: None
+PHIL 402 :: None
+PHIL 403 :: None
+PHIL 404 :: None
+PHIL 405 :: None
+PHIL 406 :: None
+PHIL 407 :: None
+PHIL 408 :: None
+PHIL 416 :: None
+PHIL 418J :: None
+PHIL 420 :: None
+PHIL 421 :: None
+PHIL 422 :: None
+PHIL 423 :: None
+PHIL 435 :: None
+PHIL 436 :: None
+PHIL 440A :: None
+PHIL 440B :: None
+PHIL 441 :: None
+PHIL 442 :: None
+PHIL 447 :: PHIL/PSYCH 446
+PHIL 450J :: None
+PHIL 451J :: None
+PHIL 452 :: None
+PHIL 455 :: None
+PHIL 456 :: None
+PHIL 458 :: None
+PHIL 459 :: None
+PHIL 463 :: None
+PHIL 465 :: None
+PHIL 470 :: None
+PHIL 471 :: None
+PHIL 472 :: None
+PHIL 473 :: None
+PHIL 474 :: None
+PHIL 475 :: None
+PHIL 476 :: None
+PHIL 477 :: None
+PHIL 478 :: None
+PHIL 479 :: None
+PHIL 480 :: None
+PHIL 481 :: None
+PHIL 482 :: None
+PHIL 483 :: None
+PHIL 484 :: None
+PHIL 498 :: None
+PHIL 670 :: None
+PHIL 671 :: None
+PHIL 672 :: None
+PHIL 673 :: None
+PHIL 674 :: None
+PHIL 680A :: None
+PHIL 680B :: None
+PHIL 696 :: None
+PHIL 698 :: None
+PHS 601 :: None
+PHS 602 :: None
+PHS 603 :: None
+PHS 604 :: None
+PHS 605 :: HSG 605
+PHS 606 :: HSG 606
+PHS 607 :: None
+PHS 608 :: None
+PHS 609 :: None
+PHS 611 :: None
+PHS 612 :: None
+PHS 613 :: None
+PHS 614 :: HSG 604
+PHS 615 :: CS 645
+PHS 616 :: HSG 652
+PHS 617 :: HSG 609
+PHS 623 :: None
+PHS 624 :: None
+PHS 631 :: None
+PHS 632 :: None
+PHS 633 :: None
+PHS 634 :: None
+PHS 635 :: None
+PHS 636 :: None
+PHS 637 :: None
+PHS 638 :: None
+PHS 641 :: None
+PHS 661 :: None
+PHS 662 :: None
+PHS 663 :: None
+PHYS 1 :: None
+PHYS 10 :: None
+PHYS 111 :: PHYS 115, 121
+PHYS 111L :: PHYS 121L or 131L
+PHYS 112 :: PHYS 122, 125
+PHYS 112L :: PHYS 122L or 132L
+PHYS 115 :: PHYS 111, 121; First year Engineering students only
+PHYS 121 :: PHYS 111, 115, ECE 105
+PHYS 121L :: PHYS 111L or 131L
+PHYS 122 :: PHYS 112, 125
+PHYS 122L :: PHYS 112L or 132L
+PHYS 124 :: None
+PHYS 125 :: PHYS 112, PHYS 122
+PHYS 131L :: PHYS 111L or 121L
+PHYS 132L :: PHYS 112L or 122L
+PHYS 139 :: CS 115, 121, 122, 123, 125, 131, 132, 133, 135, 145, CHE 121, CIVE 121, ECE 150, GENE 121, NE 113, SYDE 121
+PHYS 175 :: SCI 237, 238
+PHYS 175L :: None
+PHYS 191 :: None
+PHYS 222 :: PHYS 224, 241, 242
+PHYS 223 :: PHYS 224, 241, 253, 342
+PHYS 224 :: PHYS 222, 223, 241, 242, 252, 253
+PHYS 224L :: PHYS 241L, 242L, 252L, 253L, 260A
+PHYS 225 :: None
+PHYS 226 :: PHYS 256/ECE 404
+PHYS 232L :: None
+PHYS 233 :: CHEM 256/356, NE 232, PHYS 234 (Cross-listed with ECE 405)
+PHYS 234 :: CHEM 256/356, NE 232, PHYS 233, ECE 405
+PHYS 236 :: PHYS 139, CS 121, 122, 123, 125, 131, 132, 133, 135, CHE 121, CIVE 121, ECE 150, GENE 121, NE 113, SYDE 121
+PHYS 239 :: None
+PHYS 241 :: PHYS 222, 223, 252, 253
+PHYS 242 :: PHYS 222, 223, 241, 252
+PHYS 242L :: PHYS 224L, 241L, 252L, 253L, 260A
+PHYS 246 :: PHYS 256/ECE 404
+PHYS 256 :: PHYS 226, 246
+PHYS 256L :: PHYS 260B
+PHYS 258 :: CHEM 254
+PHYS 260A :: PHYS 252L, 253L
+PHYS 260B :: None
+PHYS 260C :: None
+PHYS 260L :: PHYS 260C
+PHYS 263 :: AMATH 261, 271
+PHYS 270 :: None
+PHYS 270L :: None
+PHYS 275 :: None
+PHYS 276 :: None
+PHYS 280 :: None
+PHYS 334 :: AMATH 373
+PHYS 335 :: None
+PHYS 339 :: None
+PHYS 342 :: PHYS 253
+PHYS 352 :: None
+PHYS 352L :: None
+PHYS 353 :: CS 251, ECE 223, ME 262
+PHYS 353L :: None
+PHYS 356 :: None
+PHYS 356L :: None
+PHYS 358 :: CHEM 254
+PHYS 359 :: (For Mathematics students only) AMATH 477
+PHYS 360A :: None
+PHYS 360B :: None
+PHYS 363 :: None
+PHYS 364 :: AMATH 353
+PHYS 365 :: AMATH 332
+PHYS 370L :: None
+PHYS 375 :: None
+PHYS 380 :: None
+PHYS 381 :: BIOL 130; and 331
+PHYS 383 :: None
+PHYS 391 :: None
+PHYS 391L :: None
+PHYS 392 :: None
+PHYS 392L :: None
+PHYS 393 :: None
+PHYS 394 :: None
+PHYS 395 :: PHYS 480
+PHYS 396 :: None
+PHYS 432 :: None
+PHYS 434 :: None
+PHYS 435 :: None
+PHYS 437A :: None
+PHYS 437B :: None
+PHYS 441A :: None
+PHYS 441B :: None
+PHYS 442 :: None
+PHYS 444 :: None
+PHYS 445 :: None
+PHYS 454 :: None
+PHYS 460A :: None
+PHYS 460B :: None
+PHYS 461 :: NE 471
+PHYS 467 :: None
+PHYS 468 :: None
+PHYS 475 :: None
+PHYS 476 :: None
+PHYS 480 :: None
+PHYS 482 :: None
+PHYS 490 :: None
+PHYS 601 :: None
+PHYS 602 :: None
+PHYS 603 :: None
+PHYS 604 :: None
+PHYS 605 :: None
+PHYS 606 :: None
+PHYS 607 :: None
+PHYS 608 :: None
+PHYS 609 :: None
+PHYS 610 :: None
+PHYS 611 :: None
+PHYS 621 :: None
+PHYS 622 :: None
+PHYS 623 :: None
+PHYS 624 :: None
+PHYS 625 :: None
+PHYS 635 :: None
+PHYS 636 :: None
+PHYS 637 :: None
+PHYS 638 :: None
+PHYS 639 :: None
+PHYS 641 :: None
+PHYS 642 :: None
+PHYS 643 :: None
+PHYS 644 :: None
+PHYS 645 :: None
+PHYS 646 :: None
+PHYS 647 :: None
+PHYS 648 :: None
+PHYS 649 :: None
+PHYS 701 :: None
+PHYS 702 :: None
+PHYS 703 :: None
+PHYS 704 :: None
+PHYS 705 :: None
+PHYS 706 :: None
+PHYS 708 :: None
+PHYS 709 :: None
+PHYS 710 :: None
+PHYS 711 :: None
+PHYS 712 :: None
+PHYS 713 :: None
+PHYS 714 :: None
+PHYS 715 :: None
+PHYS 716 :: None
+PHYS 717 :: None
+PHYS 718 :: None
+PHYS 730 :: None
+PHYS 731 :: None
+PHYS 732 :: None
+PHYS 733 :: None
+PHYS 735 :: None
+PHYS 736 :: None
+PHYS 737 :: None
+PHYS 738 :: None
+PHYS 741 :: None
+PHYS 742 :: None
+PHYS 745 :: None
+PHYS 747 :: None
+PHYS 748 :: None
+PHYS 749 :: None
+PHYS 751 :: None
+PHYS 752 :: None
+PHYS 753 :: None
+PHYS 754 :: None
+PHYS 755 :: None
+PHYS 757 :: None
+PHYS 767 :: None
+PHYS 768 :: None
+PHYS 769 :: None
+PHYS 771 :: None
+PHYS 772 :: None
+PHYS 773 :: None
+PHYS 775 :: None
+PHYS 776 :: None
+PHYS 777 :: None
+PHYS 780 :: None
+PHYS 781 :: None
+PHYS 784 :: None
+PHYS 785 :: None
+PHYS 786 :: None
+PHYS 787 :: None
+PHYS 788 :: None
+PHYS 789 :: None
+PHYS 790 :: None
+PHYS 791 :: None
+PHYS 890 :: None
+PLAN 100 :: PLAN 190
+PLAN 102 :: ENVS 130, 131
+PLAN 103 :: None
+PLAN 104 :: None
+PLAN 105 :: None
+PLAN 110 :: None
+PLAN 203 :: None
+PLAN 210 :: None
+PLAN 233 :: None
+PLAN 261 :: None
+PLAN 281 :: None
+PLAN 300 :: None
+PLAN 309 :: None
+PLAN 313 :: None
+PLAN 320 :: None
+PLAN 333 :: None
+PLAN 340 :: ENVS 434, GEOG 367, REC 434
+PLAN 341 :: None
+PLAN 346 :: None
+PLAN 349 :: None
+PLAN 350 :: None
+PLAN 351 :: None
+PLAN 353 :: None
+PLAN 362 :: None
+PLAN 381 :: None
+PLAN 387 :: None
+PLAN 401 :: None
+PLAN 403 :: None
+PLAN 405 :: None
+PLAN 408 :: None
+PLAN 409 :: None
+PLAN 414 :: None
+PLAN 416 :: None
+PLAN 418 :: None
+PLAN 431 :: None
+PLAN 432 :: None
+PLAN 433 :: None
+PLAN 440 :: None
+PLAN 450 :: None
+PLAN 451 :: None
+PLAN 452 :: None
+PLAN 453 :: None
+PLAN 471 :: None
+PLAN 474 :: None
+PLAN 477 :: None
+PLAN 478 :: None
+PLAN 480 :: None
+PLAN 481 :: None
+PLAN 483 :: None
+PLAN 484 :: None
+PLAN 485 :: None
+PLAN 487 :: GEOG/PLAN 555
+PLAN 490 :: None
+PLAN 601 :: None
+PLAN 602 :: None
+PLAN 603 :: None
+PLAN 610 :: None
+PLAN 611 :: None
+PLAN 613 :: None
+PLAN 614 :: None
+PLAN 615 :: None
+PLAN 616 :: None
+PLAN 619 :: None
+PLAN 621 :: None
+PLAN 622 :: None
+PLAN 623 :: None
+PLAN 625 :: None
+PLAN 630 :: None
+PLAN 639 :: None
+PLAN 641 :: None
+PLAN 646 :: None
+PLAN 647 :: None
+PLAN 648 :: None
+PLAN 649 :: None
+PLAN 652 :: None
+PLAN 654 :: None
+PLAN 657 :: None
+PLAN 660 :: None
+PLAN 661A :: None
+PLAN 661B :: None
+PLAN 665 :: None
+PLAN 666 :: None
+PLAN 668 :: None
+PLAN 669 :: None
+PLAN 674 :: None
+PLAN 675 :: None
+PLAN 677 :: None
+PLAN 678 :: None
+PLAN 684 :: None
+PLAN 700 :: None
+PLAN 701 :: None
+PLAN 702 :: None
+PLAN 703 :: None
+PLAN 704 :: None
+PLAN 710 :: None
+PLAN 720 :: None
+PLAN 721 :: None
+PLAN 801 :: None
+PLAN 802 :: None
+PMATH 330 :: CS 245, SE 212.
+PMATH 331 :: None
+PMATH 332 :: PHYS 365
+PMATH 334 :: None
+PMATH 336 :: None
+PMATH 340 :: None
+PMATH 345 :: None
+PMATH 346 :: None
+PMATH 347 :: None
+PMATH 348 :: None
+PMATH 351 :: None
+PMATH 352 :: None
+PMATH 354 :: None
+PMATH 360 :: None
+PMATH 365 :: None
+PMATH 367 :: None
+PMATH 370 :: None
+PMATH 399 :: None
+PMATH 432 :: None
+PMATH 433 :: None
+PMATH 434 :: None
+PMATH 440 :: None
+PMATH 441 :: None
+PMATH 442 :: None
+PMATH 444 :: None
+PMATH 445 :: None
+PMATH 446 :: None
+PMATH 450 :: None
+PMATH 451 :: None
+PMATH 453 :: None
+PMATH 464 :: None
+PMATH 465 :: None
+PMATH 467 :: None
+PMATH 499 :: None
+PMATH 632 :: PMATH 432
+PMATH 641 :: PMATH 441
+PMATH 642 :: None
+PMATH 644 :: None
+PMATH 646 :: PMATH 446
+PMATH 650 :: PMATH 450
+PMATH 651 :: PMATH 451
+PMATH 652 :: None
+PMATH 665 :: PMATH 465
+PMATH 667 :: PMATH 467
+PMATH 690 :: None
+PMATH 701 :: None
+PMATH 702 :: None
+PMATH 733 :: None
+PMATH 740 :: PMATH 440
+PMATH 745 :: PMATH 445
+PMATH 753 :: PMATH 453
+PMATH 763 :: None
+PMATH 764 :: PMATH 464
+PMATH 800 :: None
+PMATH 810 :: None
+PMATH 811 :: None
+PMATH 822 :: None
+PMATH 833 :: None
+PMATH 844 :: None
+PMATH 900 :: None
+PMATH 911 :: None
+PMATH 922 :: None
+PMATH 933 :: None
+PMATH 944 :: None
+PMATH 955 :: None
+PMATH 966 :: None
+POLSH 101 :: None
+POLSH 102 :: None
+POLSH 201 :: None
+POLSH 202 :: None
+PORT 101 :: 4U Portuguese
+PORT 102 :: 4U Portuguese
+PS 611 :: None
+PS 612 :: None
+PS 613 :: None
+PS 614 :: None
+PS 615 :: None
+PS 616 :: None
+PS 617 :: None
+PS 618 :: None
+PS 619 :: None
+PS 620 :: None
+PS 621 :: None
+PS 622 :: None
+PS 623 :: None
+PS 624 :: None
+PS 699 :: None
+PSCI 100 :: None
+PSCI 101 :: None
+PSCI 110 :: None
+PSCI 150 :: None
+PSCI 190 :: None
+PSCI 200 :: None
+PSCI 214 :: Antireq:(for Arts and ENVS students only)ARTS 280,BIOL 460, ECON 221, ENVS 271, 277, 278, ISS 250A/B, 250R, KIN 222, PSYCH 292, REC 371, 371A, SOC 280, STAT 202, 204, 206, 211, 221,231, 241
+PSCI 225 :: None
+PSCI 226 :: None
+PSCI 231 :: None
+PSCI 244 :: None
+PSCI 250 :: None
+PSCI 252 :: PSCI 350, INDEV 100
+PSCI 253 :: None
+PSCI 254 :: None
+PSCI 255 :: PSCI 283 taught Winter 2007, 2008; Fall 2008, 2009, 2010 and 2011
+PSCI 257 :: None
+PSCI 259 :: None
+PSCI 260 :: None
+PSCI 264 :: None
+PSCI 281 :: None
+PSCI 282 :: None
+PSCI 283 :: None
+PSCI 291 :: None
+PSCI 292 :: None
+PSCI 300 :: None
+PSCI 314 :: ARTS 280,BIOL 361, ECON 221, ENVS 278, ISS/SDS 250A/B, 250R, KIN 222, PSYCH 292, REC 371, SMF 230, SOC/LS 280, STAT 202, 204, 206, 211, 221, 231, 241, SWREN 205R
+PSCI 315 :: None
+PSCI 321 :: None
+PSCI 323 :: None
+PSCI 324 :: None
+PSCI 331 :: None
+PSCI 334 :: None
+PSCI 350 :: INDEV 200
+PSCI 350W :: None
+PSCI 351 :: None
+PSCI 352 :: None
+PSCI 353 :: None
+PSCI 355 :: None
+PSCI 356 :: None
+PSCI 357 :: None
+PSCI 358 :: None
+PSCI 360 :: None
+PSCI 362 :: None
+PSCI 363 :: None
+PSCI 364 :: PSCI 102S
+PSCI 367 :: None
+PSCI 368 :: None
+PSCI 369 :: None
+PSCI 370 :: None
+PSCI 373 :: None
+PSCI 375 :: None
+PSCI 381 :: None
+PSCI 382 :: None
+PSCI 383 :: PSCI 390 taken Winter 2008
+PSCI 387 :: None
+PSCI 389 :: PSCI 357 taken before winter 2010
+PSCI 390 :: None
+PSCI 391 :: None
+PSCI 401 :: None
+PSCI 402 :: None
+PSCI 403 :: None
+PSCI 404 :: PSCI 490, Section 001 taken Fall 2011 and Fall 2012
+PSCI 405 :: None
+PSCI 421 :: None
+PSCI 423 :: None
+PSCI 426 :: None
+PSCI 427 :: None
+PSCI 428 :: None
+PSCI 429 :: None
+PSCI 431 :: None
+PSCI 432 :: None
+PSCI 433 :: None
+PSCI 434 :: None
+PSCI 435 :: None
+PSCI 438 :: None
+PSCI 439 :: PACS 323/LS 319
+PSCI 451 :: None
+PSCI 452 :: PSCI 490 taken Winter 2008
+PSCI 453 :: None
+PSCI 454 :: None
+PSCI 455 :: PSCI 491 taken Fall 2007
+PSCI 456 :: None
+PSCI 457 :: None
+PSCI 458 :: None
+PSCI 459 :: None
+PSCI 460 :: None
+PSCI 461 :: None
+PSCI 462 :: None
+PSCI 463 :: None
+PSCI 472 :: None
+PSCI 479 :: None
+PSCI 480 :: None
+PSCI 481 :: None
+PSCI 482 :: PSCI 483 taken Fall 2007
+PSCI 483 :: None
+PSCI 484 :: None
+PSCI 485 :: None
+PSCI 486 :: None
+PSCI 487 :: PSCI 490 taken Spring 2007
+PSCI 488 :: ERS 489/PSCI 489/GEOG 429
+PSCI 489 :: ERS 475, section 003 taken Fall 2006; PSCI 490, section 001 taken Fall 2006
+PSCI 490 :: None
+PSCI 491 :: None
+PSCI 492 :: None
+PSCI 499A :: None
+PSCI 499B :: None
+PSCI 600 :: None
+PSCI 601 :: None
+PSCI 604 :: None
+PSCI 606 :: ERS 675
+PSCI 612 :: None
+PSCI 613 :: None
+PSCI 614 :: None
+PSCI 615 :: None
+PSCI 616 :: None
+PSCI 617 :: None
+PSCI 618 :: None
+PSCI 619 :: None
+PSCI 620 :: None
+PSCI 621 :: None
+PSCI 622 :: None
+PSCI 623 :: None
+PSCI 624 :: None
+PSCI 625 :: None
+PSCI 626 :: None
+PSCI 629 :: None
+PSCI 630A :: None
+PSCI 630B :: None
+PSCI 631 :: None
+PSCI 632 :: None
+PSCI 633 :: None
+PSCI 634 :: None
+PSCI 635 :: None
+PSCI 636 :: PSCI490
+PSCI 639 :: None
+PSCI 642 :: None
+PSCI 643 :: None
+PSCI 650 :: None
+PSCI 651 :: None
+PSCI 652 :: None
+PSCI 653 :: None
+PSCI 654 :: None
+PSCI 655 :: None
+PSCI 656 :: None
+PSCI 657 :: None
+PSCI 658 :: None
+PSCI 659 :: None
+PSCI 661 :: None
+PSCI 662 :: None
+PSCI 663 :: None
+PSCI 664 :: None
+PSCI 668 :: None
+PSCI 671 :: None
+PSCI 673 :: None
+PSCI 678 :: None
+PSCI 679 :: None
+PSCI 680 :: None
+PSCI 681 :: None
+PSCI 682 :: None
+PSCI 683 :: None
+PSCI 684 :: None
+PSCI 685 :: None
+PSCI 686 :: None
+PSCI 687 :: None
+PSCI 688 :: None
+PSCI 689 :: None
+PSCI 692 :: None
+PSYCH 101 :: PSYCH 121R
+PSYCH 101R :: PSYCH 121R
+PSYCH 121R :: PSYCH 101
+PSYCH 207 :: None
+PSYCH 211 :: None
+PSYCH 212 :: None
+PSYCH 212R :: None
+PSYCH 213R :: None
+PSYCH 218 :: None
+PSYCH 220R :: None
+PSYCH 221R :: PSYCH 254 or SMF 306
+PSYCH 222R :: None
+PSYCH 226R :: None
+PSYCH 230 :: None
+PSYCH 231 :: None
+PSYCH 232 :: None
+PSYCH 235 :: None
+PSYCH 236 :: SMF 204 or 201A
+PSYCH 253 :: PSYCH 220R
+PSYCH 253R :: PSYCH 220R
+PSYCH 256 :: None
+PSYCH 257 :: PSYCH 323R
+PSYCH 257R :: PSYCH 323R
+PSYCH 261 :: None
+PSYCH 264 :: PSYCH 464
+PSYCH 291 :: HLTH 333, ISS/SDS 251R, KIN 330, REC 270, SWREN 251R
+PSYCH 292 :: ARTS 280, ECON 221, ENVS 278, ISS 250A/B, ISS/SDS 250R, KIN 222, PSCI 214/314, REC 371, SMF 230, SOC/LS 280, STAT 202, 204, 206, 211, 221, 231, 241, SWREN 250A/B/R
+PSYCH 304 :: None
+PSYCH 306 :: PSYCH 206
+PSYCH 307 :: None
+PSYCH 308 :: None
+PSYCH 312 :: PSYCH 160
+PSYCH 312R :: PSYCH 160
+PSYCH 314 :: None
+PSYCH 315 :: PSYCH 214
+PSYCH 317 :: None
+PSYCH 318 :: None
+PSYCH 319 :: None
+PSYCH 320 :: None
+PSYCH 321 :: PSYCH 453 taken Fall 2009
+PSYCH 322R :: PSYCH 355 or 356
+PSYCH 323R :: PSYCH 357
+PSYCH 330 :: None
+PSYCH 332 :: PSYCH 363 (taken Winter 2006)
+PSYCH 334 :: PSYCH 336 Spring 1998 or Fall 1998
+PSYCH 334R :: PSYCH 334
+PSYCH 335 :: PSYCH 363 taken Spring 2012
+PSYCH 336 :: None
+PSYCH 338 :: AFM 280, MSCI 211, BUS 288W/388W, SCBUS 225
+PSYCH 339 :: BUS 354W/454W, BUS 408W/498KW
+PSYCH 340 :: BUS 474W
+PSYCH 342 :: None
+PSYCH 349R :: PSYCH 222R, 352
+PSYCH 350 :: None
+PSYCH 352 :: PSYCH 222R/349R, SWREN 349R
+PSYCH 353 :: None
+PSYCH 354 :: PSYCH 221R or SMF 306
+PSYCH 354R :: PSYCH 221R or SMF 306
+PSYCH 355 :: None
+PSYCH 356 :: PSYCH 355 (taken Winter 2003 or earlier) or 322R
+PSYCH 356R :: PSYCH 355 (taken Winter 2003 or earlier) or 322R
+PSYCH 361 :: None
+PSYCH 363 :: None
+PSYCH 372 :: None
+PSYCH 375R :: None
+PSYCH 380 :: PSYCH 363 taken Winter 2008
+PSYCH 391 :: STAT 322, 332, 430
+PSYCH 392 :: PSYCH 394, 396, 398
+PSYCH 393 :: PSYCH 395, 397, 399
+PSYCH 394 :: PSYCH 392 (taken Spring 2009 or later), 396, 398
+PSYCH 395 :: PSYCH 393, 397, 399
+PSYCH 396 :: PSYCH 392 (taken Spring 2009 or later), 394, 398
+PSYCH 397 :: PSYCH 393, 395, 399
+PSYCH 398 :: PSYCH 392 (taken Spring 2009 or later), 394, 396
+PSYCH 398R :: None
+PSYCH 399 :: PSYCH 393, 395, 397
+PSYCH 399R :: None
+PSYCH 420 :: PSYCH 463 taken Winter 2009 and Winter 2010
+PSYCH 439 :: PACS 323/LS 319
+PSYCH 447 :: PHIL/PSYCH 446
+PSYCH 448R :: PSYCH 450R taken in W'10, W'13; PSYCH 455 taken in F'05, W'07, W'09, F'11 (sect. 001), F'13 (sect. 001), W'15, PSYCH 459
+PSYCH 449R :: None
+PSYCH 450R :: None
+PSYCH 453 :: None
+PSYCH 454 :: None
+PSYCH 455 :: None
+PSYCH 457 :: None
+PSYCH 458 :: None
+PSYCH 461 :: None
+PSYCH 462 :: None
+PSYCH 463 :: None
+PSYCH 464 :: PSYCH 264
+PSYCH 465 :: PSYCH 466, 467
+PSYCH 467 :: PSYCH 465, 466
+PSYCH 480 :: None
+PSYCH 481 :: None
+PSYCH 482 :: None
+PSYCH 483 :: None
+PSYCH 484 :: None
+PSYCH 485 :: None
+PSYCH 486 :: None
+PSYCH 490R :: None
+PSYCH 492 :: PSYCH 392 (taken Winter 1999 or earlier)
+PSYCH 499A :: None
+PSYCH 499B :: None
+PSYCH 499C :: None
+PSYCH 605 :: None
+PSYCH 607P :: None
+PSYCH 607R :: None
+PSYCH 607S :: None
+PSYCH 608A :: None
+PSYCH 608B :: None
+PSYCH 608C :: None
+PSYCH 608D :: None
+PSYCH 608E :: None
+PSYCH 608F :: None
+PSYCH 608G :: None
+PSYCH 608H :: None
+PSYCH 608I :: None
+PSYCH 608J :: None
+PSYCH 608K :: None
+PSYCH 608L :: None
+PSYCH 609 :: None
+PSYCH 609A :: None
+PSYCH 609B :: None
+PSYCH 609C :: None
+PSYCH 610A :: None
+PSYCH 610B :: None
+PSYCH 611 :: None
+PSYCH 612A :: None
+PSYCH 612B :: None
+PSYCH 612C :: None
+PSYCH 613A :: None
+PSYCH 613B :: None
+PSYCH 613C :: None
+PSYCH 614A :: None
+PSYCH 614B :: None
+PSYCH 614C :: None
+PSYCH 615A :: None
+PSYCH 615B :: None
+PSYCH 615C :: None
+PSYCH 615D :: None
+PSYCH 615E :: None
+PSYCH 615F :: None
+PSYCH 615G :: None
+PSYCH 615H :: None
+PSYCH 615I :: None
+PSYCH 615J :: None
+PSYCH 616 :: None
+PSYCH 617 :: None
+PSYCH 618 :: None
+PSYCH 619 :: None
+PSYCH 620 :: None
+PSYCH 620A :: None
+PSYCH 620B :: None
+PSYCH 621 :: None
+PSYCH 621A :: None
+PSYCH 621B :: None
+PSYCH 622A :: None
+PSYCH 622B :: None
+PSYCH 623A :: None
+PSYCH 623B :: None
+PSYCH 624A :: None
+PSYCH 624B :: None
+PSYCH 625A :: None
+PSYCH 625B :: None
+PSYCH 625C :: None
+PSYCH 625D :: None
+PSYCH 625E :: None
+PSYCH 625F :: None
+PSYCH 625G :: None
+PSYCH 625H :: None
+PSYCH 625I :: None
+PSYCH 626A :: None
+PSYCH 626B :: None
+PSYCH 626C :: None
+PSYCH 627A :: None
+PSYCH 627B :: None
+PSYCH 627C :: None
+PSYCH 628A :: None
+PSYCH 628B :: None
+PSYCH 628C :: None
+PSYCH 629 :: None
+PSYCH 630 :: None
+PSYCH 632 :: None
+PSYCH 633 :: None
+PSYCH 633A :: None
+PSYCH 633B :: None
+PSYCH 634 :: None
+PSYCH 635 :: None
+PSYCH 635A :: None
+PSYCH 635B :: None
+PSYCH 635C :: None
+PSYCH 636 :: None
+PSYCH 636A :: None
+PSYCH 636B :: None
+PSYCH 636C :: None
+PSYCH 637 :: None
+PSYCH 637A :: None
+PSYCH 637B :: None
+PSYCH 637C :: None
+PSYCH 638 :: None
+PSYCH 638B :: None
+PSYCH 639 :: None
+PSYCH 640 :: None
+PSYCH 645 :: None
+PSYCH 650 :: None
+PSYCH 670 :: None
+PSYCH 677A :: None
+PSYCH 680 :: None
+PSYCH 690 :: None
+PSYCH 701 :: None
+PSYCH 702 :: None
+PSYCH 703 :: None
+PSYCH 704A :: None
+PSYCH 704B :: None
+PSYCH 705 :: None
+PSYCH 706 :: None
+PSYCH 707 :: None
+PSYCH 707A :: None
+PSYCH 707B :: None
+PSYCH 708 :: None
+PSYCH 709 :: None
+PSYCH 710 :: None
+PSYCH 711 :: None
+PSYCH 712 :: None
+PSYCH 713 :: None
+PSYCH 714 :: None
+PSYCH 714A :: None
+PSYCH 714B :: None
+PSYCH 716 :: None
+PSYCH 717 :: None
+PSYCH 718 :: None
+PSYCH 719 :: None
+PSYCH 720A :: None
+PSYCH 720B :: None
+PSYCH 721A :: None
+PSYCH 721B :: None
+PSYCH 722C :: None
+PSYCH 723 :: None
+PSYCH 724 :: None
+PSYCH 725 :: None
+PSYCH 726A :: None
+PSYCH 726B :: None
+PSYCH 727 :: None
+PSYCH 727A :: None
+PSYCH 727B :: None
+PSYCH 728 :: None
+PSYCH 729A :: None
+PSYCH 729B :: None
+PSYCH 729C :: None
+PSYCH 730A :: None
+PSYCH 730B :: None
+PSYCH 730C :: None
+PSYCH 731 :: None
+PSYCH 732A :: None
+PSYCH 732B :: None
+PSYCH 732C :: None
+PSYCH 733A :: None
+PSYCH 733B :: None
+PSYCH 733C :: None
+PSYCH 734A :: None
+PSYCH 734B :: None
+PSYCH 734C :: None
+PSYCH 735A :: None
+PSYCH 735B :: None
+PSYCH 735C :: None
+PSYCH 736A :: None
+PSYCH 736B :: None
+PSYCH 736C :: None
+PSYCH 737A :: None
+PSYCH 737B :: None
+PSYCH 737C :: None
+PSYCH 738A :: None
+PSYCH 738B :: None
+PSYCH 738C :: None
+PSYCH 739A :: None
+PSYCH 739B :: None
+PSYCH 739C :: None
+PSYCH 740A :: None
+PSYCH 740B :: None
+PSYCH 740C :: None
+PSYCH 741A :: None
+PSYCH 741B :: None
+PSYCH 741C :: None
+PSYCH 742A :: None
+PSYCH 742B :: None
+PSYCH 742C :: None
+PSYCH 747 :: None
+PSYCH 747A :: None
+PSYCH 747B :: None
+PSYCH 769 :: None
+PSYCH 770 :: None
+PSYCH 771 :: None
+PSYCH 772 :: None
+PSYCH 773 :: None
+PSYCH 774 :: None
+PSYCH 775 :: None
+PSYCH 776 :: None
+PSYCH 777 :: None
+PSYCH 778 :: None
+PSYCH 779 :: None
+PSYCH 779A :: None
+PSYCH 779B :: None
+PSYCH 781 :: None
+PSYCH 782 :: None
+PSYCH 783 :: None
+PSYCH 784 :: PSYCH 675C
+PSYCH 785 :: None
+PSYCH 786 :: None
+PSYCH 787 :: None
+PSYCH 788 :: None
+PSYCH 789 :: None
+PSYCH 790 :: None
+PSYCH 791 :: None
+PSYCH 792 :: None
+PSYCH 793 :: None
+PSYCH 794 :: None
+PSYCH 795 :: None
+PSYCH 800 :: None
+PSYCH 801 :: None
+PSYCH 803 :: None
+PSYCH 804 :: None
+PSYCH 810 :: None
+PSYCH 820 :: None
+PSYCH 821 :: None
+PSYCH 822 :: None
+PSYCH 836A :: None
+PSYCH 844 :: None
+PSYCH 846 :: None
+PSYCH 851 :: None
+PSYCH 852 :: None
+PSYCH 853 :: None
+PSYCH 870 :: None
+PSYCH 880 :: None
+PSYCH 881A :: None
+PSYCH 883 :: None
+PSYCH 884 :: None
+PSYCH 885 :: None
+PSYCH 886 :: None
+PSYCH 887 :: None
+PSYCH 888 :: None
+QIC 710 :: None
+QIC 750 :: None
+QIC 820 :: None
+QIC 823 :: None
+QIC 845 :: None
+QIC 880 :: None
+QIC 885 :: None
+QIC 890 :: None
+QIC 891 :: None
+QIC 895 :: None
+REC 100 :: None
+REC 101 :: None
+REC 151 :: None
+REC 200 :: None
+REC 202 :: None
+REC 203 :: None
+REC 205 :: None
+REC 215 :: None
+REC 220 :: None
+REC 230 :: None
+REC 251 :: None
+REC 252 :: None
+REC 253 :: None
+REC 270 :: (for Arts and Environmental Studies students only) ISS 251R, KIN 330, LS 321, PSYCH 291, REC 270, SOC 321, SMF 220, SWREN 251R
+REC 280 :: None
+REC 301 :: None
+REC 304 :: None
+REC 306 :: None
+REC 309 :: None
+REC 311 :: None
+REC 312 :: None
+REC 314 :: None
+REC 316 :: None
+REC 333 :: None
+REC 334 :: None
+REC 348 :: None
+REC 350 :: None
+REC 351 :: None
+REC 354 :: None
+REC 356 :: None
+REC 357 :: None
+REC 361 :: None
+REC 362 :: None
+REC 371 :: (for Arts & Env stdts) ARTS 280, ECON 221, ENVS 278, ISS 250A/B/R, KIN 222, LS 280, PSCI 214, 314, PSYCH 292, REC 371, SMF 230, SOC 280, STAT 202, 206, 211, 221, 231, 241, SWREN 250A/B/R
+REC 375 :: None
+REC 380 :: None
+REC 383 :: None
+REC 401 :: None
+REC 405 :: None
+REC 408 :: None
+REC 413 :: None
+REC 415 :: None
+REC 416 :: None
+REC 420 :: None
+REC 422 :: None
+REC 425 :: None
+REC 433 :: None
+REC 437 :: ERS 380; ENVS 434/GEOG 367/PLAN 340/REC 434 taken prior to Winter 2007
+REC 450 :: None
+REC 450A :: None
+REC 450B :: None
+REC 455 :: None
+REC 471A :: None
+REC 471B :: None
+REC 472 :: None
+REC 475 :: None
+REC 480 :: None
+REC 600 :: None
+REC 601 :: None
+REC 603 :: None
+REC 605 :: None
+REC 608 :: None
+REC 609 :: None
+REC 610 :: None
+REC 615 :: None
+REC 630 :: None
+REC 640 :: None
+REC 650 :: None
+REC 651 :: None
+REC 652 :: None
+REC 672 :: None
+REC 673 :: None
+REC 680 :: None
+REC 685 :: None
+REC 695 :: None
+REC 696 :: None
+REC 697 :: None
+REC 700 :: None
+REC 730 :: None
+REC 731 :: None
+REC 732A :: None
+REC 732B :: None
+REC 750 :: None
+REC 751 :: None
+REC 792 :: None
+REC 798 :: None
+REES 100 :: None
+REES 180 :: None
+REES 220 :: None
+REES 230 :: None
+REES 260 :: None
+REES 261 :: None
+REES 262 :: None
+REES 271 :: None
+REES 272 :: None
+REES 273 :: None
+REES 274 :: None
+REES 280 :: None
+REES 281 :: RUSS 281
+REES 310 :: None
+REES 320 :: None
+REES 330 :: None
+REES 341 :: RUSS 341
+REES 342 :: RUSS 342
+REES 360 :: None
+REES 364 :: None
+REES 385 :: None
+REES 420 :: None
+REES 460 :: None
+REES 490 :: None
+REES 495 :: None
+REES 496 :: None
+RELC 265W :: None
+RS 100 :: None
+RS 100E :: None
+RS 100F :: None
+RS 110 :: None
+RS 111 :: RS 120 taken prior to Fall 2008
+RS 112 :: RS 130 taken prior to Fall 2008
+RS 113 :: RS 150 taken prior to Fall 2008
+RS 121 :: None
+RS 122 :: None
+RS 125 :: RS 100C/120
+RS 130 :: RS 100E, 100F
+RS 131 :: JS 101A, 101B
+RS 132 :: RS 105B
+RS 133 :: GRK 101
+RS 134 :: RS 106B
+RS 150 :: None
+RS 151 :: None
+RS 152 :: None
+RS 170 :: None
+RS 180 :: None
+RS 201 :: RS 210 taken prior to Fall 2008
+RS 202 :: RS 211 taken prior to Fall 2008
+RS 203 :: RS 213 taken prior to Fall 2008
+RS 204 :: RS 214 taken prior to Fall 2008
+RS 205 :: None
+RS 206 :: None
+RS 207 :: None
+RS 210 :: RS 217
+RS 211 :: RS 203 taken prior to Fall 2008
+RS 212 :: RS 204 taken prior to Fall 2008
+RS 213 :: RS 240 taken prior to Fall 2008
+RS 214 :: RS 232 taken prior to Fall 2008
+RS 215 :: RS 250 taken prior to Fall 2008
+RS 216 :: None
+RS 217 :: None
+RS 219 :: None
+RS 220 :: None
+RS 221 :: None
+RS 222 :: RS 272 taken prior to Fall 2008
+RS 223 :: None
+RS 224 :: RS 285 taken prior to Fall 2008
+RS 230 :: None
+RS 232 :: RS 205 taken prior to Fall 2008
+RS 233 :: RS 305A/333(GRK/RS 233)
+RS 234 :: GRK 205, RS 334
+RS 235 :: None
+RS 236 :: None
+RS 237 :: None
+RS 240 :: RS 230
+RS 245 :: RS 234
+RS 248 :: RS 235 taken prior to Fall 2008
+RS 250 :: None
+RS 251 :: None
+RS 252 :: RS 264 taken prior to Fall 2008
+RS 253 :: None
+RS 254 :: RS 236 taken prior to Fall 2008
+RS 255 :: None
+RS 256 :: RS 257 taken prior to Fall 2008
+RS 257 :: None
+RS 258 :: RS 201 taken prior to Fall 2008
+RS 260 :: None
+RS 261 :: RS 202 taken prior to Fall 2008
+RS 262 :: RS 218
+RS 263 :: RS 270
+RS 264 :: RS 271
+RS 270R :: RS 266R
+RS 271R :: RS 267R
+RS 272 :: RS 233
+RS 273 :: None
+RS 274 :: RS 262 taken prior to Fall 2008
+RS 275 :: FINE 253/RS 271 taken in Winter 2010, 2012
+RS 280 :: RS 221 taken prior to Fall 2008
+RS 281 :: None
+RS 282 :: RS 222 taken prior to Fall 2008
+RS 283 :: RS 256 taken prior to Fall 2008
+RS 284 :: RS 261 taken prior to Fall 2008
+RS 285 :: RS 295A
+RS 286 :: None
+RS 291 :: None
+RS 301 :: None
+RS 302 :: RS 347, 348 taken prior to Fall 2008
+RS 303 :: RS 348 taken prior to Fall 2008
+RS 304 :: None
+RS 310 :: None
+RS 313 :: None
+RS 314 :: RS 318 taken prior to Fall 2008
+RS 315 :: RS 326
+RS 318 :: None
+RS 319 :: None
+RS 320 :: RS 333 taken prior to Fall 2008
+RS 321 :: RS 346
+RS 322 :: RS 355 taken prior to Fall 2008
+RS 323 :: RS 357 taken prior to Fall 2008
+RS 324 :: RS 382 taken prior to Fall 2008
+RS 325 :: None
+RS 326 :: None
+RS 327 :: None
+RS 330 :: None
+RS 331 :: RS 306A
+RS 332 :: RS 306B
+RS 335 :: None
+RS 336 :: None
+RS 337 :: RS 353 taken prior to Fall 2008
+RS 338 :: None
+RS 339 :: JS/RS 250 taken Winter 2007, Winter 2008
+RS 341 :: None
+RS 342 :: RS 325 taken prior to Fall 2008
+RS 343 :: None
+RS 344 :: RS 322 taken prior to Fall 2008
+RS 348 :: RS 331 taken prior to Fall 2008
+RS 350 :: RS 335 taken prior to Fall 2008
+RS 351 :: RS 336 taken prior to Fall 2008
+RS 352 :: RS 337 taken prior to Fall 2008
+RS 353 :: RS 354 taken prior to Fall 2008.
+RS 354 :: RS 383 taken prior to Fall 2008
+RS 355 :: None
+RS 357 :: RS 384 taken prior to Fall 2008
+RS 358 :: RS 385 taken prior to Fall 2008
+RS 361 :: None
+RS 363 :: RS 380 taken prior to Fall 2008
+RS 370 :: None
+RS 374 :: None
+RS 375 :: RS 330 taken prior to Fall 2008
+RS 380 :: PACS 301 taken Winter 2005, RS 340
+RS 381 :: RS 351 taken prior to Fall 2008
+RS 382 :: RS 356 taken prior to Fall 2008
+RS 383 :: RS 263 taken prior to Fall 2008
+RS 384 :: None
+RS 385 :: RS 378
+RS 386 :: RS 379
+RS 391 :: None
+RS 395 :: None
+RS 398 :: None
+RS 462 :: RS 402
+RS 482 :: None
+RS 491 :: None
+RS 495 :: None
+RS 498 :: None
+RS 499 :: None
+RS 700 :: None
+RS 701 :: None
+RS 703 :: None
+RS 704 :: None
+RS 705 :: None
+RS 710 :: None
+RS 730 :: None
+RUSS 101 :: None
+RUSS 102 :: None
+RUSS 201 :: None
+RUSS 202 :: None
+RUSS 203 :: None
+RUSS 204 :: None
+RUSS 301 :: None
+RUSS 302 :: None
+RUSS 303 :: None
+RUSS 600 :: None
+RUSS 601 :: None
+RUSS 602 :: None
+RUSS 603 :: None
+RUSS 604 :: None
+RUSS 611 :: None
+RUSS 612 :: None
+RUSS 613 :: None
+RUSS 614 :: None
+RUSS 620 :: None
+RUSS 621 :: None
+RUSS 622 :: None
+RUSS 623 :: None
+RUSS 670 :: None
+RUSS 671 :: None
+RUSS 695 :: None
+SCBUS 122 :: None
+SCBUS 123 :: None
+SCBUS 223 :: None
+SCBUS 225 :: MSCI 211, PSYCH 338, BUS 288W
+SCBUS 323 :: None
+SCBUS 423 :: None
+SCBUS 424 :: None
+SCBUS 425 :: None
+SCI 200 :: None
+SCI 201 :: EARTH 358
+SCI 205 :: None
+SCI 206 :: None
+SCI 227 :: None
+SCI 237 :: PHYS 175, SCI 238
+SCI 238 :: PHYS 175, SCI 237
+SCI 250 :: None
+SCI 255 :: None
+SCI 263 :: None
+SCI 267 :: None
+SCI 395 :: None
+SCI 396 :: None
+SCI 397 :: None
+SCI 455 :: BIOL 450, BIOL 351/451, SCI 453, SCI 454
+SCI 462 :: None
+SDS 131R :: None
+SDS 150R :: None
+SDS 205R :: ISS 205R
+SDS 210R :: None
+SDS 215R :: None
+SDS 220R :: HIST 255
+SDS 231R :: None
+SDS 240R :: None
+SDS 250R :: ARTS 280, ECON 221, ENVS 278, ISS 250A/B, ISS 250R, KIN 222, LS/SOC 280, PSYCH 292, REC 371, SMF 230, STAT 202, 206, 231.
+SDS 251R :: ISS 251R, KIN 330, SOC 321/LS 221/321, PSYCH 291, REC 270, SDS 251R.
+SDS 311R :: ISS 311R
+SDS 312R :: ISS 312R
+SDS 331R :: None
+SDS 350R :: None
+SDS 351R :: LS/SOC 322
+SDS 353R :: None
+SDS 354R :: None
+SDS 355R :: None
+SDS 370R :: None
+SDS 375R :: None
+SDS 388R :: None
+SDS 398R :: None
+SDS 399R :: None
+SDS 400R :: None
+SDS 405R :: None
+SDS 415R :: None
+SDS 420R :: ISS 320R/420R
+SDS 425R :: None
+SDS 431R :: None
+SDS 440R :: SDS 450R Winter 2011
+SDS 450R :: None
+SDS 490R :: None
+SDS 495R :: None
+SDS 496R :: None
+SDS 499A :: None
+SDS 499B :: None
+SE 101 :: None
+SE 102 :: None
+SE 201 :: None
+SE 202 :: None
+SE 212 :: None
+SE 240 :: CS 240, CS 341/CM 339, ECE 250
+SE 301 :: None
+SE 302 :: None
+SE 350 :: CS 350, ECE 254, 354, MTE 241
+SE 380 :: ECE 380, ME 360, MTE 360, SYDE 352
+SE 382 :: CS 349
+SE 390 :: None
+SE 401 :: None
+SE 402 :: None
+SE 463 :: CS 445, ECE 451.
+SE 464 :: CS 446, ECE 452
+SE 465 :: CS 447, ECE 453
+SE 490 :: None
+SE 491 :: None
+SE 498 :: None
+SE 499 :: None
+SI 101R :: AB 101W
+SI 102R :: AB 102W
+SI 121R :: None
+SI 201R :: AB 201W
+SI 202R :: AB 202W
+SI 221R :: None
+SI 301R :: AB 399W
+SI 302R :: AB 399W
+SI 315R :: None
+SI 375R :: None
+SI 390R :: None
+SMF 204 :: PSYCH 236
+SMF 205 :: None
+SMF 206 :: None
+SMF 207 :: None
+SMF 208 :: None
+SMF 220 :: KIN 330, PSCI 315, PSYCH 291, REC 270, 270A, SOC/LS 221, SOC/LS 321, SDS/SWREN 251R
+SMF 230 :: ARTS 280, ECON 221, ENVS 278, KIN 222, PSCI 314, PSYCH 292, REC 371, SDS/SWREN 250R, SOC/LS 280, STAT 202, 206, 211, 221, 231, 241
+SMF 301 :: SOCWK/SWREN 220R, SMF 311
+SMF 304 :: None
+SMF 305 :: None
+SMF 306 :: PSYCH 221R, 354/354R
+SMF 307 :: None
+SMF 308 :: None
+SMF 309 :: None
+SMF 310 :: None
+SMF 311 :: SOCWK/SWREN 220R
+SMF 317 :: None
+SMF 318 :: None
+SMF 319 :: None
+SMF 365 :: None
+SMF 366 :: None
+SMF 367 :: None
+SMF 404 :: None
+SMF 406 :: None
+SMF 408 :: None
+SMF 460 :: None
+SMF 461 :: None
+SMF 462 :: None
+SMF 490 :: None
+SMF 494 :: None
+SMF 496 :: None
+SMF 498 :: None
+SOC 101 :: SOC 120R
+SOC 101R :: SOC 120R
+SOC 102 :: None
+SOC 120R :: SOC 101
+SOC 200 :: None
+SOC 201 :: None
+SOC 202 :: SOC 305
+SOC 204 :: None
+SOC 204R :: None
+SOC 206 :: None
+SOC 207 :: None
+SOC 207R :: None
+SOC 209 :: None
+SOC 210 :: None
+SOC 222 :: None
+SOC 223 :: None
+SOC 223R :: None
+SOC 224R :: None
+SOC 226 :: None
+SOC 227 :: None
+SOC 228 :: None
+SOC 229 :: SOC 227 from the terms Fall 1998, Winter 1999, Fall 1999, Winter 2000, Fall 2000, Winter 2001
+SOC 232 :: None
+SOC 234 :: None
+SOC 235 :: None
+SOC 237 :: None
+SOC 241 :: None
+SOC 243 :: None
+SOC 246 :: None
+SOC 247 :: None
+SOC 248 :: None
+SOC 249 :: None
+SOC 250 :: None
+SOC 253 :: None
+SOC 256 :: None
+SOC 258 :: None
+SOC 260 :: RS 218
+SOC 261 :: None
+SOC 262 :: RS 221 taken prior to Fall 2008
+SOC 265 :: None
+SOC 275 :: None
+SOC 280 :: ARTS 280, ECON 221, ENVS 278, ISS/ 250A/B, ISS/SDS 250R, KIN 222, PSCI 214/314, PSYCH 292, REC 371, SMF 230, STAT 202, 206, 211, 221, 231, 241, SWREN 250A/B, 250R
+SOC 286 :: None
+SOC 302 :: None
+SOC 307 :: None
+SOC 312 :: SOC 231
+SOC 315 :: SOC 214
+SOC 321 :: ISS/SDS 251R, KIN 330, PSYCH 291, REC 270, SMF 220, SWREN 251R
+SOC 322 :: None
+SOC 325 :: None
+SOC 326 :: None
+SOC 327 :: None
+SOC 336 :: None
+SOC 339 :: None
+SOC 340 :: None
+SOC 342 :: None
+SOC 345 :: None
+SOC 346 :: None
+SOC 347 :: None
+SOC 349 :: None
+SOC 352 :: None
+SOC 354 :: None
+SOC 355J :: None
+SOC 362 :: None
+SOC 365 :: None
+SOC 366 :: None
+SOC 368 :: SOC 369/369R
+SOC 369J :: None
+SOC 370 :: None
+SOC 371 :: None
+SOC 372 :: None
+SOC 375R :: None
+SOC 377 :: None
+SOC 378 :: None
+SOC 382 :: None
+SOC 398R :: None
+SOC 399R :: None
+SOC 401 :: None
+SOC 402 :: RS 402
+SOC 404 :: None
+SOC 405 :: None
+SOC 406 :: None
+SOC 407 :: None
+SOC 408 :: None
+SOC 409 :: None
+SOC 410 :: None
+SOC 411 :: SOC 311
+SOC 412 :: None
+SOC 414 :: None
+SOC 415 :: None
+SOC 416 :: None
+SOC 417 :: None
+SOC 418 :: None
+SOC 420 :: None
+SOC 421 :: None
+SOC 424 :: None
+SOC 428 :: None
+SOC 435 :: None
+SOC 450R :: None
+SOC 451 :: None
+SOC 452 :: None
+SOC 459 :: None
+SOC 490R :: None
+SOC 497 :: None
+SOC 498 :: None
+SOC 499A :: None
+SOC 499B :: None
+SOC 696 :: None
+SOC 697 :: None
+SOC 700 :: None
+SOC 703 :: None
+SOC 704 :: None
+SOC 705 :: None
+SOC 706 :: None
+SOC 707 :: None
+SOC 708 :: None
+SOC 709 :: None
+SOC 710 :: None
+SOC 711 :: None
+SOC 712 :: None
+SOC 713 :: None
+SOC 714 :: None
+SOC 715 :: None
+SOC 716 :: None
+SOC 717 :: None
+SOC 719 :: None
+SOC 720 :: None
+SOC 725 :: None
+SOC 730 :: None
+SOC 735 :: None
+SOC 740 :: None
+SOC 744 :: None
+SOC 745 :: None
+SOC 750 :: None
+SOC 751 :: None
+SOC 759 :: None
+SOC 760 :: None
+SOC 765 :: None
+SOC 766 :: None
+SOC 768 :: None
+SOC 770 :: None
+SOC 774 :: None
+SOC 776 :: None
+SOC 778 :: None
+SOC 780 :: None
+SOC 781 :: None
+SOC 782 :: None
+SOC 783 :: None
+SOC 786 :: None
+SOC 789 :: None
+SOCIN 63 :: None
+SOCIN 601 :: None
+SOCIN 602 :: None
+SOCIN 603 :: None
+SOCIN 604 :: None
+SOCIN 605 :: None
+SOCWK 120R :: None
+SOCWK 220R :: SMF 301/311
+SOCWK 221R :: None
+SOCWK 222R :: None
+SOCWK 240R :: None
+SOCWK 300R :: None
+SOCWK 301R :: None
+SOCWK 320R :: None
+SOCWK 321R :: None
+SOCWK 322R :: None
+SOCWK 326R :: None
+SOCWK 355R :: None
+SOCWK 356R :: None
+SOCWK 357R :: SOCWK 350B
+SOCWK 365R :: None
+SOCWK 367R :: None
+SOCWK 375R :: None
+SOCWK 390A :: None
+SOCWK 390B :: None
+SOCWK 398R :: None
+SOCWK 399R :: None
+SOCWK 421R :: None
+SOCWK 450R :: None
+SOCWK 490R :: None
+SPAN 101 :: 4U Spanish
+SPAN 102 :: 4U Spanish
+SPAN 150 :: None
+SPAN 201A :: SPAN 210
+SPAN 201B :: SPAN 210
+SPAN 210 :: SPAN 201A, 201B
+SPAN 217 :: None
+SPAN 218 :: None
+SPAN 220W :: None
+SPAN 222W :: None
+SPAN 223W :: None
+SPAN 227 :: None
+SPAN 228 :: None
+SPAN 261W :: None
+SPAN 262W :: None
+SPAN 301A :: SPAN 261W
+SPAN 301B :: SPAN 262W
+SPAN 305W :: None
+SPAN 322 :: None
+SPAN 324W :: None
+SPAN 325W :: None
+SPAN 326 :: None
+SPAN 327W :: None
+SPAN 328W :: None
+SPAN 333 :: None
+SPAN 334 :: None
+SPAN 335W :: None
+SPAN 344 :: None
+SPAN 345 :: None
+SPAN 350 :: None
+SPAN 365W :: None
+SPAN 366 :: None
+SPAN 386 :: None
+SPAN 387 :: None
+SPAN 388 :: None
+SPAN 390 :: None
+SPAN 400 :: None
+SPAN 401A :: None
+SPAN 401B :: None
+SPAN 410 :: None
+SPAN 415 :: None
+SPAN 418 :: None
+SPAN 430 :: SPAN 330
+SPAN 438W :: None
+SPAN 445 :: None
+SPAN 446W :: None
+SPAN 450 :: None
+SPAN 451W :: None
+SPAN 461W :: None
+SPAN 465W :: None
+SPAN 466W :: None
+SPAN 467W :: None
+SPAN 490 :: None
+SPAN 497 :: None
+SPAN 498W :: None
+SPCOM 100 :: None
+SPCOM 101 :: None
+SPCOM 102 :: None
+SPCOM 111 :: ARBUS 204/SPCOM 204
+SPCOM 204 :: SPCOM 111, ARBUS 204
+SPCOM 220 :: None
+SPCOM 223 :: AFM 232
+SPCOM 225 :: None
+SPCOM 226 :: None
+SPCOM 227 :: None
+SPCOM 228 :: None
+SPCOM 300 :: SPCOM 490, Section 002, taken Fall 2005
+SPCOM 323 :: None
+SPCOM 324 :: None
+SPCOM 325 :: None
+SPCOM 326 :: None
+SPCOM 329 :: None
+SPCOM 399 :: None
+SPCOM 400 :: None
+SPCOM 401 :: None
+SPCOM 402 :: None
+SPCOM 403 :: None
+SPCOM 404 :: None
+SPCOM 420 :: None
+SPCOM 426 :: None
+SPCOM 430 :: None
+SPCOM 431 :: None
+SPCOM 432 :: None
+SPCOM 433 :: None
+SPCOM 434 :: None
+SPCOM 440 :: None
+SPCOM 475 :: None
+SPCOM 490 :: None
+SPCOM 491 :: None
+SPCOM 499A :: None
+SPCOM 499B :: None
+SPD 270 :: RS 270
+SPD 271 :: RS 271
+SPD 302 :: None
+SPD 378 :: RS 378, 400A
+SPD 379 :: RS 379
+SPD 380 :: RS 380 taken prior to Fall 2008
+STAT 202 :: STAT 204, 220
+STAT 206 :: (for ART and ENV students) ARTS 280, ECON 221, ENVS 278, ISS 250A/250B, 250R, KIN 222, PSCI 214/314, PSYCH 292, REC 371, SOC/LS 280, SMF 230, STAT 202, 206, 211, 221, 231, 241, SWREN 250A/B/R
+STAT 211 :: (for ART and ENV students) ARTS 280, ECON 221, ENVS 278, ISS/SWREN 250A/B/R, KIN 222, PSCI 214/314, PSYCH 292, REC 371, SOC/LS 280, STAT 202, 204, 206, 221, 231, 241
+STAT 220 :: STAT 230, 240
+STAT 221 :: STAT 231,241;(ART & ENV)ARTS 280, ECON 221, ENVS 278, ISS/SWREN 250A/B,250R, KIN 222, PSCI 214/314, PSYCH 292, REC 371, SOC/LS 280, STAT 202, 204, 206, 211, 231, 241
+STAT 230 :: STAT 220, 240
+STAT 231 :: STAT 221, 241
+STAT 232 :: None
+STAT 240 :: STAT 220, 230
+STAT 241 :: STAT 221,231.
+STAT 316 :: STAT 331, 371
+STAT 321 :: ECON 321, STAT 331, 371, 373, 443
+STAT 322 :: STAT 332, 372
+STAT 330 :: STAT 334
+STAT 331 :: ECON 321, STAT 321, 371, 373, SYDE 334
+STAT 332 :: STAT 322, 372
+STAT 333 :: STAT 334
+STAT 334 :: STAT 330, 333
+STAT 337 :: HLTH 333, STAT 232
+STAT 340 :: CM 361/STAT 341, CS 437, 457.
+STAT 341 :: CS 437/STAT 340
+STAT 371 :: ECON 321, STAT 321, 331, 373
+STAT 372 :: STAT 322, 332
+STAT 373 :: STAT 321, 331, 371, 443
+STAT 430 :: (for Arts and Environmental Studies students) BIOL 461, PSYCH 391
+STAT 431 :: None
+STAT 433 :: None
+STAT 435 :: None
+STAT 436 :: None
+STAT 437 :: None
+STAT 440 :: None
+STAT 441 :: None
+STAT 442 :: None
+STAT 443 :: STAT 321, 373
+STAT 444 :: None
+STAT 446 :: AFM 322/474, BUS 423W, ECON 372, MATBUS 470
+STAT 450 :: None
+STAT 454 :: None
+STAT 464 :: None
+STAT 466 :: None
+STAT 467 :: None
+STAT 468 :: None
+STAT 469 :: None
+STAT 631 :: None
+STAT 690 :: None
+STAT 830 :: STAT 430.
+STAT 831 :: STAT 431.
+STAT 833 :: Antirequisite: STAT 433.
+STAT 835 :: STAT 435
+STAT 836 :: STAT 436
+STAT 837 :: STAT 437
+STAT 840 :: CM 461; STAT 440
+STAT 841 :: CM 463; STAT 441
+STAT 842 :: CM 462; STAT 442
+STAT 844 :: CM 464; STAT 444
+STAT 846 :: Antirequisite: STAT 446; ACTSC 446
+STAT 850 :: STAT 450
+STAT 854 :: STAT 454.
+STAT 890 :: None
+STAT 891 :: None
+STAT 901 :: None
+STAT 902 :: ECE 780
+STAT 906 :: None
+STAT 908 :: None
+STAT 923 :: None
+STAT 929 :: None
+STAT 930 :: None
+STAT 931 :: None
+STAT 932 :: None
+STAT 935 :: None
+STAT 936 :: None
+STAT 937 :: None
+STAT 938 :: None
+STAT 946 :: None
+STAT 947 :: None
+STAT 974 :: None
+STV 100 :: None
+STV 201 :: None
+STV 202 :: SYDE 261
+STV 203 :: None
+STV 205 :: None
+STV 302 :: None
+STV 303 :: None
+STV 400 :: None
+STV 401 :: STV 201
+STV 404 :: None
+SUSM 601 :: None
+SUSM 602 :: None
+SUSM 603 :: None
+SUSM 605 :: None
+SUSM 620 :: None
+SUSM 630 :: None
+SUSM 640 :: None
+SUSM 650 :: None
+SUSM 675 :: None
+SWK 600R :: None
+SWK 601R :: None
+SWK 602R :: None
+SWK 603R :: None
+SWK 604R :: None
+SWK 605R :: None
+SWK 606R :: None
+SWK 607R :: None
+SWK 608R :: None
+SWK 609R :: None
+SWK 650R :: None
+SWK 651R :: None
+SWK 652R :: None
+SWREN 120R :: None
+SWREN 220R :: None
+SWREN 221R :: None
+SWREN 222R :: None
+SWREN 223R :: None
+SWREN 224R :: None
+SWREN 250A :: None
+SWREN 250B :: None
+SWREN 250R :: ARTS 280, ECON 221, ENVS 278, ISS 250R, KIN 222, LS/SOC 280, PSYCH 292, REC 371, SMF 230, STAT 202, 206, 231.
+SWREN 251R :: KIN 330, ISS 251R, SOC 321/LS 221/321, PSYCH 291, REC 270, SDS 251R
+SWREN 300R :: None
+SWREN 301R :: None
+SWREN 311R :: None
+SWREN 312R :: None
+SWREN 321R :: None
+SWREN 349R :: PSYCH 222R, 352
+SWREN 411R :: None
+SWREN 414R :: None
+SWREN 422R :: None
+SWREN 423R :: None
+SWREN 424R :: None
+SWREN 431R :: None
+SWREN 434R :: None
+SWREN 441A :: None
+SWREN 441B :: None
+SWREN 441R :: None
+SWREN 442A :: None
+SWREN 442B :: None
+SWREN 442R :: None
+SWREN 443A :: None
+SWREN 443B :: None
+SWREN 443R :: None
+SWREN 470R :: None
+SWREN 471R :: None
+SWREN 472R :: None
+SYDE 101 :: None
+SYDE 101L :: None
+SYDE 102 :: None
+SYDE 111 :: MATH 116, 117, 127, 137, 147
+SYDE 112 :: MATH 118, 119, 128, 138, 148
+SYDE 113 :: None
+SYDE 114 :: None
+SYDE 121 :: CHE 121, CIVE 121, ECE 150, GENE 121
+SYDE 161 :: None
+SYDE 162 :: None
+SYDE 181 :: None
+SYDE 182 :: None
+SYDE 192 :: None
+SYDE 192L :: None
+SYDE 201 :: None
+SYDE 202 :: None
+SYDE 211 :: None
+SYDE 212 :: CIVE 224, ECE 316, NE 115
+SYDE 223 :: CS 240, ECE 250, MTE 140
+SYDE 252 :: None
+SYDE 261 :: STV 202
+SYDE 262 :: MSCI 261
+SYDE 281 :: CIVE 204, ME 219
+SYDE 282 :: ME 351
+SYDE 283 :: None
+SYDE 284 :: None
+SYDE 285 :: None
+SYDE 286 :: CIVE 204, ME 219
+SYDE 292 :: None
+SYDE 292L :: None
+SYDE 301 :: None
+SYDE 302 :: None
+SYDE 311 :: None
+SYDE 312 :: None
+SYDE 322 :: ECE 355
+SYDE 332 :: None
+SYDE 334 :: STAT 331, 371.
+SYDE 348 :: CS 449, MSCI 343.
+SYDE 351 :: None
+SYDE 352 :: None
+SYDE 352L :: None
+SYDE 361 :: None
+SYDE 362 :: None
+SYDE 372 :: None
+SYDE 381 :: ECE 309, ME 250
+SYDE 383 :: ME 351
+SYDE 384 :: BIOL 273
+SYDE 401 :: None
+SYDE 402 :: None
+SYDE 411 :: None
+SYDE 422 :: ECE 457A
+SYDE 431 :: None
+SYDE 433 :: None
+SYDE 444 :: None
+SYDE 461 :: GENE 461
+SYDE 462 :: GENE 462
+SYDE 475 :: None
+SYDE 482 :: None
+SYDE 522 :: ECE 457A
+SYDE 531 :: None
+SYDE 533 :: None
+SYDE 542 :: None
+SYDE 543 :: None
+SYDE 544 :: None
+SYDE 552 :: None
+SYDE 553 :: None
+SYDE 556 :: None
+SYDE 558 :: None
+SYDE 575 :: None
+SYDE 621 :: None
+SYDE 622 :: None
+SYDE 624 :: None
+SYDE 625 :: None
+SYDE 631 :: None
+SYDE 632 :: None
+SYDE 633 :: SYDE 730 Topic 2 - Remote Sensing Systems
+SYDE 642 :: None
+SYDE 643 :: SYDE 740 Topic 9 - Collaborative Systems Design
+SYDE 644 :: SYDE 740 Topic 2 - Human Factors Testing
+SYDE 652 :: None
+SYDE 654 :: None
+SYDE 655 :: SYDE 750 Topic 22 - Optimal Control
+SYDE 661 :: SYDE 750 Topic 21 - Model-based Robust Design
+SYDE 671 :: SYDE 770 Topic 14 - Adv. Topics in Image Proc.
+SYDE 672 :: SYDE 770 Topic 4 - Statistical Image Processing
+SYDE 673 :: SYDE 770 Topic 7 - Topics in Particle Filtering
+SYDE 674 :: SYDE 770 Topic 9 - 3D Computer Vision and Imaging
+SYDE 675 :: None
+SYDE 676 :: None
+SYDE 677 :: None
+SYDE 682 :: None
+SYDE 683 :: SYDE 750 Tpc 24
+SYDE 684 :: SYDE 780 Topic 2 - Biomaterials Science
+SYDE 710 :: None
+SYDE 720 :: None
+SYDE 730 :: None
+SYDE 740 :: None
+SYDE 750 :: None
+SYDE 760 :: None
+SYDE 770 :: None
+SYDE 780 :: None
+TAX 600 :: None
+TAX 615 :: None
+TAX 616 :: None
+TAX 617 :: None
+TAX 619 :: None
+TAX 620 :: None
+TAX 625 :: None
+TAX 626 :: None
+TAX 627 :: None
+TAX 628 :: None
+TAX 629 :: None
+TAX 635 :: None
+TAX 636 :: None
+TAX 637 :: None
+TAX 638 :: None
+TAX 690 :: None
+TN 700 :: None
+TOUR 601 :: None
+TOUR 602 :: None
+TOUR 603 :: None
+TOUR 604 :: None
+TOUR 609 :: None
+TOUR 675 :: None
+TS 600 :: None
+TS 601 :: None
+TS 603 :: None
+TS 607 :: None
+TS 610 :: None
+TS 611 :: None
+TS 613 :: None
+TS 617 :: None
+TS 619 :: None
+TS 621 :: None
+TS 631 :: None
+TS 632 :: None
+TS 633 :: None
+TS 635 :: None
+TS 636 :: None
+TS 637 :: Antirequisite: Students may not receive credit for both TS 670 and TS 637.
+TS 638 :: None
+TS 640 :: None
+TS 642 :: None
+TS 645 :: None
+TS 647 :: None
+TS 651 :: None
+TS 652 :: None
+TS 653 :: None
+TS 662 :: None
+TS 670 :: Antirequisite: Students may not receive credit for both TS 670 and TS 637.
+TS 674 :: None
+TS 677 :: None
+TS 678 :: None
+TS 679 :: None
+TS 681 :: None
+TS 684 :: None
+TS 689 :: None
+TS 690 :: None
+TS 691 :: None
+TS 692 :: None
+TS 699 :: None
+TS 715 :: None
+TS 718 :: None
+TS 724 :: None
+TS 731 :: None
+TS 735 :: None
+TS 738 :: None
+TS 746 :: None
+TS 751 :: None
+TS 779 :: None
+TS 783 :: None
+TS 787 :: None
+TS 792 :: None
+TS 796 :: None
+TS 798 :: None
+UN 700 :: None
+UN 701 :: None
+UN 702 :: None
+UN 799 :: None
+UN 801 :: None
+UN 802 :: None
+UNIV 101 :: None
+VCULT 100 :: None
+VCULT 101 :: FINE 110
+VCULT 200 :: None
+VCULT 300 :: None
+WATER 601 :: None
+WATER 602 :: None
+WATER 620 :: None
+WKRPT 1 :: None
+WKRPT 2 :: None
+WKRPT 3 :: None
+WKRPT 4 :: None
+WKRPT 100 :: WKRPT 101
+WKRPT 101 :: WKRPT 100
+WKRPT 103 :: None
+WKRPT 200 :: 201
+WKRPT 201 :: WKRPT 200
+WKRPT 203 :: None
+WKRPT 300 :: WKRPT 301
+WKRPT 301 :: WKRPT 300
+WKRPT 303 :: None
+WKRPT 400 :: WKRPT 401
+WKRPT 401 :: WKRPT 400
+WS 101 :: None
+WS 102 :: None
+WS 108E :: None
+WS 201 :: None
+WS 202 :: None
+WS 205 :: None
+WS 206 :: None
+WS 207 :: None
+WS 208E :: None
+WS 209 :: None
+WS 222 :: None
+WS 261 :: RS 261 taken prior to Fall 2008
+WS 262 :: FINE 290 taken Fall 2008
+WS 281 :: None
+WS 302 :: None
+WS 306 :: None
+WS 308 :: None
+WS 320 :: None
+WS 321 :: RS 346
+WS 322 :: RS 347, 348 taken prior to Fall 2008
+WS 323 :: RS 348 taken prior to Fall 2008
+WS 325 :: None
+WS 331 :: None
+WS 334 :: None
+WS 347 :: HIST 391 section 002 Winter 2012, section 001, Fall 2012
+WS 350 :: None
+WS 365 :: None
+WS 370 :: None
+WS 409 :: None
+WS 410F :: None
+WS 422 :: None
+WS 430 :: None
+WS 475 :: None
+WS 499A :: None
+WS 499B :: None
+WS 601 :: None
+WS 602 :: None
+WS 680 :: None

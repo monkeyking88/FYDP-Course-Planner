@@ -1,0 +1,68 @@
+_Work_Term is {
+    // COOP1-12
+    COOP1,
+    COOP2,
+    COOP3,
+    COOP4,
+    COOP5,
+    COOP6,
+    COOP7,
+    COOP8,
+    COOP9,
+    COOP10,
+    COOP11,
+    COOP12
+}
+
+_Wkrpt1 is {
+    WKRPT1*
+}
+
+_Wkrpt2 is {
+    WKRPT2*
+}
+
+_Wkrpt3 is {
+    WKRPT3*
+}
+
+_Wkrpt4 is {
+    WKRPT4*
+}
+
+_Pd is {
+    // PD1-10
+    PD1,
+    PD2,
+    PD3,
+    PD4,
+    PD5,
+    PD6,
+    PD7,
+    PD8,
+    PD9
+}
+
+_Work_Term_Min_Requirement is 5 of {
+    _Work_Term
+}
+
+_Wkrpt_Requirement_1 is 1 of {
+    _Wkrpt1
+}
+
+_Wkrpt_Requirement_2 is 1 of {
+    _Wkrpt2
+}
+
+_Wkrpt_Requirement_3 is 1 of {
+    _Wkrpt3
+}
+
+_Wkrpt_Requirement_4 is 1 of {
+    _Wkrpt4
+}
+
+_Pd_Requirement is 5 of {
+    _Pd
+}

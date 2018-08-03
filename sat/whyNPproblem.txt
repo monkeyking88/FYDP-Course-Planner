@@ -1,0 +1,90 @@
+why is it a np problem?
+
+it is a set problem that has lots of different possiblities
+
+we have a bunch of buckets that we have to fill and can be filled by multiple items
+
+think of Knowledge integration with several possibilities
+
+----------------------------------------------------------------------
+
+Double Counting (Best Example so far)
+
+the double counting problem can be seen as a more complicated version of 
+the NPC problem - set packing
+http://www3.cs.stonybrook.edu/~algorith/files/set-packing.shtml
+http://en.wikipedia.org/wiki/Set_packing
+
+Let Mike be a student.
+Let U be the set of all courses that Mike has taken, 
+	each course in U is assigned with a positive integer l, which indicates the upper limit on the number of requirements that the course can be used to count towards to.
+
+Let R1, R2, ... , Rn be sets of subsets of S, where
+	each element in Ri is a subset of Mike's courses that is valid to be used to satisfy Requirement Ri.
+
+Let R_All = {R1, R2, ..., Rn}
+
+Let R_Union = R1 U R2 U ... U Rn.
+Does there exist a subset of n elements in R_Union s.t. each element of the subset belongs to a distinct member in R_All and each course c is not used in more than c.l requirements. 
+
+
+The set packing problem:
+Given a set U, a set of subsets of U, called it S, and a integer k.
+Does there exist a subset of S, called it C s.t. all elements in C are pairwise disjoint and |C|>=k.
+
+
+Reduction:
+Given inputs of a set packing problem: U, S, k
+Assign each element in U with integer 1.
+Let there be k requirements s.t. S=R1=R2=...=Rk.
+
+
+----------------------------------------------------------------------
+
+A Potential Situation:
+
+Need 1.5 units of ECON courses with 65% to get a minor
+
+Course		Unit	Grade
+ECON 100	0.20	70%
+ECON 101	0.10	60%
+ECON 102	0.25	60%
+ECON 103	0.5	60%
+ECON 104	0.5	60%
+ECON 105	0.20	70%
+ECON 106	0.5	65%
+
+0/1 knapsack problem
+
+-------------------------------------------------------------------------
+
+A real life scenario (don't use it):
+
+"
+Honours Mathematical Economics
+Continuation in this academic plan requires a cumulative average of 60%, a cumulative Economics average of 75%, and a cumulative Mathematics average of 60%. Both regular and co-operative versions of this plan are available.
+
+Economics Plan-level requirements:
+at least seven academic course units (14 courses) in Economics with a minimum cumulative average of 75%, including:
+ECON 101, ECON 102, ECON 201, ECON 202, ECON 301, ECON 302, ECON 371, ECON 401, ECON 402, ECON 421, ECON 472
+three additional ECON courses at the 300-level or above
+
+...
+
+1. Students must achieve a cumulative average of at least 75% in the 14 economics courses counted towards the degree and a cumulative average of 60% in the 13 math courses counted towards the degree.
+"
+
+Directly quoted from https://ugradcalendar.uwaterloo.ca/page/ARTS-Honours-Mathematical-Economics
+
+Suppose a student has taken the 11 required ECON courses of Mathematical Economics with an average of exactly 75%
+ECON 101, ECON 102, ECON 201, ECON 202, ECON 301, ECON 302, ECON 371, ECON 401, ECON 402, ECON 421, ECON 472
+
+But the student also needs 3 more ECON courses to graduate
+
+The student has also taken
+ECON 311
+ECON 321
+ECON 332
+ECON 341
+ECON 342
+

@@ -1,0 +1,175 @@
+//CSBSEHC 2011
+
+import shared/mathcoop2011
+import shared/mathtablei2011
+import shared/prerequisitechainlength3
+
+_Humanities is {
+	ARTS*, CHINA*, CLAS*, CMW*, CROAT*, DAC*, DRAMA*, DUTCH*, EASIA*, ENGL*, FINE*, FR*, GER*, GRK*, HIST*,
+	HUMSC*, ITAL*, ITALST*, JAPAN*, JS*, KOREA*, LAT*, MUSIC*, PHIL*, POLSH*, PORT*, REES*, RS*, RUSS*, SI*, SPAN*, SPCOM*
+}
+_SocialSciences is {
+	AFM*, ANTH*, APPLS*, BUS*, ECON*, GEOG*, HRM*, INTST*, INTTS*, ISS*, LS*, MSCI*, NATST*, PACS*, PSCI*, PSYCH*, REC*,
+	SMF*, SOC*, SOCWK*, SPD*, STV*, WS*
+}
+_PureScience is {
+	BIOL*, CHEM*, EARTH*, PHYS*, SCI*
+}
+_AppliedScience is {
+	BIOL*, CHEM*, EARTH*, PHYS*, SCI*,
+	ARCH*, ENVS*, ERS*, GERON*, HLTH*, KIN*, PLAN*
+}
+
+_CS_Specific is all of {
+
+	_CS_Specific_Basic_Programming is unique 1 of {
+		CS115, 	//	Introduction to Computer Science 1
+		CS135,	//	Designing Functional Programs
+		CS145	//	Design, Abstraction, and Implementation
+	}
+	
+	_CS_Specific_Elementary_Algorithm is unique 1 of {
+		CS136,	//	Elementary Algorithm Design and Data Abstraction
+		CS146   // Elementary Algorithm Design and Data Abstraction (Advanced Level)
+	}
+	
+	_CS_Specific_Calculus_I is unique 1 of {
+		MATH127,//	Calculus 1 for the Sciences 
+		MATH137,//	Calculus 1 for Honours Mathematics 
+		MATH147	//	Calculus 1 (Advanced Level)
+	}
+	
+	_CS_Specific_Calculus_II is unique 1 of {
+		MATH128,//	Calculus 2 for the Sciences 
+		MATH138,//	Calculus 2 for Honours Mathematics 
+		MATH148	//	Calculus 2 (Advanced Level)
+	}
+
+    _Algebra is unique 1 of {
+    	MATH135,//	Algebra for Honours Mathematics 
+    	MATH145	//	Algebra (Advanced Level)
+    }
+	
+	_Linear_Algebra is unique 1 of {
+		MATH136,//	Linear Algebra 1 for Honours Mathematics 
+		MATH146	//	Linear Algebra 1 (Advanced Level)
+	}
+	
+	_CS_Specific_Combinatorics is unique 1 of {
+		MATH239,//	Introduction to Combinatorics
+		MATH249	//	Introduction to Combinatorics (Advanced Level)
+	}
+	
+	
+	_CS_Specific_Probability is unique 1 of {
+		STAT230,//	Probability
+		STAT240	//	Probability (Advanced Level)
+	}
+	
+	_CS_Specific_Statistics is unique 1 of {
+		STAT231,//	Statistics 
+		STAT241	//	Statistics (Advanced Level)
+	}
+	
+	_CS_Specific_Core is unique all of {
+		CS240, //	Data Structures and Data Management 
+		CS241, //	Foundations of Sequential Programs 
+		CS245, //	Logic and Computation 
+		CS246, //	Object-Oriented Software Development
+		CS251, //	Computer Organization and Design
+		CS341, //	Algorithms, with CM339, but same course ID
+		CS350  //	Operating Systems 
+	}
+
+    _CS_Foundation_Database is all of {
+        CS348, CS445, CS446, CS447
+    }
+    
+    _CS_Applications is 2 courses of {
+        _Computer_Other_Applications is 0-2 of {
+            CS343, // Concurrent and Parallel Programming 
+            CS349, // User Interfaces 
+            CS444, // Compiler Construction 
+            CS448, // Database Systems Implementation
+            CS452, // Real-time Programming 
+            CS457, // System Performance Evaluation 
+            CS488 // Introduction to Computer Graphics
+        }
+
+        _Computer_Architecutre is 1-1 of {
+            CS450, ECE429
+        }
+
+        _Distributed_System is 1-1 of {
+            CS454, ECE454
+        }
+
+        _Computer_Networks is 1-1 of {
+            CS456, ECE428
+        }
+
+        _Computer_Intelligence is 1-1 of {
+            CS486, ECE457A, ECE457B
+        }
+    }
+
+    _CS_Societal_Issues is 1 of {
+        PHIL215, // Professional and Business Ethics 
+        CS492, // The Social Implications of Computing 
+        GENE411, // Engineering Law and Ethics 
+        PHIL315, // Ethics and The Engineering Profession 
+        ME401, // Law for the Professional Engineer 
+        STV100, // Society, Technology and Values: Introduction 
+        STV202, // Design and Society 
+        STV302 // Information Technology and Society 
+    }
+
+    _CS_Business_Issues is 1 of {
+        BUS111W, // Introduction to Business Organization (see WLU calendar)
+        BUS121W, // Functional Areas of the Organization (see WLU calendar)
+        COMM400, // Entrepreneurship, Technology and the Emerging Information Economy 
+        HRM200, // Basic Human Resources Management 
+        MSCI211, // Organizational Behaviour 
+        MSCI311, // Organizational Design and Technology 
+        MSCI454 // Technical Entrepreneurship 
+    }
+	
+    _CS_Communication is 1 of {
+        ENGL109, // Introduction to Academic Writing 
+        ENGL119, // Communications in Mathematics & Computer Science 
+        ENGL140R, // The Use of English 1 
+        ENGL210E, // Genres of Technical Communication 
+        ENGL210F, // Genres of Business Communication 
+        SPCOM323, // Speech Writing 
+        ENGL376R, // Applied English Grammar 1 
+        ENGL392A, // Information Design 
+        ENGL392B, // Visual Rhetoric 
+        SPCOM100, // Interpersonal Communication 
+        SPCOM223, // Public Speaking 
+        SPCOM225, // Interviewing 
+        SPCOM324 // Small Group Communication 
+    }
+	
+	_CS_Breadth_Depth is all of {
+		//1.0 from the humanities
+		_CS_Breadth_Depth_Humanities is unique 1.0 units of {
+			_Humanities
+		}
+		
+		//1.0 unit from the social sciences
+		_CS_Breadth_Depth_SocialSciences is unique 1.0 units of {
+			_SocialSciences
+		}
+		
+		//0.5 units from the pure sciences
+		_CS_Breadth_Depth_PureScience is unique 0.5 units of {
+			_PureScience
+		}
+		
+		//0.5 units from the pure and applied sciences
+		_CS_Breadth_Depth_Science is unique 0.5 units of {
+			_PureScience,
+			_AppliedScience
+		}
+	}
+}

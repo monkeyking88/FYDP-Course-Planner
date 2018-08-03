@@ -1,0 +1,375 @@
+listCNonPreScheduled := ANTH.*|CLAS.*|ECON.*|ENGL.*|HIST.*|HRM.*|PHIL.*|PSCI.*|PSYCH.*|RS.*|SMF.*|SDS.*|SOCWK.*|STV.*|SOC.*|WS.*
+
+"Bachelor of Applied Science - Computer Engineering" is all of {
+    program one of { UEN05 }
+
+    from passed_courses all of {
+        "CompEng Requirement" is all of {
+            CHE102
+            ECE100A
+            ECE105
+            ECE140
+            ECE150
+            MATH117
+            ECE100B
+            ECE103
+            ECE106
+            ECE124
+            ECE155
+            MATH119
+            ECE200A
+            ECE204A
+            ECE205
+            ECE222
+            ECE240
+            ECE250
+            ECE290
+            MATH215
+            ECE200B
+            ECE204B
+            ECE206
+            ECE207
+            ECE242
+            ECE209
+            ECE300A
+            ECE316
+            ECE380
+            ECE331
+            ECE375
+            ECE300B
+            ECE318
+            ECE390
+            ECE224
+            ECE361
+            ECE400A
+            1 of {
+                ECE498A
+                GENE403
+            }
+            ECE400B
+            1 of {
+                ECE498B
+                GENE404
+            }
+        }
+        "TE" is all of {
+            5 of {
+                ECE413
+                ECE418
+                ECE429
+                ECE432
+                ECE445
+                ECE454
+                ECE455
+                ECE457A
+                ECE458
+                ECE462
+                ECE463
+                ECE473
+                ECE475
+                ECE481
+                ECE486
+                ECE493
+                ECE406
+                ECE409
+                ECE414
+                ECE415
+                ECE416
+                ECE423
+                ECE433
+                ECE444
+                ECE457B
+                ECE459
+                ECE464
+                ECE467
+                ECE474
+                ECE477
+                ECE488
+                ECE493
+                at most 2 of {
+                    ECE254
+                    ECE327
+                    ECE351
+                    ECE356
+                    ECE358
+                }
+                ECE499
+            }
+        }
+        "CSE" is all of {
+            4 of {
+                2 of {
+                    all of {
+                        listCNonPreScheduled except {
+                            ECON211
+                            ECON221
+                            ECON311
+                            ECON321
+                            ECON371
+                            ECON404
+                            ECON405
+                            ECON411
+                            ECON412
+                            ECON421
+                            ECON422
+                            ECON471
+                            ENGL109
+                            ENGL129R
+                            ENGL140R
+                            ENGL141R
+                            ENGL210E
+                            ENGL210F
+                            HIST4.*
+                            PHIL145
+                            PHIL200J
+                            PHIL216
+                            PHIL240
+                            PHIL256
+                            PHIL359
+                            PHIL441
+                            PSCI314
+                            PSCI315
+                            PSYCH256
+                            PSYCH261
+                            PSYCH291
+                            PSYCH292
+                            PSYCH307
+                            PSYCH312
+                            PSYCH317
+                            PSYCH391
+                            PSYCH4.*
+                            RS131
+                            RS132
+                            RS133
+                            RS134
+                            RS233
+                            RS234
+                            RS331
+                            RS332
+                            SDS150R
+                            SDS250R
+                            SDS251R
+                            SDS350R
+                            SDS398R
+                            SDS399R
+                            SOCWK390A
+                            SOCWK390B
+                            SOCWK398R
+                            SOCWK399R
+                            SOC280
+                            SOC321
+                            SOC322
+                            SOC382
+                            SOC410
+                            SOC421
+                            SOC498
+                            SOC499A
+                            SOC499B
+                            WS365
+                            WS475
+                        }
+                    }
+                    DRAMA101A
+                    DRAMA101B
+                    EASIA201R
+                    ENVS195
+                    FR197
+                    FR297
+                    GENE22C
+                    GENE412
+                    GEOG101
+                    GEOG202
+                    GEOG203
+                    GEOG368
+                    GERON201
+                    HLTH220
+                    HUMSC101
+                    JUMSC102
+                    INTST101
+                    KIN352
+                    KIN354
+                    LS101
+                    LS102
+                    MSCI211
+                    MSCI263
+                    MSCI311
+                    MSCI411
+                    MUSIC140
+                    MUSIC245
+                    MUSIC253
+                    MUSIC256
+                    MUSIC334
+                    MUSIC355
+                    MUSIC363
+                    PLAN100
+                    REC205
+                    REC230
+                    REC304
+                    REC425
+                }
+                at most 2 of {
+                    ENVS105
+                    ERS215
+                    ERS315
+                    GENE22A
+                    GEOG203
+                    GEOG368
+                    MSCI422
+                    MSCI442
+                    PHIL226
+                    SOC232
+                    STV100
+                    STV202
+                    STV203
+                    STV205
+                    STV210
+                    STV302
+                    STV404
+                    SYDE261
+                    WS205
+                    CIVE392 
+                    GENE22B
+                    MSCI261 
+                    SYDE262 
+                    AFM131
+                    APPLS205R
+                    APPLS301
+                    APPLS304R
+                    APPLS306R
+                    BET100
+                    BET300
+                    BET320
+                    BET400
+                    CIVE491
+                    ENGL109
+                    ENGL129R
+                    ENGL210E
+                    ENGL210F
+                    EMLS102R
+                    EMLS110R
+                    EMLS129R
+                    ENVE391
+                    ENVS201
+                    ENVS401
+                    GENE22D
+                    GENE315
+                    GENE411
+                    GENE415
+                    KIN155
+                    MSCI262
+                    MSCI421
+                    MSCI454
+                    ME401
+                    MUSIC100
+                    MUSIC231
+                    MUSIC240
+                    MUSIC246
+                    MUSIC254
+                    MUSIC255
+                    MUSIC260
+                    MUSIC361
+                    PHIL145
+                    PHIL200J
+                    PHIL216
+                    PHIL256
+                    PHIL359
+                    PSYCH256
+                    PSYCH307
+                    PSYCH312
+                    PSYCH317
+                    REC100
+                    RS131
+                    RS132
+                    RS133
+                    RS134
+                    RS233
+                    RS234
+                    RS331
+                    RS332
+                    SPCOM223
+                }
+            }
+        }
+        "NSE" is all of {
+            2 of {
+                1 of {
+                    BIOL130 and BIOL130L
+                    BIOL240 and BIOL240L
+                    BIOL273 and BIOL273L
+                    CHEM123 and CHEM123L
+                    CHEM237 and CHEM237L
+                    CHEM262 and CHEM262L
+                    1 of {
+                        ECE403
+                        PHYS358
+                    }
+                    1 of {
+                        ECE404
+                        PHYS256
+                    }
+                    1 of {
+                        ECE405
+                        PHYS233
+                    }
+                    ENVS200
+                    NE122
+                }
+                at most 1 of {
+                    BIOL110
+                    BIOL130
+                    BIOL150
+                    BIOL165
+                    BIOL211
+                    BIOL240 
+                    BIOL241
+                    BIOL273
+                    CHE161
+                    CHEM123
+                    CHEM209
+                    CHEM217
+                    CHEM237
+                    CHEM254
+                    CHEM262
+                    CHEM266
+                    CHEM356
+                    CHEM404
+                    EARTH121
+                    EARTH122
+                    EARTH123
+                    EARTH221
+                    EARTH270
+                    EARTH281
+                    ENVE275
+                    ENVE276
+                    PHYS234
+                    PHYS263
+                    PHYS275
+                    PHYS280
+                    PHYS334
+                    PHYS335
+                    PHYS375
+                    PHYS380
+                    SCI238
+                }
+            }
+        }
+        "WKRPT" is all of {
+            3 of WKRPT[234]01
+        }
+        "COOP" is all of {
+            5 of {
+                COOP[1-9]
+                COOP1[0-2]
+            }
+        }
+        "PD" is all of {
+            2 of PD2[01]
+            3 of PD[3-9]
+        }
+        "MileStone" is all of {
+            ELP
+            WHM
+            TP
+        }
+    }
+}

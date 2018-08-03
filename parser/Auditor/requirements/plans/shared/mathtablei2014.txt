@@ -1,0 +1,28 @@
+_Math_Courses is {
+	MATH*, CS*, CO*, CM*, AMATH*, PMATH*, STAT*, ACTSC*,
+    ECE222, ECE354, ECE428, SE212, SE112, SE240, SE382, SE463, SE464, SE465
+}
+
+_Table1_Min_Units is 20.0 units of {
+    any, except COOP*, except WKRPT*, except PD*
+}
+
+_Table1_Math_Course_Requirement is 9.0-14.0 units of {
+    _Math_Courses
+}
+
+_Table1_Min_NonMath_Units is 5.0 units of {
+    any, except _Math_Courses
+}
+
+_Writing_Skill is 1 of {
+    ENGL109, // Introduction to Academic Writing 
+    ENGL129R, // Introduction to Written English 
+    ENGL140R, // The Use of English 1
+    ESL101R, // Oral Communications for Academic Purposes
+    ESL102R, // Introduction to Error Correction in Writing
+    SPCOM100, // Interpersonal Communication
+    SPCOM111, // Leadership, Communication, and Collaboration
+    SPCOM223, // Public Speaking
+    ELPE100 // ELPE Milestone Equivalent
+}

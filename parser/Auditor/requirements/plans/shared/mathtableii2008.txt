@@ -1,0 +1,10 @@
+_Algebra is 1 of { MATH135, MATH145 }
+_Linear_Algebra_I is 1 of { MATH136, MATH146 }
+_Linear_Algebra_II is 1 of { MATH235, MATH245 }
+_Calculus_I is 1 of { MATH137, MATH147 }
+_Calculus_II is 1 of { MATH138, MATH148 }
+_Probability is 1 of { STAT230, STAT240 }
+_Statistics is 1 of { STAT231, STAT241 }
+_Computer_Science_I is 1 of { CS115, CS135, CS230, CS234, CS241 }
+_Computer_Science_II is 1 of { CS116, CS136, CS145 }
+_Calculus_III_Or_Combinatorics is 1 of { MATH237, MATH247, MATH239, MATH249 }

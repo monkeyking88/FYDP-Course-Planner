@@ -1,0 +1,51 @@
+abstract plan CEAB2011 {
+    // define CEAB requirements somehow ...
+}
+
+plan SE2011 extends CEAB2011 { // include all of CEAB2011 requirements, plus this new stuff
+    major 60% {
+        intro,                  // no quantifier implicitly means all on list
+        all core,               // or we can say "all" explicitly
+        capstone
+    }
+    list intro {se101, se102}
+    list core {se463, se464, se465}
+    list capstone {se390, se490, se491}
+    other 50% {
+        one linkage,            // only need to take one from this list
+        two humanities,         // take two from this list
+        three ECE2011.science   // take three from this list, which is defined in the ECE2011 plan
+    }
+    list linkage {foo101, bar102}
+    list humanities {ENG101, FR101, PSYCH101}
+}
+
+plan ECE2011 extends CEAB2011 {
+    list science {BIO101, CHEM101}  
+}
+
+// BUG: SE2011 says to take three science courses, but the list it
+// references only contains two courses. We should do sanity checks
+// like this on the plans. Easy to do in Alloy. Think of more checks.
+
+
+student x8xie {
+    plan SE2011;
+    plan SECogSciOption2011;
+    substitutions {
+        SE101 <- ECE100;
+    }
+    transcript {
+        ECE100: 1099 90%;  // term 1099, which was September 2009 
+    }
+}
+
+// adding something to Golson's transcript outside of the block structure
+student::transcript x8xie {
+    SE390 1149 90%;
+}
+
+// adding another substitution to Golson outside of the block structure
+student::substitutions x8xie {
+    SE102 <- ECE102;
+}

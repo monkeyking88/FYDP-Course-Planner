@@ -1,0 +1,249 @@
+//CS
+
+_Humanities is {
+	ARTS*, CHINA*, CLAS*, CMW*, CROAT*, DAC*, DRAMA*, DUTCH*, EASIA*, ENGL*, FINE*, FR*, GER*, GRK*, HIST*,
+	HUMSC*, ITAL*, ITALST*, JAPAN*, JS*, KOREA*, LAT*, MUSIC*, PHIL*, POLSH*, PORT*, REES*, RS*, RUSS*, SI*, SPAN*, SPCOM*
+}
+_SocialSciences is {
+	AFM*, ANTH*, APPLS*, BUS*, ECON*, GEOG*, HRM*, INTST*, INTTS*, ISS*, LS*, MSCI*, NATST*, PACS*, PSCI*, PSYCH*, REC*,
+	SMF*, SOC, SOCWK*, SPD*, STV*, WS*
+}
+_PureScience is {
+	BIOL*, CHEM*, EARTH*, PHYS*, SCI*
+}
+_AppliedScience is {
+	BIOL*, CHEM*, EARTH*, PHYS*, SCI*,
+	ARCH*, ENVS*, ERS*, GERON*, HLTH*, KIN*, PLAN*
+}
+
+_ListI is {
+	EMLS101R,	//	Oral Communication for Academic Purposes
+	EMLS102R,	//	Correction in Academic Writing
+	EMLS129R,	//	Written Academic English
+	ENGL129R,	//	Written Academic English
+	ENGL109,	//	Introduction to Academic Writing 
+	SPCOM100,	//	Interpersonal Communication
+	SPCOM223	//	Public Speaking
+}
+
+_ListII is {
+	_ListI,
+	EMLS103R,	//	Phonetics for Effective English Pronunciation
+	EMLS104R,	//	Reading and Listening for Academic Purposes 
+	EMLS110R,	//	Critical Expression in Canadian Academic Contexts
+	ENGL101A,	//	Introduction to Literary Studies
+	ENGL101B,	//	Introduction to Rhetorical Studies
+	ENGL108D,	//	Digital Lives
+	ENGL119,	//	Communications in Mathematics and Computer Science
+	ENGL251A,	//	Criticism 1
+	SPCOM225,	//	Interviewing
+	SPCOM227,	//	Leadership
+	SPCOM228	//	Public Communication
+}
+	
+	
+_CS_Specific is all of {
+
+	unique 1 of {
+		CS115, 	//	Introduction to Computer Science 1
+		CS135,	//	Designing Functional Programs
+		CS145	//	Designing Functional Programs (Advanced Level)
+	}
+	
+	unique 1 of {
+		CS136,	//	Elementary Algorithm Design and Data Abstraction
+		CS146	//	Elementary Algorithm Design and Data Abstraction (Advanced Level) 
+	}
+	
+	unique 1 of {
+		MATH127,//	Calculus 1 for the Sciences 
+		MATH137,//	Calculus 1 for Honours Mathematics 
+		MATH147	//	Calculus 1 (Advanced Level)
+	}
+	
+	unique 1 of {
+		MATH128,//	Calculus 2 for the Sciences 
+		MATH138,//	Calculus 2 for Honours Mathematics 
+		MATH148	//	Calculus 2 (Advanced Level)
+	}
+
+	unique 1 of {
+		MATH135,//	Algebra for Honours Mathematics 
+		MATH145	//	Algebra (Advanced Level)
+	}
+	
+	unique 1 of {
+		MATH136,//	Linear Algebra 1 for Honours Mathematics 
+		MATH146	//	Linear Algebra 1 (Advanced Level)
+	}
+	
+	unique 1 of {
+		MATH239,//	Introduction to Combinatorics
+		MATH249	//	Introduction to Combinatorics (Advanced Level)
+	}
+	
+	
+	unique 1 of {
+		STAT230,//	Probability
+		STAT240	//	Probability (Advanced Level)
+	}
+	
+	unique 1 of {
+		STAT231,//	Statistics 
+		STAT241	//	Statistics (Advanced Level)
+	}
+	
+	unique all of {
+		CS240, //	Data Structures and Data Management 
+		CS241, //	Foundations of Sequential Programs 
+		CS245, //	Logic and Computation 
+		CS246, //	Object-Oriented Software Development
+		CS251, //	Computer Organization and Design
+		CS341, //	Algorithms 
+		CS350  //	Operating Systems 
+	}
+
+	3 of {
+		//Three additional CS courses chosen from CS 340-398, 440-489
+		unique 3 of {
+			CS340-398,
+			CS440-489
+		}
+		
+		//Two additional CS courses chosen from CS 440-489.
+		unique 2 of {
+			CS440-489
+		}
+		
+		//One additional course chosen from
+		unique 1 of {
+			CO487,		//	Applied Cryptography 
+			CS440-498, 
+			CS499T, 	//	Honours Thesis 
+			STAT440,	//	Computational Inference 
+			CS600-699,	
+			CS700-799
+		}
+	}
+
+	//The selection of upper-year CS courses must include at least one course from each of at least two of the following area groups:
+	//wtf requirement wording..
+	2 of {
+		//Systems and SE: 
+		1 of {
+			CS343, CS349, CS442, CS444, CS445, CS446, CS447, CS450, CS452, CS454, CS456, CS457, CS458
+		}
+		
+		//Applications:
+		1 of {
+			CS348, CS448, CS449, CS473, CS476, CS482, CS484, CS485, CS486, CS488
+		}
+		
+		//Mathematical Foundations of CS
+		1 of {
+			CS360, CS365, CS370, CS371, CS462, CS466, CS467, CS475, CS487
+		}
+	}
+	
+	all of {
+		//1.0 from the humanities
+		unique 1.0 units of { 
+			_Humanities
+		}
+		
+		//1.0 unit from the social sciences
+		unique 1.0 units of {
+			_SocialSciences
+		}
+		
+		//0.5 units from the pure sciences
+		unique 0.5 units of {
+			_PureScience
+		}
+		
+		//0.5 units from the pure and applied sciences
+		unique 0.5 units of {
+			_PureScience,
+			_AppliedScience
+		}
+		
+		//Note: No course can be used to satisfy more than one of the above requirements.
+	}
+	
+	5.0 units of {
+		ANY, except _Math
+	}
+	
+	
+	1 of {
+		//1.5 units with the same subject, including at least 0.5 units at third-year level or higher
+		1.5 units of {
+			1.5 units of { _sameSub }
+			0.5 units of { _thirdYearOrHigher }	//TODO	...
+			
+		}
+		
+		//or 1.5 units with the same subject forming a prerequisite chain of length three
+		1.5 units of {
+			1.5 units of { _sameSubThatFormPrequisitChainOf3 }	//TODO	...
+		}
+	}
+	
+}
+
+_CS_Table1_Coop is all of {
+	
+	//take one course chosen from List I, and one course chosen from List II
+	2 of {
+		unique 1 of {
+			_ListI
+		}
+		unique 1 of {
+			_ListII
+		}
+	}
+	
+	20.0 units of {
+		_AllCourses,
+		except COOP*,
+		except PD*,
+		except WKRPT*
+	}
+	
+	2.5 units of {
+		COOP*
+	}
+	
+	2.5 units of {
+		PD*
+	}
+	
+	4.0 units of {
+		WKRPT*
+	}
+	
+	5.0 units of {
+		ANY, except _Math
+	}
+	
+	2.0 units of {
+		_AllFailed,
+		except COOP*,
+		except PD*,
+		except WKRPT*
+	}
+	
+	25.0 units of {
+		_AllAttemped,
+		except COOP*,
+		except PD*,
+		except WKRPT*
+	}
+	
+}
+
+
+_CS is all of {
+	_CS_Table1_Coop,
+	_CS_Specific
+}

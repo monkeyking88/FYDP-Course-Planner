@@ -1,0 +1,492 @@
+Course [GEOG365] in course list
+ID: [005275]
+In extract, course [GEOG365] has id [005954]
+In extract, ID [005275] has courses ['ENVS365']
+********************
+
+Course [GEOG366] in course list
+ID: [005277]
+In extract, course [GEOG366] has id [005956]
+In extract, ID [005277] has courses ['ENVS366']
+********************
+
+Course [PSYCH354] in course list
+ID: [007906]
+In extract, course [PSYCH354] has id [007973]
+In extract, ID [007906] has courses ['PSYCH354R']
+********************
+
+Course [CHEM770] in course list
+ID: [000340]
+In extract, course [CHEM770] has id [000469]
+In extract, ID [000340] has courses ['CHE640']
+********************
+
+Course [CHEM771] in course list
+ID: [000341]
+In extract, course [CHEM771] has id [000470]
+In extract, ID [000341] has courses ['CHE641']
+********************
+
+Course [SYDE433] in course list
+ID: [009003]
+In extract, course [SYDE433] has id [008984]
+In extract, ID [009003] has courses ['SYDE533']
+********************
+
+Course [NATST370] in course list
+ID: [003945]
+In extract, course [NATST370] has id [007084]
+In extract, ID [003945] has courses ['NATST272', 'ANTH272']
+********************
+
+Course [GERON210] in course list
+ID: [006426]
+In extract, course [GERON210] has id [006151]
+In extract, ID [006426] has courses ['KIN310', 'HLTH310', 'GERON310']
+********************
+
+Course [RS232] in course list
+ID: [008297]
+In extract, course [RS232] has id [010849]
+In extract, ID [008297] has courses ['JS205']
+********************
+
+Course [ISS350H] in course list
+ID: [006513]
+In extract, course [ISS350H] has id [008766]
+In extract, ID [006513] has courses ['SDS354R']
+********************
+
+Course [PSYCH256] in course list
+ID: [007293]
+In extract, course [PSYCH256] has id [007927]
+In extract, ID [007293] has courses ['PHIL256']
+********************
+
+Course [PHYS454] in course list
+ID: [003369]
+In extract, course [PHYS454] has id [007474]
+In extract, ID [003369] has courses ['AMATH473']
+********************
+
+Course [ENGL233D] in course list
+ID: [004685]
+In extract, course [ENGL233D] has id [005118]
+In extract, ID [004685] has courses ['DRAMA315']
+********************
+
+Course [ENGL233B] in course list
+ID: [004683]
+In extract, course [ENGL233B] has id [010749]
+In extract, ID [004683] has courses ['DRAMA313']
+********************
+
+Course [ENGL233C] in course list
+ID: [004684]
+In extract, course [ENGL233C] has id [005117]
+In extract, ID [004684] has courses ['DRAMA314']
+********************
+
+Course [PHYS476] in course list
+ID: [003371]
+In extract, course [PHYS476] has id [007480]
+In extract, ID [003371] has courses ['AMATH475']
+********************
+
+Course [PSYCH121R] in course list
+ID: [007865]
+In extract, course [PSYCH121R] has id [007879]
+In extract, ID [007865] has courses ['PSYCH101', 'PSYCH101R']
+********************
+
+Course [ERS619] in course list
+ID: [012666]
+In extract, course [ERS619] has id [012668]
+In extract, ID [012666] has courses ['INDEV606']
+********************
+
+Course [KIN210] in course list
+ID: [006426]
+In extract, course [KIN210] has id [006554]
+In extract, ID [006426] has courses ['KIN310', 'HLTH310', 'GERON310']
+********************
+
+Course [PHIL315] in course list
+ID: [005811]
+In extract, course [PHIL315] has id [007307]
+In extract, ID [005811] has courses ['GENE412']
+********************
+
+Course [DRAMA351] in course list
+ID: [005509]
+In extract, course [DRAMA351] has id [004703]
+In extract, ID [005509] has courses ['FINE351']
+********************
+
+Course [SOC261] in course list
+ID: [008310]
+In extract, course [SOC261] has id [008638]
+In extract, ID [008310] has courses ['RS219']
+********************
+
+Course [SOC260] in course list
+ID: [008309]
+In extract, course [SOC260] has id [008637]
+In extract, ID [008309] has courses ['RS262']
+********************
+
+Course [SOC262] in course list
+ID: [008312]
+In extract, course [SOC262] has id [008639]
+In extract, ID [008312] has courses ['RS280']
+********************
+
+Course [REC362] in course list
+ID: [006438]
+In extract, course [REC362] has id [010957]
+In extract, ID [006438] has courses ['HLTH352', 'GERON352']
+********************
+
+Course [REC348] in course list
+ID: [004700]
+In extract, course [REC348] has id [010956]
+In extract, ID [004700] has courses ['DRAMA348']
+********************
+
+Course [CM730] in course list
+ID: [000626]
+In extract, course [CM730] has id [012669]
+In extract, ID [000626] has courses ['CS687']
+********************
+
+Course [RS344] in course list
+ID: [008377]
+In extract, course [RS344] has id [008395]
+In extract, ID [008377] has courses ['HIST348']
+********************
+
+Course [CS667] in course list
+ID: [011589]
+In extract, course [CS667] has id [000615]
+In extract, ID [011589] has courses ['QIC710', 'CS768', 'AMATH871', 'PHYS767', 'CO681']
+********************
+
+Course [PLAN668] in course list
+ID: [001397]
+In extract, course [PLAN668] has id [002273]
+In extract, ID [001397] has courses ['GEOG668']
+********************
+
+Course [PLAN660] in course list
+ID: [001210]
+In extract, course [PLAN660] has id [002261]
+In extract, ID [001210] has courses ['ERS660']
+********************
+
+Course [ECE451] in course list
+ID: [004413]
+In extract, course [ECE451] has id [004798]
+In extract, ID [004413] has courses ['CS445']
+********************
+
+Course [PSYCH218] in course list
+ID: [006428]
+In extract, course [PSYCH218] has id [007903]
+In extract, ID [006428] has courses ['HLTH218', 'GERON218']
+********************
+
+Course [RS327] in course list
+ID: [013000]
+In extract, course [RS327] has id [008380]
+In extract, ID [013000] has courses ['RS227']
+********************
+
+Course [PSYCH253] in course list
+ID: [007904]
+In extract, course [PSYCH253] has id [007925]
+In extract, ID [007904] has courses ['PSYCH253R']
+********************
+
+Course [KIN352] in course list
+ID: [006438]
+In extract, course [KIN352] has id [006573]
+In extract, ID [006438] has courses ['HLTH352', 'GERON352']
+********************
+
+Course [PSCI432] in course list
+ID: [005377]
+In extract, course [PSCI432] has id [007820]
+In extract, ID [005377] has courses ['ERS404']
+********************
+
+Course [AFM423] in course list
+ID: [013754]
+In extract, course [AFM423] has id [014855]
+In extract, ID [013754] has courses ['ECON405']
+********************
+
+Course [STAT846] in course list
+ID: [011270]
+In extract, course [STAT846] has id [003093]
+In extract, ID [011270] has courses ['ACTSC846']
+********************
+
+Course [CLAS321] in course list
+ID: [003446]
+In extract, course [CLAS321] has id [004289]
+In extract, ID [003446] has courses ['ANTH321']
+********************
+
+Course [REC383] in course list
+ID: [005912]
+In extract, course [REC383] has id [008195]
+In extract, ID [005912] has courses ['GEOG323']
+********************
+
+Course [ACC770] in course list
+ID: [000044]
+In extract, course [ACC770] has id [010259]
+In extract, ID [000044] has courses ['ACTSC970']
+********************
+
+Course [ACC772] in course list
+ID: [000046]
+In extract, course [ACC772] has id [010260]
+In extract, ID [000046] has courses ['ACTSC972']
+********************
+
+Course [GEOG669] in course list
+ID: [012666]
+In extract, course [GEOG669] has id [012668]
+In extract, ID [012666] has courses ['INDEV606']
+********************
+
+Course [GEOG660] in course list
+ID: [001210]
+In extract, course [GEOG660] has id [001387]
+In extract, ID [001210] has courses ['ERS660']
+********************
+
+Course [ECE453] in course list
+ID: [004416]
+In extract, course [ECE453] has id [004800]
+In extract, ID [004416] has courses ['CS447']
+********************
+
+Course [GERON220] in course list
+ID: [006429]
+In extract, course [GERON220] has id [006154]
+In extract, ID [006429] has courses ['HLTH320', 'GERON320']
+********************
+
+Course [SOC352] in course list
+ID: [006438]
+In extract, course [SOC352] has id [008685]
+In extract, ID [006438] has courses ['HLTH352', 'GERON352']
+********************
+
+Course [INTTS301] in course list
+ID: [004929]
+In extract, course [INTTS301] has id [006476]
+In extract, ID [004929] has courses ['ECON334']
+********************
+
+Course [SYDE284] in course list
+ID: [008936]
+In extract, course [SYDE284] has id [008951]
+In extract, ID [008936] has courses ['SYDE285']
+********************
+
+Course [PACS320] in course list
+ID: [008329]
+In extract, course [PACS320] has id [011011]
+In extract, ID [008329] has courses ['RS256']
+********************
+
+Course [PLAN661B] in course list
+ID: [001389]
+In extract, course [PLAN661B] has id [002265]
+In extract, ID [001389] has courses ['GEOG661B']
+********************
+
+Course [SOC371] in course list
+ID: [007322]
+In extract, course [SOC371] has id [008695]
+In extract, ID [007322] has courses ['PHIL362']
+********************
+
+Course [FINE228] in course list
+ID: [005452]
+In extract, course [FINE228] has id [005449]
+In extract, ID [005452] has courses ['GBDA228']
+********************
+
+Course [SOC210] in course list
+ID: [008112]
+In extract, course [SOC210] has id [008594]
+In extract, ID [008112] has courses ['REC203']
+********************
+
+Course [GER712] in course list
+ID: [010405]
+In extract, course [GER712] has id [014041]
+In extract, ID [010405] has courses ['GER612']
+********************
+
+Course [STAT446] in course list
+ID: [003305]
+In extract, course [STAT446] has id [008887]
+In extract, ID [003305] has courses ['ACTSC446']
+********************
+
+Course [HIST208] in course list
+ID: [012714]
+In extract, course [HIST208] has id [006237]
+In extract, ID [012714] has courses ['HIST315']
+********************
+
+Course [REC433] in course list
+ID: [005299]
+In extract, course [REC433] has id [008212]
+In extract, ID [005299] has courses ['ENVS433']
+********************
+
+Course [CS372] in course list
+ID: [011444]
+In extract, course [CS372] has id [004401]
+In extract, ID [011444] has courses ['CS475']
+********************
+
+Course [KIN407] in course list
+ID: [006441]
+In extract, course [KIN407] has id [006580]
+In extract, ID [006441] has courses ['HLTH407']
+********************
+
+Course [RS281] in course list
+ID: [008311]
+In extract, course [RS281] has id [008341]
+In extract, ID [008311] has courses ['SOC258']
+********************
+
+Course [CM463] in course list
+ID: [008884]
+In extract, course [CM463] has id [011435]
+In extract, ID [008884] has courses ['STAT441']
+********************
+
+Course [CM461] in course list
+ID: [008883]
+In extract, course [CM461] has id [011433]
+In extract, ID [008883] has courses ['STAT440']
+********************
+
+Course [BIOL140] in course list
+ID: [011618]
+In extract, course [BIOL140] has id [003666]
+In extract, ID [011618] has courses ['BIOL240']
+********************
+
+Course [GEOG206] in course list
+ID: [012402]
+In extract, course [GEOG206] has id [005844]
+In extract, ID [012402] has courses ['GEOG306']
+********************
+
+Course [PHYS703] in course list
+ID: [000135]
+In extract, course [PHYS703] has id [002194]
+In extract, ID [000135] has courses ['AMATH873']
+********************
+
+Course [REC333] in course list
+ID: [005919]
+In extract, course [REC333] has id [008164]
+In extract, ID [005919] has courses ['GEOG333']
+********************
+
+Course [ANTH370] in course list
+ID: [003945]
+In extract, course [ANTH370] has id [003467]
+In extract, ID [003945] has courses ['NATST272', 'ANTH272']
+********************
+
+Course [PSYCH323R] in course list
+ID: [007928]
+In extract, course [PSYCH323R] has id [007955]
+In extract, ID [007928] has courses ['PSYCH257R', 'PSYCH257']
+********************
+
+Course [PDARCH2] in course list
+ID: [014333]
+In extract, course [PDARCH2] has id [014332]
+In extract, ID [014333] has courses ['PDARCH1']
+********************
+
+Course [PDARCH1] in course list
+ID: [014332]
+In extract, course [PDARCH1] has id [014333]
+In extract, ID [014332] has courses ['PDARCH2']
+********************
+
+Course [ECE206] in course list
+ID: [006892]
+In extract, course [ECE206] has id [011033]
+In extract, ID [006892] has courses ['MATH212']
+********************
+
+Course [PLAN351] in course list
+ID: [005905]
+In extract, course [PLAN351] has id [007563]
+In extract, ID [005905] has courses ['GEOG316']
+********************
+
+Course [PLAN353] in course list
+ID: [005908]
+In extract, course [PLAN353] has id [007564]
+In extract, ID [005908] has courses ['GEOG318']
+********************
+
+Course [PLAN615] in course list
+ID: [001842]
+In extract, course [PLAN615] has id [002243]
+In extract, ID [001842] has courses ['LED615', 'GEOG615', 'ERS615']
+********************
+
+Course [PLAN616] in course list
+ID: [001360]
+In extract, course [PLAN616] has id [002244]
+In extract, ID [001360] has courses ['GEOG616']
+********************
+
+Course [PLAN611] in course list
+ID: [001839]
+In extract, course [PLAN611] has id [002239]
+In extract, ID [001839] has courses ['GEOG611', 'LED611']
+********************
+
+Course [PLAN613] in course list
+ID: [001841]
+In extract, course [PLAN613] has id [002241]
+In extract, ID [001841] has courses ['GEOG613', 'LED613']
+********************
+
+Course [DRAMA380] in course list
+ID: [005148]
+In extract, course [DRAMA380] has id [004710]
+In extract, ID [005148] has courses ['ENGL316']
+********************
+
+Course [DRAMA381] in course list
+ID: [008456]
+In extract, course [DRAMA381] has id [004711]
+In extract, ID [008456] has courses ['REES341']
+********************
+
+Course [DRAMA382] in course list
+ID: [008457]
+In extract, course [DRAMA382] has id [004712]
+In extract, ID [008457] has courses ['REES342']
+********************
+

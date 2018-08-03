@@ -1,0 +1,127 @@
+_Science is {
+	AVIA*,
+	BIOL*,
+	CHEM*,
+	EARTH*,
+	OPTOM*,
+	PDPHRM*,
+	PHARM*,
+	PHYS*,
+	SCI*,
+	SCBUS*
+}
+
+_Science_300_400 is {
+	AVIA3*,
+	AVIA4*,
+	BIOL3*,
+	BIOL4*,
+	CHEM3*,
+	CHEM4*,
+	EARTH3*,
+	EARTH4*,
+	OPTOM3*,
+	OPTOM4*,
+	PDPHRM3*,
+	PDPHRM4*,
+	PHARM3*,
+	PHARM4*,
+	PHYS3*,
+	PHYS4*,
+	SCBUS3*,
+	SCBUS4*
+}
+
+_Complementary is {
+	PSYCH101,
+	PSYCH261,
+	SOC101,
+	SOC248,
+	SOC249,
+	PHIL110B,
+	PHIL226,
+	MATH127,
+	MATH128,
+	CS200,
+	STAT202,
+	HLTH101,
+	HLTH102,
+	HLTH220,
+	HLTH340,
+	HLTH341,
+	HLTH346,
+	HLTH348,
+	HLTH349,
+	HLTH407,
+	HLTH442,
+	SCI255
+}
+
+_Biomedical_Sciences is all of {
+	_Mandatory_Courses is unique all of {
+		BIOL130,
+		BIOL130L,
+		CHEM120,
+		CHEM120L,
+		BIOL139,
+		CHEM123,
+		CHEM123L,
+		BIOL240,
+		BIOL240L,
+		CHEM266,
+		CHEM266L,
+		BIOL273,
+		BIOL273L,
+		CHEM267,
+		CHEM267L,
+		BIOL302,
+		BIOL303,
+		CHEM237,
+		CHEM237L,
+		BIOL301,
+		BIOL373,
+		BIOL373L,
+		BIOL241,
+		BIOL308
+	}
+
+	_Physics1 is 1 of {
+		_Physics111 is unique all of {
+			PHYS111,
+			PHYS111L
+		}
+
+		_Physics121 is unique all of {
+			PHYS121,
+			PHYS121L
+		}
+	}
+
+	_Physics2 is 1 of {
+		_Physics112 is unique all of {
+			PHYS112,
+			PHYS112L
+		}
+
+		_Physics122 is unique all of {
+			PHYS122,
+			PHYS122L
+		}
+	}
+
+	_Science_Electives_Any is unique 0.5 units of {
+		_Science
+	}
+
+	_Science_Electives_300_400 is unique 2.5 units of {
+		_Science_300_400
+	}
+
+	_Complementary_Electives is unique 2.0 units of {
+		_Complementary
+	}
+
+	_Free_Electives is unique 6.5 units of {
+		any
+	}
+}

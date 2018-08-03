@@ -1,0 +1,9 @@
+subsitution
+-if we have a subsitution done by the prof (e.g CS350 instead of SE 350)
+-then we look for say the instance of CS350 and replace it for SE350 in the trasncript
+ before sending it over to alloy
+-if CS350 not found then no chagnes
+
+
+
+Note: that it takes care of having two courses in extra list

@@ -1,0 +1,5 @@
+import ABC
+_test1 is all of {
+	_Basics1 is all of {CS135}
+	_Basics2 is all of {CS136}
+}

@@ -1,0 +1,192 @@
+//CS
+
+_Humanities is {
+	ARTS*, CHINA*, CLAS*, CMW*, CROAT*, DAC*, DRAMA*, DUTCH*, EASIA*, ENGL*, FINE*, FR*, GER*, GRK*, HIST*,
+	HUMSC*, ITAL*, ITALST*, JAPAN*, JS*, KOREA*, LAT*, MUSIC*, PHIL*, POLSH*, PORT*, REES*, RS*, RUSS*, SI*, SPAN*, SPCOM*
+}
+_SocialSciences is {
+	AFM*, ANTH*, APPLS*, BUS*, ECON*, GEOG*, HRM*, INTST*, INTTS*, ISS*, LS*, MSCI*, NATST*, PACS*, PSCI*, PSYCH*, REC*,
+	SMF*, SOC*, SOCWK*, SPD*, STV*, WS*
+}
+_PureScience is {
+	BIOL*, CHEM*, EARTH*, PHYS*, SCI*
+}
+_AppliedScience is {
+	BIOL*, CHEM*, EARTH*, PHYS*, SCI*,
+	ARCH*, ENVS*, ERS*, GERON*, HLTH*, KIN*, PLAN*
+}
+
+_Math is {
+	MATH*, CS*, CO*, AMATH*, PMATH*, STAT*, ACTSC*, MATBUS*
+}
+
+_Comm_List is {
+    ENGL109, // Introduction to Academic Writing 
+    ENGL129R, // Introduction to Written English 
+    ENGL210E, // Genres of Technical Communication 
+    ENGL210F, // Genres of Business Communication 
+    ESL102R // Introduction to Error Correction in Writing
+    // or ELPE with >= 60%
+}
+
+_CS_Specific is all of {
+
+	_CS_Specific_Basic_Programming is unique 1 of {
+		CS115, 	//	Introduction to Computer Science 1
+		CS135,	//	Designing Functional Programs
+		CS300-499 // A 300- or 400-level CS major course in addition to those required below
+	}
+	
+	_CS_Specific_Elementary_Algorithm is unique 1 of {
+		CS136,	//	Elementary Algorithm Design and Data Abstraction
+		CS145	//	Design, Abstraction, and Implementation
+	}
+	
+	_CS_Specific_Calculus_I is unique 1 of {
+		MATH127,//	Calculus 1 for the Sciences 
+		MATH137,//	Calculus 1 for Honours Mathematics 
+		MATH147	//	Calculus 1 (Advanced Level)
+	}
+	
+	_CS_Specific_Calculus_II is unique 1 of {
+		MATH128,//	Calculus 2 for the Sciences 
+		MATH138,//	Calculus 2 for Honours Mathematics 
+		MATH148	//	Calculus 2 (Advanced Level)
+	}
+
+    _Algebra is unique 1 of {
+    	MATH135,//	Algebra for Honours Mathematics 
+    	MATH145	//	Algebra (Advanced Level)
+    }
+	
+	_Linear_Algebra is unique 1 of {
+		MATH136,//	Linear Algebra 1 for Honours Mathematics 
+		MATH146	//	Linear Algebra 1 (Advanced Level)
+	}
+	
+	_CS_Specific_Combinatorics is unique 1 of {
+		MATH239,//	Introduction to Combinatorics
+		MATH249	//	Introduction to Combinatorics (Advanced Level)
+	}
+	
+	
+	_CS_Specific_Probability is unique 1 of {
+		STAT230,//	Probability
+		STAT240	//	Probability (Advanced Level)
+	}
+	
+	_CS_Specific_Statistics is unique 1 of {
+		STAT231,//	Statistics 
+		STAT241	//	Statistics (Advanced Level)
+	}
+	
+	_CS_Specific_Core is unique all of {
+		CS240, //	Data Structures and Data Management 
+		CS241, //	Foundations of Sequential Programs 
+		CS245, //	Logic and Computation 
+		CS246, //	Object-Oriented Software Development
+		CS251, //	Computer Organization and Design
+		CS341, //	Algorithms, with CM339, but same course ID
+		CS350  //	Operating Systems 
+	}
+
+	_CS_Additional_CS is 3 of {
+		//Three additional CS courses chosen from CS 340-398, 440-489
+		_CS_Additional_CS3or4xx is unique 3 of {
+			CS340-398,
+			CS440-489
+		}
+		
+		//Two additional CS courses chosen from CS 440-489.
+		_CS_Additional_CS4xx is unique 2 of {
+			CS440-489
+		}
+		
+		//One additional course chosen from
+		_CS_Additional_CS4xxAlternatives is unique 1 of {
+			CO487,		//	Applied Cryptography, with CM432, but same course ID
+			CS440-498, 
+			CS499T, 	//	Honours Thesis 
+			STAT440,	//	Computational Inference, with CM461, but same course ID
+			CS600-699,	
+			CS700-799
+		}
+	}
+
+	//The selection of upper-year CS courses must include at least one course from each of at least two of the following area groups:
+	_CS_Topic_Breadth is 2 of {
+		//Systems and SE: 
+		_CS_Topic_Breadth_System is 1 of {
+			CS343, CS349, CS442, CS444, CS445, CS446, CS447, CS450, CS452, CS454, CS456, CS457, CS458
+		}
+		
+		//Applications:
+		_CS_Topic_Breadth_Applications is 1 of {
+			CS348, CS448, CS473, CS476, CS482, CS484, CS486, CS488
+		}
+		
+		//Mathematical Foundations of CS
+		_CS_Topic_Breadth_Foundations is 1 of {
+			CS360, CS365, CS370, CS371, CS462, CS466, CS467, CS475, CS487
+		}
+	}
+	
+	_CS_Breadth_Depth is all of {
+		//1.0 from the humanities
+		_CS_Breadth_Depth_Humanities is unique 1.0 units of {
+			_Humanities
+		}
+		
+		//1.0 unit from the social sciences
+		_CS_Breadth_Depth_SocialSciences is unique 1.0 units of {
+			_SocialSciences
+		}
+		
+		//0.5 units from the pure sciences
+		_CS_Breadth_Depth_PureScience is unique 0.5 units of {
+			_PureScience
+		}
+		
+		//0.5 units from the pure and applied sciences
+		_CS_Breadth_Depth_Science is unique 0.5 units of {
+			_PureScience,
+			_AppliedScience
+		}
+		
+		//Note: No course can be used to satisfy more than one of the above requirements.
+		/*
+		1 of {
+			//1.5 units with the same subject, including at least 0.5 units at third-year level or higher
+			1.5 units of {
+			1.5 units of { _sameSub }
+			0.5 units of { _thirdYearOrHigher }	// TODO	...
+		}
+		
+		//or 1.5 units with the same subject forming a prerequisite chain of length three
+			1.5 units of {
+				1.5 units of { _sameSubThatFormPrequisitChainOf3 }	// TODO	...
+			}
+		}
+		*/
+	}
+}
+
+_CS_Table1_Regular is all of {
+	
+	//take one course chosen from List I, and one course chosen from List II
+	_CS_Table1_Regular_Comm is 1 of {
+	    _Comm_List
+	}
+	_CS_Table1_Min_Units is 20.0 units of {
+		any
+	}
+	
+	_CS_Table1_Min_Math_Units is 9.0 units of {
+		_Math
+	}
+
+	_CS_Table1_Min_NonMath_Units is 5.0 units of {
+		any, except _Math
+	}
+}
+

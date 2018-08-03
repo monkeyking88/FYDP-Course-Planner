@@ -1,0 +1,413 @@
+/* the followings courses are not found，if the not found course is critical in its chain, the entire chain is ignored
+row    is chain ignored    not found courses
+  5         No             BIOL445 BIOL446 
+  6         No             BUS388W BUS454W 
+  7         No             BUS388W 
+ 10         No             CHEM28 
+ 12         Yes            CHEM256 
+ 48         Yes            GREEK100A RS106A GREEK101B GREEK201 
+ 51         Yes            JAPAN202 
+ 52         Yes            RS105A JS105BA RS105B RS306A 
+ 54         Yes            KIN201 
+ 55         Yes            KIN417 
+ 57         Yes            LATIN100A LATIN100B LATIN203 
+ 61         No             PHYS252 
+ 63         Yes            PSCI332 
+ 67         Yes            PSYCH213 
+ 70         No             PSYCH213 
+ 74         Yes            RS106A RS106B RS305A 
+ 75         No             RUSS251 
+ 86         Yes            SOC327J 
+*/
+
+
+_Math_subjects is {ACTSC*, AMATH*, CO*, COMM*, CS*, MATH*, MATBUS*, MTHEL*, PMATH*, SE*, STAT*}
+
+_prerequisit_chain_len_3 is 1 of {
+
+    _same_subject is all of {
+        _same_subject_1 is 3 of {SUBJECT*, except _Math_subjects, except PD*, except COOP*, except WKRPT*}
+        _same_subject_2 is 1 of {SUBJECT3*, except _Math_subjects, except PD*, except COOP*, except WKRPT*}
+    }
+
+    _prerequisit_chain_len_3_main is 1 of {
+
+        _prereq_chain_sub_0 is all of{
+            _prereq_chain_sub_0X0 is all of {ANTH101, ANTH260}
+            _prereq_chain_sub_0X1 is 1 of {ANTH365, ANTH460}
+        }
+
+        _prereq_chain_sub_1 is all of{
+            ANTH102, ANTH202, ANTH300
+        }
+
+        _prereq_chain_sub_2 is all of{
+            _prereq_chain_sub_2X0 is all of {ANTH102}
+            _prereq_chain_sub_2X1 is 1 of {CLAS221, ANTH309}
+            _prereq_chain_sub_2X2 is 1 of {ANTH320, ANTH322, ANTH335}
+        }
+
+        _prereq_chain_sub_3 is all of{
+            BIOL130, BIOL239, BIOL365, BIOL465
+        }
+
+        _prereq_chain_sub_4 is all of{
+            _prereq_chain_sub_4X0 is 1 of {BIOL130, BIOL239}
+            _prereq_chain_sub_4X1 is all of {BIOL330}
+            _prereq_chain_sub_4X2 is 1 of {BIOL428, BIOL431, BIOL432, BIOL434, BIOL438, BIOL441, BIOL442, BIOL448}
+        }
+
+        _prereq_chain_sub_5 is all of{
+            _prereq_chain_sub_5X0 is all of {BIOL140, BIOL241}
+            _prereq_chain_sub_5X1 is 1 of {BIOL345, BIOL441, BIOL443, BIOL444, BIOL447, BIOL448, BIOL474, BIOL475}
+        }
+
+        _prereq_chain_sub_6 is all of{
+            _prereq_chain_sub_6X0 is all of {BUS121W}
+            _prereq_chain_sub_6X1 is 1-1 of {BUS288W, MSCI211, PSYCH338}
+            _prereq_chain_sub_6X2 is 1-1 of {BUS354W}
+        }
+
+        _prereq_chain_sub_7 is all of{
+            _prereq_chain_sub_7X0 is all of {BUS121W}
+            _prereq_chain_sub_7X1 is 1-1 of {BUS288W, MSCI211, PSYCH338}
+            _prereq_chain_sub_7X2 is 1-1 of {BUS398W, MSCI311}
+        }
+
+        _prereq_chain_sub_8 is all of{
+            _prereq_chain_sub_8X0 is all of {BUS121W}
+            _prereq_chain_sub_8X1 is 1-1 of {BUS352W, ECON344, INTTS302}
+            _prereq_chain_sub_8X2 is 1 of {BUS362W, BUS440W, BUS462W, BUS481W}
+        }
+
+        _prereq_chain_sub_9 is all of{
+            _prereq_chain_sub_9X0 is 1-1 of {CHEM120, CHEM121}
+            _prereq_chain_sub_9X1 is all of {CHEM212, CHEM213}
+        }
+
+        _prereq_chain_sub_10 is all of{
+            _prereq_chain_sub_10X0 is 1-1 of {CHEM120, CHEM121}
+            _prereq_chain_sub_10X1 is 1-1 of {CHEM123, CHEM125}
+            _prereq_chain_sub_10X2 is 1-1 of {CHEM264, CHEM266}
+        }
+
+        _prereq_chain_sub_11 is all of{
+            _prereq_chain_sub_11X0 is 1-1 of {CHEM120, CHEM121}
+            _prereq_chain_sub_11X1 is 1-1 of {CHEM123, CHEM125}
+            _prereq_chain_sub_11X2 is all of {CHEM220}
+        }
+
+        _prereq_chain_sub_13 is all of{
+            _prereq_chain_sub_13X0 is all of {CHINA101R, CHINA102R}
+            _prereq_chain_sub_13X1 is 1-1 of {CHINA201R, CHINA211R}
+        }
+
+        _prereq_chain_sub_14 is all of{
+            CHINA120R, CHINA201R, CHINA202R
+        }
+
+        _prereq_chain_sub_15 is all of{
+            _prereq_chain_sub_15X0 is all of {CHINA120R, CHINA211R}
+            _prereq_chain_sub_15X1 is 1-1 of {CHINA201R, CHINA212R}
+        }
+
+        _prereq_chain_sub_16 is all of{
+            _prereq_chain_sub_16X0 is all of {CHINA201R}
+            _prereq_chain_sub_16X1 is 1-1 of {CHINA202R, CHINA211R}
+            _prereq_chain_sub_16X2 is all of {CHINA212R}
+        }
+
+        _prereq_chain_sub_17 is all of{
+            CROAT101, CROAT102, CROAT201
+        }
+
+        _prereq_chain_sub_18 is all of{
+            CROAT102, CROAT201, CROAT202
+        }
+
+        _prereq_chain_sub_19 is all of{
+            _prereq_chain_sub_19X0 is 1 of {DRAMA200, DRAMA101B}
+            _prereq_chain_sub_19X1 is 1-1 of {SPCOM102}
+            _prereq_chain_sub_19X2 is 1 of {DRAMA221, DRAMA301, SPCOM326, DRAMA363}
+        }
+
+        _prereq_chain_sub_20 is all of{
+            DRAMA243, DRAMA244, FINE335
+        }
+
+        _prereq_chain_sub_21 is all of{
+            DUTCH101, DUTCH102, DUTCH201
+        }
+
+        _prereq_chain_sub_22 is all of{
+            _prereq_chain_sub_22X0 is all of {EARTH121, EARTH122}
+            _prereq_chain_sub_22X1 is 1 of {EARTH221, EARTH231, EARTH235, EARTH236, EARTH238, EARTH260, EARTH359, EARTH360, EARTH458}
+        }
+
+        _prereq_chain_sub_23 is all of{
+            ECON101, ECON102, ECON202, ECON301
+        }
+
+        _prereq_chain_sub_24 is all of{
+            ECON101, ECON102, ECON202, ECON302
+        }
+
+        _prereq_chain_sub_25 is all of{
+            ECON101, ECON102, ECON231, ECON334
+        }
+
+        _prereq_chain_sub_26 is all of{
+            _prereq_chain_sub_26X0 is all of {ECON101, ECON201}
+            _prereq_chain_sub_26X1 is 1 of {ECON301, ECON333, ECON341, ECON342, ECON355, ECON357, ECON361}
+        }
+
+        _prereq_chain_sub_27 is all of{
+            ECON101, ECON201, ECON351
+        }
+
+        _prereq_chain_sub_28 is all of{
+            ECON102, ECON202, ECON351
+        }
+
+        _prereq_chain_sub_29 is all of{
+            _prereq_chain_sub_29X0 is all of {GER101, GER102}
+            _prereq_chain_sub_29X1 is 1 of {GER201, GER203, GER212}
+        }
+
+        _prereq_chain_sub_30 is all of{
+            ECE223, ECE222, ECE324
+        }
+
+        _prereq_chain_sub_31 is all of{
+            GENE123, ECE223, ECE222
+        }
+
+        _prereq_chain_sub_32 is all of{
+            _prereq_chain_sub_32X0 is 1 of {ENGL109, ENGL140R}
+            _prereq_chain_sub_32X1 is all of {ENGL376R, ENGL377R}
+        }
+
+        _prereq_chain_sub_33 is all of{
+            _prereq_chain_sub_33X0 is all of {FINE120, FINE121}
+            _prereq_chain_sub_33X1 is 1 of {FINE220, FINE220A, FINE221, FINE222, FINE223, FINE272, FINE224, FINE225, FINE230, FINE228E}
+        }
+
+        _prereq_chain_sub_34 is all of{
+            FINE110, FINE212, FINE213
+        }
+
+        _prereq_chain_sub_35 is all of{
+            _prereq_chain_sub_35X0 is all of {FR151, FR152}
+            _prereq_chain_sub_35X1 is 1 of {FR192A, FR192B, FR194A, FR194B, FR195A, FR196A, FR296}
+        }
+
+        _prereq_chain_sub_36 is all of{
+            _prereq_chain_sub_36X0 is all of {FR152}
+            _prereq_chain_sub_36X1 is 1 of {FR192A, FR192B, FR296}
+            _prereq_chain_sub_36X2 is 1 of {FR263, FR276, FR297}
+        }
+
+        _prereq_chain_sub_37 is all of{
+            _prereq_chain_sub_37X0 is all of {FR152}
+            _prereq_chain_sub_37X1 is 1 of {FR195A, FR196, FR296}
+            _prereq_chain_sub_37X2 is 1 of {FR332, FR343, FR354, FR363, FR375, FR410, FR424, FR471, FR482, FR483, FR484, FR485, FR487}
+        }
+
+        _prereq_chain_sub_38 is all of{
+            _prereq_chain_sub_38X0 is all of {FR152}
+            _prereq_chain_sub_38X1 is 1 of {FR296, FR200A, FR200B}
+            _prereq_chain_sub_38X2 is all of {FR473}
+        }
+
+        _prereq_chain_sub_39 is all of{
+            _prereq_chain_sub_39X0 is 2 of {FR192A, FR192B, FR194A, FR194B, FR195A, FR196A, FR296}
+            _prereq_chain_sub_39X1 is 1 of {FR250A, FR251, FR252, FR255}
+        }
+
+        _prereq_chain_sub_40 is all of{
+            FR152, FR192A, FR192B
+        }
+
+        _prereq_chain_sub_41 is all of{
+            _prereq_chain_sub_41X0 is all of {GEOG102, GEOG201}
+            _prereq_chain_sub_41X1 is 1 of {GEOG300, GEOG303, GEOG304, GEOG305}
+        }
+
+        _prereq_chain_sub_42 is all of{
+            _prereq_chain_sub_42X0 is all of {GEOG101, GEOG202}
+            _prereq_chain_sub_42X1 is 1 of {GEOG250, GEOG323, GEOG333, GEOG340, PLAN349, GEOG353, GEOG356}
+        }
+
+        _prereq_chain_sub_43 is all of{
+            GEOG102, GEOG309, GEOG409
+        }
+
+        _prereq_chain_sub_44 is all of{
+            _prereq_chain_sub_44X0 is all of {GEOG101, GEOG203}
+            _prereq_chain_sub_44X1 is 1 of {GEOG323, GEOG333, GEOG356}
+        }
+
+        _prereq_chain_sub_45 is all of{
+            _prereq_chain_sub_45X0 is all of {GEOG101, GEOG233}
+            _prereq_chain_sub_45X1 is 1 of {GEOG323, GEOG333}
+        }
+
+        _prereq_chain_sub_46 is all of{
+            _prereq_chain_sub_46X0 is all of {GER101, GER102}
+            _prereq_chain_sub_46X1 is 1 of {GER201, GER203, GER212}
+        }
+
+        _prereq_chain_sub_47 is all of{
+            _prereq_chain_sub_47X0 is all of {GER251A, GER252A}
+            _prereq_chain_sub_47X1 is 1 of {GER281, GER282, GER291, GER292, GER351A, GER371, GER372}
+        }
+
+        _prereq_chain_sub_49 is all of{
+            ITAL101, ITAL102, ITAL201
+        }
+
+        _prereq_chain_sub_50 is all of{
+            _prereq_chain_sub_50X0 is 1-1 of  {JAPAN101R, JAPAN111R}
+            _prereq_chain_sub_50X1 is 1-1 of  {JAPAN102R, JAPAN112R}
+            _prereq_chain_sub_50X2 is all of {JAPAN201R}
+        }
+
+        _prereq_chain_sub_53 is all of{
+            KIN100, KIN121, KIN221
+        }
+
+        _prereq_chain_sub_56 is all of{
+            KOREA101R, KOREA102R, KOREA201R
+        }
+
+        _prereq_chain_sub_58 is all of{
+            _prereq_chain_sub_58X0 is 1 of {MUSIC116, MUSIC117, MUSIC216, MUSIC217, MUSIC316, MUSIC317}
+            _prereq_chain_sub_58X1 is all of {MUSIC226, MUSIC227}
+        }
+
+        _prereq_chain_sub_59 is all of{
+            _prereq_chain_sub_59X0 is all of {MUSIC270, MUSIC271}
+            _prereq_chain_sub_59X1 is 1 of {MUSIC370, MUSIC376}
+        }
+
+        _prereq_chain_sub_60 is all of{
+            MUSIC111, MUSIC270, MUSIC271
+        }
+
+        _prereq_chain_sub_61 is all of{
+            _prereq_chain_sub_61X0 is 1-1 of {PHYS111, PHYS121}
+            _prereq_chain_sub_61X1 is 1-1 of {PHYS112, PHYS122}
+            _prereq_chain_sub_61X2 is 1 of {PHYS222, PHYS224, PHYS225, PHYS226, PHYS234, PHYS246, PHYS256, PHYS263, PHYS358, PHYS375, PHYS380, PHYS381}
+        }
+
+        _prereq_chain_sub_62 is all of{
+            POLSH101, POLSH102, POLSH201
+        }
+
+        _prereq_chain_sub_64 is all of{
+            _prereq_chain_sub_64X0 is all of {PSYCH101R, PSYCH207}
+            _prereq_chain_sub_64X1 is 1 of {PSYCH304, PSYCH306, PSYCH307, PSYCH308, PSYCH320}
+        }
+
+        _prereq_chain_sub_65 is all of{
+            _prereq_chain_sub_65X0 is all of {PSYCH101R, PSYCH211}
+            _prereq_chain_sub_65X1 is 1 of {PSYCH310, PSYCH311, PSYCH312R, PSYCH314, PSYCH315, PSYCH317, PSYCH318, PSYCH319, PSYCH320}
+        }
+
+        _prereq_chain_sub_66 is all of{
+            _prereq_chain_sub_66X0 is all of {PSYCH101R, PSYCH212R}
+            _prereq_chain_sub_66X1 is 1 of {PSYCH312R, PSYCH319}
+        }
+
+        _prereq_chain_sub_68 is all of{
+            _prereq_chain_sub_68X0 is all of {PSYCH101R, PSYCH253R}
+            _prereq_chain_sub_68X1 is 1 of {PSYCH354R, PSYCH354}
+        }
+
+        _prereq_chain_sub_69 is all of{
+            PSYCH101R, PSYCH230, PSYCH330
+        }
+
+        _prereq_chain_sub_70 is all of{
+            _prereq_chain_sub_70X0 is all of {PSYCH120R, PSYCH121R}
+            _prereq_chain_sub_70X1 is 1 of {PSYCH207, PSYCH211, PSYCH212R, PSYCH218, PSYCH253R, SWREN349R, PSYCH230, PSYCH231, PSYCH232, PSYCH235, PSYCH236, PSYCH253, PSYCH257R, PSYCH261, PSYCH323R, PSYCH334, PSYCH338, PSYCH355}
+        }
+
+        _prereq_chain_sub_71 is all of{
+            PSYCH101R, PSYCH253, PSYCH353
+        }
+
+        _prereq_chain_sub_72 is all of{
+            REC100, REC101, REC220, REC354
+        }
+
+        _prereq_chain_sub_73 is all of{
+            REC230, REC333, REC383
+        }
+
+        _prereq_chain_sub_75 is all of{
+            _prereq_chain_sub_75X0 is 1-1 of {RUSS101, RUSS101B}
+            _prereq_chain_sub_75X1 is all of {RUSS102}
+            _prereq_chain_sub_75X2 is 1 of {RUSS481, RUSS482}
+        }
+
+        _prereq_chain_sub_76 is all of{
+            _prereq_chain_sub_76X0 is 1-1 of {SMF204, PSYCH236}
+            _prereq_chain_sub_76X1 is 1 of {SMF304, SMF305}
+            _prereq_chain_sub_76X2 is 1 of {SMF404, SMF405}
+        }
+
+        _prereq_chain_sub_77 is all of{
+            _prereq_chain_sub_77X0 is all of {SMF206}
+            _prereq_chain_sub_77X1 is 1 of {SMF306, SMF307}
+            _prereq_chain_sub_77X2 is all of {SMF406}
+        }
+
+        _prereq_chain_sub_78 is all of{
+            SWREN120R, SWREN220R, SOCWK320R
+        }
+
+        _prereq_chain_sub_79 is all of{
+            SWREN120R, SWREN222R, SOCWK322R
+        }
+
+        _prereq_chain_sub_80 is all of{
+            SWREN120R, SOCWK240R, SOCWK241R
+        }
+
+        _prereq_chain_sub_81 is all of{
+            SWREN120R, SOCWK355R, SOCWK357R, SOCWK390A
+        }
+
+        _prereq_chain_sub_82 is all of{
+            _prereq_chain_sub_82X0 is 1-1 of {SOC101R, SOC120R}
+            _prereq_chain_sub_82X1 is all of {SOC202}
+            _prereq_chain_sub_82X2 is 1 of {SOC302, SOC345, SOC405, SOC407, SOC408}
+        }
+
+        _prereq_chain_sub_83 is all of{
+            _prereq_chain_sub_83X0 is 1-1 of {SOC101R, SOC120R}
+            _prereq_chain_sub_83X1 is all of {WS209}
+            _prereq_chain_sub_83X2 is 1 of {SOC325, SOC378, WS409}
+        }
+
+        _prereq_chain_sub_84 is all of{
+            _prereq_chain_sub_84X0 is 1-1 of {SOC101R, SOC120R}
+            _prereq_chain_sub_84X1 is all of {SOC207R, SOC307}
+        }
+
+        _prereq_chain_sub_85 is all of{
+            _prereq_chain_sub_85X0 is 1-1 of {SOC101R, SOC120R}
+            _prereq_chain_sub_85X1 is all of {SOC222, SOC306}
+        }
+
+        _prereq_chain_sub_87 is all of{
+            SPAN101, SPAN102, SPAN201A
+        }
+
+        _prereq_chain_sub_88 is all of{
+            UKRAN101, UKRAN102, UKRAN201
+        }
+    }
+}
+

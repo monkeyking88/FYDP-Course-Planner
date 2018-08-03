@@ -1,0 +1,9 @@
+abcd
+
+a - 0 for before 2000, 1 for 2000 or after
+bc - year
+
+d
+- 1 winter
+- 5 spring 
+- 9 fall

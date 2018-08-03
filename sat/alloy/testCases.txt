@@ -1,0 +1,36 @@
+Case Core courses:
+Do not have all core courese
+
+Case ATE 2016:
+Pass: 1 cs 1 ece 1 more 1 extra
+Pass: 2 cs 1 ece 1 more
+Pass: 2 cs 1 ece 1 extra
+Pass: 2 cs 2 ece
+Pass: 1 cs 2 ece 1 more
+Pass: 1 cs 2 ece 1 extra
+Pass: 3 cs 1 ece
+Pass: 2 cs 2 ece
+Pass: 1 cs 3 ece
+Pass: 1 cs 1 ece 2 more
+
+Fail: 1 cs 1 ece 2 extra
+Fail: 4 cs
+Fail: 4 ece
+Fail: 3 cs 1 more
+Fail: 3 cs 1 extra
+Fail: 3 ece 1 more
+Fail: 3 ece 1 extra
+Fail: 2 ece 1 extra 1 more
+Fail: 2 ece 2 extra
+Fail: 2 ece 1 extra 1 more
+Fail: 1 ece 2 extra 1 more
+Fail: 1 ece 1 extra 2 more
+Fail: 3 cs 1 more
+Fail: 3 cs 1 extra
+Fail: 2 cs 1 extra 1 more
+Fail: 2 cs 2 extra
+Fail: 2 cs 1 extra 1 more
+Fail: 1 cs 2 extra 1 more
+Fail: 1 cs 1 extra 2 more
+
+Case Science electives 2016:

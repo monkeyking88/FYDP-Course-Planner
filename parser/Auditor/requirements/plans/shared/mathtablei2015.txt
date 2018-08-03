@@ -1,0 +1,45 @@
+_Math_Courses is {
+	MATH*, CS*, CO*, CM*, AMATH*, PMATH*, STAT*, ACTSC*,
+    ECE222, ECE354, ECE428, SE212, SE112, SE240, SE382, SE463, SE464, SE465
+}
+
+_Table1_Min_Units is 20.0 units of {
+    any, except COOP*, except WKRPT*, except PD*
+}
+
+_Table1_Math_Course_Requirement is 9.0-14.0 units of {
+    _Math_Courses
+}
+
+_Table1_Min_NonMath_Units is 5.0 units of {
+    any, except _Math_Courses
+}
+
+_Table1_Communication_List_I is 1 of {
+    ENGL109, // Introduction to Academic Writing 
+    ENGL129R, // Introduction to Written English 
+    EMLS101R, // Oral Communications for Academic Purposes
+    EMLS102R, // Introduction to Error Correction in Writing
+    SPCOM100, // Interpersonal Communication
+    SPCOM223 // Public Speaking
+}
+
+_Table1_Communication_List_II is 1 of {
+    ENGL109, // Introduction to Academic Writing 
+    ENGL129R, // Introduction to Written English 
+    EMLS101R, // Oral Communications for Academic Purposes
+    EMLS102R, // Introduction to Error Correction in Writing
+    SPCOM100, // Interpersonal Communication
+    SPCOM223, // Public Speaking
+    EMLS103R, // Phonetics for Effective English Pronunciation
+    EMLS104R, // Reading and Listening for Academic Purposes 
+    EMLS110R, // Critical Expression in Canadian Academic Contexts
+    ENGL101A, // Introduction to Literary Studies
+    ENGL101B, // Introduction to Rhetorical Studies
+    ENGL108D, // Digital Lives
+    ENGL119, // Communications in Mathematics and Computer Science
+    ENGL251A, // Criticism 1
+    SPCOM225, // Interviewing
+    SPCOM227, // Leadership
+    SPCOM228 // Public Communication
+}

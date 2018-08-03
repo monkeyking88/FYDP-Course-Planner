@@ -1,0 +1,161 @@
+//CSBBUSH 2010, our most tested requirement, for convenience we use it for other stuff too for now
+
+import shared/mathtablei2010
+
+_CS_Specific is all of {
+
+    _CS_Specific_Basic_Programming is unique 1 of {
+        CS115,  //  Introduction to Computer Science 1
+        CS135,  //  Designing Functional Programs
+        CS300-499 // A 300- or 400-level CS major course in addition to those required below
+    }
+    
+    _CS_Specific_Elementary_Algorithm is unique 1 of {
+        CS136,  //  Elementary Algorithm Design and Data Abstraction
+        CS145   //  Design, Abstraction, and Implementation
+    }
+    
+    _CS_Specific_Calculus_I is unique 1 of {
+        MATH127,//  Calculus 1 for the Sciences 
+        MATH137,//  Calculus 1 for Honours Mathematics 
+        MATH147 //  Calculus 1 (Advanced Level)
+    }
+    
+    _CS_Specific_Calculus_II is unique 1 of {
+        MATH128,//  Calculus 2 for the Sciences 
+        MATH138,//  Calculus 2 for Honours Mathematics 
+        MATH148 //  Calculus 2 (Advanced Level)
+    }
+
+    _Algebra is unique 1 of {
+        MATH135,//  Algebra for Honours Mathematics 
+        MATH145 //  Algebra (Advanced Level)
+    }
+    
+    _Linear_Algebra is unique 1 of {
+        MATH136,//  Linear Algebra 1 for Honours Mathematics 
+        MATH146 //  Linear Algebra 1 (Advanced Level)
+    }
+    
+    _CS_Specific_Combinatorics is unique 1 of {
+        MATH239,//  Introduction to Combinatorics
+        MATH249 //  Introduction to Combinatorics (Advanced Level)
+    }
+    
+    
+    _CS_Specific_Probability is unique 1 of {
+        STAT230,//  Probability
+        STAT240 //  Probability (Advanced Level)
+    }
+    
+    _CS_Specific_Statistics is unique 1 of {
+        STAT231,//  Statistics 
+        STAT241 //  Statistics (Advanced Level)
+    }
+    
+    _CS_Specific_Core is unique all of {
+        CS240, //   Data Structures and Data Management 
+        CS241, //   Foundations of Sequential Programs 
+        CS245, //   Logic and Computation 
+        CS246, //   Object-Oriented Software Development
+        CS251, //   Computer Organization and Design
+        CS341, //   Algorithms, with CM339, but same course ID
+        CS350  //   Operating Systems 
+    }
+
+    _CS_Additional_CS is 3 of {
+        //Three additional CS courses chosen from CS 340-398, 440-489
+        _CS_Additional_CS3or4xx is unique 3 of {
+            CS340-398,
+            CS440-489
+        }
+        
+        //Two additional CS courses chosen from CS 440-489.
+        _CS_Additional_CS4xx is unique 2 of {
+            CS440-489
+        }
+        
+        //One additional course chosen from
+        _CS_Additional_CS4xxAlternatives is unique 1 of {
+            CO487,      //  Applied Cryptography, with CM432, but same course ID
+            CS440-498, 
+            CS499T,     //  Honours Thesis 
+            STAT440,    //  Computational Inference, with CM461, but same course ID
+            CS600-699,  
+            CS700-799
+        }
+    }
+
+    //The selection of upper-year CS courses must include at least one course from each of at least two of the following area groups:
+    _CS_Topic_Breadth is 2 of {
+        //Systems and SE: 
+        _CS_Topic_Breadth_System is 1 of {
+            CS343, CS349, CS442, CS444, CS445, CS446, CS447, CS450, CS452, CS454, CS456, CS457, CS458
+        }
+        
+        //Applications:
+        _CS_Topic_Breadth_Applications is 1 of {
+            CS348, CS448, CS473, CS476, CS482, CS483, CS486, CS488
+        }
+        
+        //Mathematical Foundations of CS
+        _CS_Topic_Breadth_Foundations is 1 of {
+            CS360, CS365, CS370, CS371, CS462, CS466, CS467, CS475, CS487
+        }
+    }
+
+    _Business_Computer_System is 2 of {
+        CS348,
+        CS454,
+        CS490
+    }
+
+    _Business_Communication is 2 courses of {
+        _Business_Speech_Communication is 1 of {
+            CS492,
+            ENGL109,
+            ENGL119,
+            ENGL209,
+            ENGL210*
+        }
+
+        _Business_Speech_Communication_Requirement is 1-1 of {
+            SPCOM100,
+            SPCOM223,
+            SPCOM225,
+            SPCOM324,
+            SPCOM325
+        }
+    }
+    _Business_Core is 6 courses of {
+        _Business_Other is 3-6 of {
+            ACTSC231, // Mathematics of Finance 
+            ACTSC371, // Corporate Finance 1 
+            AFM102, // Introduction to Managerial Accounting 
+            ECON220, // The Principles of Entrepreneurship
+            ECON344, // Marketing: Principles of Marketing and Consumer Economics 
+            BUS121W, // Functional Areas of the Organization 
+            BUS362W, // Building and Managing Products, Services and Brands 
+            BUS481W, // Business Policy 1 
+            BUS491W, // Business Policy 2 
+            ECON101, // Introduction to Microeconomics 
+            ECON102, // Introduction to Macroeconomics 
+            HRM200, // Basic Human Resources Management 
+            MSCI311, // Organizational Design and Technology 
+            MSCI452, // Decision Making Under Uncertainty
+            MTHEL400 // Entrepreneurship, Technology and the Emerging Information Economy
+        }
+        _Business_Accounting is 1-1 of {
+            AFM101, // Introduction to Financial Accounting 
+            AFM123 //Accounting Information for Managers
+        }
+        _Business_Fundamental is 1-1 of {
+            AFM131, // Introduction to Business in North America
+            BUS111W // Introduction to Business Organization 
+        }
+        _Business_Organizational_Behaviour is 1-1 of {
+            MSCI211, // Organizational Behaviour
+            PSYCH338 // Organizational Psychology 
+        }
+    }
+}

@@ -1,0 +1,283 @@
+﻿abstract plan CEAB2011 {
+    //must graduate in 7 years
+	//need 40 .5 credits to graduate
+	// define CEAB requirements somehow ...
+}
+
+plan SE2011 extends CEAB2011 { // include all of CEAB2011 requirements, plus this new stuff
+
+    list dumpList{}   //unmatched courses dynamic list
+    list EntireCore extends core1A, core1B, core2A, core2B, core3A, core3B, core4A, core4B
+	list core1A {CS137,ECE105,ECE140,MATH115,MATH117,SE101} //all of list
+    list core1B{CS138, ECE106,ECE124.MATH119,MATH135} //all of
+	list core2A{CHE102,CS241,ECE222,SE212,STAT206}
+	list core2B{CS240,CS247,MSCI261,MATH213,MATH239}
+	list core3A{CS341,CS349,SE350,SE380}
+	list core3B{CS343,CS348,SE390,SE463}
+	list core4A{ECE358,SE464,SE490}
+	list core4B{SE465,SE491}
+    list SCI{BIOL 110, BIO 130 && BIO 130L, 165, 239, 240, 273, CHE 161, CHEM 262 && CHEM 262L, EARTH 121, 122, PHYS  234,PHYS 246,PHYS 263,PHYS 275,PHYS 334,PHYS 375, SCI 238, SCI 250}
+	list linkage_listA+CS492 {CS492, ANTH 102, ECE390,ENVS 105, ERS215,ERS315,GENE22A, GEOG203, GEOG368,MSCI422,MSCI442,PHIL226,SOC232,STV100,STV202,STV203,STV302,STV404,SYDE261,ES205}
+	list linkage_communication{ENGL109,ENGL119,ENGL140R,ENGL210E,ENGL210F,ENGL210G,SPCOM100,SPCOM223,SPCOM324,SPCOM432}
+	list linkage_ListC {ECON102,ECON202,MSCI211,MSCI311,PSCI260,PSYCH101,SOC101,ENGL105A,HIST253,HIST254,HIST275,PHIL250A,PHIL250B,PHIL315,GENE412}
+    list ATE_CS {CS442,CS444,CS448,CS449,CS450,CS452,CS454,CS457,CS458,CS473,CS484,CS485,CS486,CS488}
+	list ATE_ECE{ECE409,ECE416,ECE417,ECE418,ECE419,ECE423,ECE429,ECE454,ECE455,ECE457A,ECE457B,ECE458,ECE459,ECE481,ECE486,ECE488}
+	list ATE_additional extend ATE_CS ATE_ECE + {CO487,CS462,CS466,CS467,CS475,CS487,CS489,CS490,ECE406,SE498,SE499,SYDE433,SYDE475,SYDE558}
+	list ATE_additional2 extend ATE_additoinal1 + {CS360,CS365,CS370,CS371,ECE207,ECE224,ECE327,SYDE348}
+	list EE{} //extra elective can be anything
+	list PD_manditory{PD20, PD21}
+	list PD_optional{PD1, PD2, PD3, PD4, PD5, PD6, PD7,PD8, PD9}
+	list WKRPT{wkrpt200, wkrpt300, wkrpt400}
+	list MLSTN{ELPE, WHMIS, TPM} //how to get data
+
+	//Requirements
+	
+	major 60% {
+    	// no quantifier implicitly means all on list
+        average all core,               // or we can say "all" explicitly
+    }
+/*	
+    other 50% {
+        one linkage,            // only need to take one from this list
+        two humanities,         // take two from this list
+        two science,           // each plan will have its own lists no cross listing
+    }
+*/
+	mileStones{
+      5 of WKTRM, // have a count for subjectCode "COOP" = 5
+	  all of list PD_manditory{PD20, PD21}
+	  three of list PD_optional{PD1, PD2, PD3, PD4, PD5, PD6, PD7,PD8, PD9}
+	  all of list WKRPT{wkrpt200, wkrpt300, wkrpt400}
+	  all of list MLSTN{ELPE, WHMIS, TPM} //how to get data
+	}
+	
+	core{
+	  all of list core1A {se101} //all of list
+      all of list core1B{} //all of
+	  all of list core2A{}
+	  all of list core2B{}
+	  all of list core3A{}
+	  all of list core3B{}
+	  all of list core4A{}
+	  all of list core4B{} 
+	}
+	
+	sci{
+	 two of list SCI
+	}
+	
+	linkage{
+	  one of list linkage_listA+CS492 {}
+	  two of list linkage_communication{}
+	  one of list linkage_ListC {}
+	}
+	
+	ATE{
+      one of list ATE_CS {}
+	  one of list ATE_ECE{}
+	  one of list ATE_additional extend ATE_CS ATE_ECE + {}
+	  one of list ATE_additional2 extend ATE_additoinal1 + {}
+	}
+	
+	EE{
+	  one of list EE{} //extra elective can be anything
+	}
+	
+}
+
+plan SECognSci2011 { //all options will just have a list you need to full fill
+  list one_ofA{PHIL256,PSYCH256}
+  list three_ofA{PHIL447 || PSYCH447, PSYCH207 || PSYCH261, ENGL306A, FR303, CS486 || ECE457A || PSYCH420 || SYDE522 || SYDE556}
+  list four_ofA{ANTH206, ANTH403, COGSCI600, ECE457B, ECE486, ENGL309A, KIN356}
+  list psych_max{PHIL255, PHIL363, PSYCH101, PSYCH304, PSYCH306, PSYCH307, PSYCH314, PSYCH320, PSYCH353}
+  list syde_max{SYDE348, SYDE372, SYDE543, SYDE558}
+  list cs_max{CS349, CS484, CS485}
+  
+  core{
+    one of one_ofA
+	three of three_ofA
+	four of four_ofA
+	//four of four_ofA - number of psych_max - number of syde_max - number of cs_max
+	//all minus not greater than 2
+	//if psych_max count greater than 0 then minus that number from four of max of 2
+	//if syde_max count greater than 0 then minus that number from four of max of 2
+	//if cs_max count greater than 0 then minus that number from four of  max of 2
+  }
+  
+}
+
+plan SEBusinessOption2011 { //all options will just have a list you need to full fill
+  list two_ofA{CS348,CS454,CS490}
+  list two_ofB{cs492,ENGL109,ENGL119,ENGL210,SPCOM100 || SPCOM223 || SPCOM225 || SPCOM 324 || SPCOM 325}
+  list six_ofA{ACTSC231, ACTSC371, ACTSC372, AFM101 || AFM123 || ARBUS102, AFM131 || ARBUS 101 || BUS111W, ARBUS200,ARBUS302 || ECON344, BUS121W, BUS362W, BUS481W, BUS491W, COMM400,ECON101,ECON102,HRM200,MSCI211,MSCI311,MSCI452}
+  core{
+   two of list two_ofA
+   two of list two_ofB
+   six of list six_ofA
+  }
+  
+}
+
+plan SEManagementOption2011 { //all options will just have a list you need to full fill
+  list research{MSCI332,MSCI431,MSCI432,MSCI435,MSCI452,MSCI531,MSCI555}
+  list system{MSCI343,MSCI436,MSCI442,MSCI444,MSCI446,MSCI541}
+  list technology{MSCI311,MSCI411,MSCI421,MSCI422,MSCI423,MSCI454}
+  list four_of{MSCI211,MSCI262,MSCI263,MSCI311,MSCI332,MSCI343,MSCI411,MSCI421,MSCI422,MSCI423,MSCI431,MSCI432,MSCI435,MSCI436,MSCI442,MSCI444,MSCI446,MSCI452,MSCI454,MSCI531,MSCI541,MSCI551,MSCI555,MSCI597,MSCI598,MSCI599}
+  list six_of{MSCI211 || PSYCH338,MSCI262,MSCI263 || ECON201,MSCI311,MSCI332,MSCI343,MSCI411,MSCI421,MSCI422,MSCI423,MSCI431 || CS457 || SYDE531,MSCI432,MSCI435,MSCI436,MSCI442,MSCI444 || CS430 || CS432 || CS490,MSCI446,MSCI452,MSCI454 || BET300,MSCI531,MSCI541,MSCI551,MSCI555,MSCI597,MSCI598,MSCI599,CIVE596,SCON371,SYDE533}
+  list three_of{MSCI211 || MSCI311 || PSYCH338, MSCI261 || CIVE292 || ECE390 || ENVE292 || SYDE262, MSCI331 || CIVE332 || CO250 || ENVE320 || SYDE411}
+  theme_research{
+    two of list research
+  }
+  
+  theme_system{
+    two of list system
+  }
+  
+  theme_technology{
+    two of list technology
+  }
+  
+  core{
+    six of list six_of   //need 6 of core courses
+    four of list four_of //out of core courses at least 4 need to be MSCI
+    three of list three_of //need core 3
+  }
+  
+}
+
+plan SEAppliedMathOption2011 { 
+  list One_ofA{MATH237, MATH247}
+  list all_of{AMATH231, AMATH242 || CS371, AMATH251, AMATH332 || PMATH332, AMATH351, AMATH353, PHYS121 || AMATH250}
+  list Three_of{AMATH 400's} //three of any AMATH400'2
+  list science{all science courses}
+  list engineering{all engineering courses} //what is a engineering course?
+  list economics{all economics courses}
+  
+  core{
+    one of One_ofA
+	all of all_of
+	three of Three_of
+  }
+  
+  specialization_science{
+   four of science
+  }
+  
+  specialization_engineering{
+   four of engineering
+  }
+  
+  specialization_economics{
+   four of economics
+  }
+}
+
+plan SEComOptOption2011 { //all options will just have a list you need to full fill
+  list One_ofA{MATH239, MATH249}
+  list One_ofB{CO260, CO255}
+  list Four_ofA{CO330, CO331, CO342,CO351, CO353, CO367, CO430-487(exclude CO480)}
+  list allOf{PMath336 or PMATH347}
+  list three_Of{Math237, AMATH 331 OR PMATH 331, AMATH332 OR PMATH332, CS341, CS360, CS466, PMATH334 OR PMATH348, PMATH340}
+
+  core{
+    one of  list One_ofA{MATH239, MATH249}
+    one of list One_ofB{CO260, CO255}
+    four of list Four_ofA{CO330, CO331, CO342,CO351, CO353, CO367, CO430-487(exclude CO480)}
+    one of list allOf{PMath336 or PMATH347}
+    three of list three_Of{Math237, AMATH 331 OR PMATH 331, AMATH332 OR PMATH332, CS341, CS360, CS466, PMATH334 OR PMATH348, PMATH340}
+  }
+  
+}
+
+plan SEPureMathOption2011 { 
+ list One_ofA{MATH237,MATH247}
+ list One_ofB{AMATH331 || PMATH331, PMATH351}
+ list One_ofC{AMATH332 || PMATH332, PMATH352}
+ list Two_ofA{PMATH334, PMATH336, PMATH347, PMATH348}
+ list One_ofD extends AllPmath {MATH239, MATH249} + AllPmathList
+ list three_of AllPmath{}
+ 
+ core{
+  1 of list One_ofA
+  1 of list One_ofB
+  1 of list One_ofC
+  1 of list One_ofD
+  2 of list Two_ofA
+  3 of list AllPmath
+ }
+
+}
+
+plan SEStatisticsOption2011 { 
+    list One_ofA{MATH237,MATH247}
+    list allof{STAT330, STAT331, STAT333}
+    list two_of{400level Stat}
+    list one_of{300 || 400 level Stat}
+
+ core{
+  1 of One_ofA
+  all of allof
+  2 of two_of
+  1 of one_of
+ }
+
+}
+
+/*
+plan ECE2011 extends CEAB2011 {
+    
+}
+*/
+// BUG: SE2011 says to take three science courses, but the list it
+// references only contains two courses. We should do sanity checks
+// like this on the plans. Easy to do in Alloy. Think of more checks.
+// fix will be don't refer to lists outside of catagory
+// each year and program will have there own unique list
+
+student x8xie {
+    plan SE2011; 
+    plan SECogSciOption2011;
+	
+	
+    int uw_id;
+    String first_name;
+	String middle_name;
+	String last_name;
+	String email;
+	int calendar;  //year
+	String term_level; //current term level
+	String plan_100; //Plan Major: SE2011
+	String plan_102; //Plan Major: if taking double Major
+	String plan_200; //Plan Minor
+	String plan_202; //Plan Minor: if Taking double Minor
+	String plan_300; //Plan Option: SECogSciOption2011
+	String plan_302; //Plan Option: multiple options
+	
+    substitutions {
+        // single course substitution
+        {SE101} <- {ECE100};
+        // multiple course substitution
+        {SE463, SE464, SE465} <- {ECE451, ECE452, ECE453};
+        // count some course (not in elective list) as credit for elective course
+        one ListD <- {ECE290};
+        one ATE_additional2 <- {ECE240};
+    }
+    transcript {
+        ECE140: 1099 90%;  // term 1099, which was September 2009 
+        ECE250: 1201 INC;  // Incomplete
+        ECE100A: 1099 CR; // credited
+        ECE100B: 1105 NCR；// not credited
+        TPM: COMP;
+    }
+
+}
+
+// adding something to Golson's transcript outside of the block structure
+student::transcript x8xie {
+    SE390 1149 90%;
+}
+
+// adding another substitution to Golson outside of the block structure
+student::substitutions x8xie {
+    SE102 <- ECE102;
+}

@@ -1,0 +1,132 @@
+void matchCoursesToRqmts() throws Exception {
+
+	// Rules for priorities:
+	// approved(overwrite) courses have top priority (even if in progress)
+	// completed courses have higher proirities than uncompleted
+	// 	- approved is highest
+	// 	- passed is next
+	// 	- inprogress is last
+
+	create a map of maps of requirements to priorities to courses -> courseRqmtMap
+
+	
+	list students courses -> courseList
+	add transfer_credits -> courseList
+	trim out courses that do not count in degree(such as fail or no credit) from courseList
+	
+	for course in courseList
+		if corequisites
+			replace with a single placeholder and add to coreqMap
+		else
+			add to coreqMap
+	// coreqMap now has all completed coreq list for this student
+
+	add approved course substitutes -> coreqMap
+	
+	for  course in courseList{
+		create courseEquivList
+		add current course -> courseEquivList
+		add approved coursed -> courseEquivList
+		
+		creat requirement-proirty map -> rmp
+		
+		//fill in tmp table
+		for course in courseEquivList {
+			assign priority to each course according to the "Rules for priorities"
+			combine course(listMatchesSet) with any lists(a,b,c...) it is on
+
+			//Find set of plan requirements(rqmtSet)that the course/list matches
+			for(each item in rqmtSet){
+				add to rmp
+			}
+		}	
+		if(current course is a corequisite list with no matches){
+			replace unmatched coreq list with its constituent courses
+		}else{
+			add rmp to courseRqmtMap
+
+		}	
+	
+		// list of courses matching each requirement(rqmtCourseListMap) - set by check()
+		//Solves for a maximum covering of requirements by courses, one course per requirement. 
+		rqmtCourseListMap = solve(courseRqmtMap, coreqMap);
+				
+	}
+}
+
+
+solving the max covering:
+/**
+	* Constraint satisfaction solver.  Store a matrix where columns represent
+	* constraints and rows represent items that satisfy constraints.  Each
+	* element is a either zero for a non-match or non-zero for a match with
+	* higher values representing a higher preference for that match.  Finds
+	* a maximum covering of constraints where an item can satisfy maximum one
+	* constraint.
+*/
+/**
+	* Choose one element from each row to maximize column coverage. i.e.
+	* does one-to-one matching for maximum coverage of columns.
+*/
+void solve() {
+	bool solved;
+	do {
+		bool changes;
+		do {
+			changes = false;
+			// iterate through cols
+			for(col = 0 -> total columns) {
+				if uniquely satisfied rqmt {
+					row = find first non-zero element in col
+					if(rowCount[row] != 1) {
+						// must check for other columns uniquely matched
+						// by this row that might have higher priority
+						changes = true;
+					}
+				}
+			}
+			// iterate through rows
+			for(row = 0 -> total rows) {
+				if uniquely matched course{
+					col = find first non-zero element in row
+					if(colCount[col] != 1) {
+						// must check for other rows with unique matches
+						// to this column that might have higher priority
+						changes = true;
+					}
+				}
+			}
+		} while(changes);
+
+		// break-tie (if needed)
+		solved = true;
+		for(col = 0 -> total columns and solved) {
+			if(colCount[col] > 1) {
+				row = find the first row with the maximum value for that column.
+				selects element from matrix by zeroing all others in same row or column
+				solved = false;
+			}
+		}
+	} while(!solved);
+
+	return;
+}
+
+
+
+Andrews Requirements:
+should tell you your status, eg complete, provisionlly complete(complete courses taking),not passing
+useful to know the details of your progress
+absolutely necessary to add approvals ,and overwrites (which is a different idea, overwrite is just a seat in the class, not necessarily for counting towards credits), external transfers
+double counting, coorequiresits, anti, ...
+have an what if feature, eg, what should I take if I were to take another option
+situation that can not proceed(3 failed courses in a term), and max quota on failed attempts on a course(cs), if such situation occurs, 
+special course, A failed, B appr A fail, 2 fails, C appr A pass, clear both A and B
+should be ablbe to specify clendar year of each plan
+
+
+
+
+
+
+
